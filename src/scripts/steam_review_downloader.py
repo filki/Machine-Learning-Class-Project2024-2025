@@ -19,7 +19,7 @@ def get_steam_reviews(app_id, game, cursor="*", total_reviews=None):
     
     while True:
         encoded_cursor = urllib.parse.quote(cursor)
-        url = f"https://store.steampowered.com/appreviews/{app_id}?json=1&cursor={encoded_cursor}&num=100&language=all&purchase_type=all&filter=all&day_range=365"
+        url = f"https://store.steampowered.com/appreviews/{app_id}?json=1&cursor={encoded_cursor}&num=100&language=english&purchase_type=all&filter=all&day_range=365"
         
         try:
             logging.info(f"Fetching reviews for {game} ({app_id}).")
