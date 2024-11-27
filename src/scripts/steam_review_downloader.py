@@ -82,7 +82,7 @@ def get_steam_reviews(app_id, game, cursor="*", total_reviews=None):
 
 def save_reviews_to_csv(reviews, appid):
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"data/steam_reviews_{appid}_{timestamp}.csv"
+    filename = f"data/downloader/steam_reviews_{appid}_{timestamp}.csv"
     
     logging.info(f"Saving {len(reviews)} reviews to {filename}...")
     print(f"\nSaving {len(reviews)} reviews to {filename}...")
@@ -103,7 +103,7 @@ def save_reviews_to_csv(reviews, appid):
 
 def main():
     # Read the CSV containing app IDs
-    app_ids_df = pd.read_csv(os.path.join(os.path.dirname(__file__), '../../93182_steam_games.csv'))
+    app_ids_df = pd.read_csv(os.path.join(os.path.dirname(__file__), '../../data/steam_games.csv'))
     
     for _, row in app_ids_df.iterrows():
         app_id = row['AppID']

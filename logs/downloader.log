@@ -1,0 +1,131 @@
+2024-11-27 14:40:32,631 - INFO - Starting to fetch reviews for app ID: 1424640 (\u4f59\u70ec)
+2024-11-27 14:40:32,632 - INFO - Fetching reviews for \u4f59\u70ec (1424640).
+2024-11-27 14:40:32,936 - INFO - Progress: 12 reviews fetched for: 1424640 (\u4f59\u70ec).
+2024-11-27 14:40:34,437 - INFO - Fetching reviews for \u4f59\u70ec (1424640).
+2024-11-27 14:40:34,734 - INFO - Progress: 24 reviews fetched for: 1424640 (\u4f59\u70ec).
+2024-11-27 14:40:36,235 - INFO - Fetching reviews for \u4f59\u70ec (1424640).
+2024-11-27 14:40:36,545 - INFO - Progress: 36 reviews fetched for: 1424640 (\u4f59\u70ec).
+2024-11-27 14:40:48,586 - INFO - Starting to fetch reviews for app ID: 1424640 (\u4f59\u70ec)
+2024-11-27 14:40:48,586 - INFO - Fetching reviews for \u4f59\u70ec (1424640).
+2024-11-27 14:40:48,924 - INFO - Progress: 12 reviews fetched for: 1424640 (\u4f59\u70ec).
+2024-11-27 14:41:57,578 - INFO - Starting to fetch reviews for app ID: 1424640 (\u4f59\u70ec)
+2024-11-27 14:41:57,578 - INFO - Fetching reviews for \u4f59\u70ec (1424640).
+2024-11-27 14:41:57,975 - INFO - Progress: 12 reviews fetched for: 1424640 (\u4f59\u70ec).
+2024-11-27 14:41:59,476 - INFO - Fetching reviews for \u4f59\u70ec (1424640).
+2024-11-27 14:41:59,807 - INFO - Progress: 24 reviews fetched for: 1424640 (\u4f59\u70ec).
+2024-11-27 14:42:01,308 - INFO - Fetching reviews for \u4f59\u70ec (1424640).
+2024-11-27 14:42:01,637 - INFO - Progress: 36 reviews fetched for: 1424640 (\u4f59\u70ec).
+2024-11-27 15:36:02,681 - INFO - Starting to fetch reviews for app ID: 730 (Counter-Strike 2)
+2024-11-27 15:36:02,682 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 15:36:03,979 - INFO - Progress: 20 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 15:36:17,926 - INFO - Starting to fetch reviews for app ID: 730 (Counter-Strike 2)
+2024-11-27 15:36:17,928 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 15:36:18,477 - INFO - Progress: 20 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 15:36:19,978 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 15:36:21,287 - INFO - Progress: 40 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 15:36:22,789 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 15:36:24,634 - INFO - Progress: 60 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 15:36:26,134 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 15:36:28,570 - INFO - Progress: 80 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 15:36:30,071 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 15:36:31,174 - INFO - Progress: 100 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 15:36:31,174 - INFO - Reached target of 100 reviews for Counter-Strike 2 (730)
+2024-11-27 15:36:31,174 - INFO - Finished fetching 100 reviews for Counter-Strike 2 (730)
+2024-11-27 15:36:31,176 - INFO - Saving 100 reviews to data/steam_reviews_730_20241127_153631.csv...
+2024-11-27 15:36:31,194 - INFO - Successfully saved reviews to data/steam_reviews_730_20241127_153631.csv
+2024-11-27 15:36:31,195 - INFO - Starting to fetch reviews for app ID: 578080 (PUBG: BATTLEGROUNDS)
+2024-11-27 15:36:31,195 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 15:36:32,676 - INFO - Progress: 20 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 15:36:34,177 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 15:36:35,401 - INFO - Progress: 40 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 15:36:36,902 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 15:36:37,995 - INFO - Progress: 60 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 15:36:39,496 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 15:36:40,295 - INFO - Progress: 80 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 15:36:41,796 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 15:36:42,939 - INFO - Progress: 100 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 15:36:42,941 - INFO - Reached target of 100 reviews for PUBG: BATTLEGROUNDS (578080)
+2024-11-27 15:36:42,941 - INFO - Finished fetching 100 reviews for PUBG: BATTLEGROUNDS (578080)
+2024-11-27 15:36:42,942 - INFO - Saving 100 reviews to data/steam_reviews_578080_20241127_153642.csv...
+2024-11-27 15:36:42,949 - INFO - Successfully saved reviews to data/steam_reviews_578080_20241127_153642.csv
+2024-11-27 15:36:42,951 - INFO - Starting to fetch reviews for app ID: 271590 (Grand Theft Auto V)
+2024-11-27 15:36:42,951 - INFO - Fetching reviews for Grand Theft Auto V (271590).
+2024-11-27 15:37:27,397 - INFO - Starting to fetch reviews for app ID: 730 (Counter-Strike 2)
+2024-11-27 15:37:27,398 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 15:37:30,343 - INFO - Progress: 20 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 15:37:31,845 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 15:37:32,278 - INFO - Progress: 40 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 15:37:33,780 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 15:37:34,084 - INFO - Progress: 60 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 15:37:35,585 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 15:37:36,557 - INFO - Progress: 80 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 15:37:38,059 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 15:37:38,906 - INFO - Progress: 100 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 15:37:38,907 - INFO - Reached target of 100 reviews for Counter-Strike 2 (730)
+2024-11-27 15:37:38,907 - INFO - Finished fetching 100 reviews for Counter-Strike 2 (730)
+2024-11-27 15:37:38,908 - INFO - Saving 100 reviews to data/downloader/steam_reviews_730_20241127_153738.csv...
+2024-11-27 15:37:38,924 - INFO - Successfully saved reviews to data/downloader/steam_reviews_730_20241127_153738.csv
+2024-11-27 15:37:38,926 - INFO - Starting to fetch reviews for app ID: 578080 (PUBG: BATTLEGROUNDS)
+2024-11-27 15:37:38,926 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 15:37:40,300 - INFO - Progress: 20 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 15:37:41,800 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 15:37:42,760 - INFO - Progress: 40 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 15:37:44,261 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 15:37:44,906 - INFO - Progress: 60 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 15:37:46,407 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 15:37:47,451 - INFO - Progress: 80 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 15:37:48,953 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 15:37:49,851 - INFO - Progress: 100 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 15:37:49,852 - INFO - Reached target of 100 reviews for PUBG: BATTLEGROUNDS (578080)
+2024-11-27 15:37:49,852 - INFO - Finished fetching 100 reviews for PUBG: BATTLEGROUNDS (578080)
+2024-11-27 15:37:49,853 - INFO - Saving 100 reviews to data/downloader/steam_reviews_578080_20241127_153749.csv...
+2024-11-27 15:37:49,864 - INFO - Successfully saved reviews to data/downloader/steam_reviews_578080_20241127_153749.csv
+2024-11-27 15:37:49,865 - INFO - Starting to fetch reviews for app ID: 271590 (Grand Theft Auto V)
+2024-11-27 15:37:49,865 - INFO - Fetching reviews for Grand Theft Auto V (271590).
+2024-11-27 15:40:54,360 - INFO - Starting to fetch reviews for app ID: 730 (Counter-Strike 2)
+2024-11-27 15:40:54,361 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 15:40:55,697 - INFO - Progress: 20 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 15:40:57,199 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 15:40:58,521 - INFO - Progress: 40 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 15:41:00,022 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 15:41:01,811 - INFO - Progress: 60 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 15:41:03,312 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 15:41:05,412 - INFO - Progress: 80 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 15:41:06,914 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 15:41:07,386 - INFO - Progress: 100 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 15:41:07,386 - INFO - Reached target of 100 reviews for Counter-Strike 2 (730)
+2024-11-27 15:41:07,386 - INFO - Finished fetching 100 reviews for Counter-Strike 2 (730)
+2024-11-27 15:41:07,388 - INFO - Saving 100 reviews to data/downloader/steam_reviews_730_20241127_154107.csv...
+2024-11-27 15:41:07,420 - INFO - Successfully saved reviews to data/downloader/steam_reviews_730_20241127_154107.csv
+2024-11-27 15:41:07,422 - INFO - Starting to fetch reviews for app ID: 578080 (PUBG: BATTLEGROUNDS)
+2024-11-27 15:41:07,423 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 15:41:08,334 - INFO - Progress: 20 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 15:41:09,836 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 15:41:12,073 - INFO - Progress: 40 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 15:41:13,574 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 15:41:15,562 - INFO - Progress: 60 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 15:41:17,063 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 15:41:18,249 - INFO - Progress: 80 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 15:41:19,750 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 15:41:22,155 - INFO - Progress: 100 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 15:41:22,155 - INFO - Reached target of 100 reviews for PUBG: BATTLEGROUNDS (578080)
+2024-11-27 15:41:22,155 - INFO - Finished fetching 100 reviews for PUBG: BATTLEGROUNDS (578080)
+2024-11-27 15:41:22,157 - INFO - Saving 100 reviews to data/downloader/steam_reviews_578080_20241127_154122.csv...
+2024-11-27 15:41:22,189 - INFO - Successfully saved reviews to data/downloader/steam_reviews_578080_20241127_154122.csv
+2024-11-27 15:41:22,195 - INFO - Starting to fetch reviews for app ID: 271590 (Grand Theft Auto V)
+2024-11-27 15:41:22,196 - INFO - Fetching reviews for Grand Theft Auto V (271590).
+2024-11-27 15:41:22,699 - INFO - Progress: 20 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-27 15:41:24,201 - INFO - Fetching reviews for Grand Theft Auto V (271590).
+2024-11-27 15:41:25,583 - INFO - Progress: 40 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-27 15:41:27,084 - INFO - Fetching reviews for Grand Theft Auto V (271590).
+2024-11-27 15:41:30,271 - INFO - Progress: 60 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-27 15:41:31,772 - INFO - Fetching reviews for Grand Theft Auto V (271590).
+2024-11-27 15:41:34,809 - INFO - Progress: 80 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-27 15:41:36,309 - INFO - Fetching reviews for Grand Theft Auto V (271590).
+2024-11-27 15:41:38,179 - INFO - Progress: 100 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-27 15:41:38,179 - INFO - Reached target of 100 reviews for Grand Theft Auto V (271590)
+2024-11-27 15:41:38,179 - INFO - Finished fetching 100 reviews for Grand Theft Auto V (271590)
+2024-11-27 15:41:38,182 - INFO - Saving 100 reviews to data/downloader/steam_reviews_271590_20241127_154138.csv...
+2024-11-27 15:41:38,208 - INFO - Successfully saved reviews to data/downloader/steam_reviews_271590_20241127_154138.csv
+2024-11-27 15:41:38,210 - INFO - Starting to fetch reviews for app ID: 488822 (Tom Clancy's Rainbow Six® Siege)
+2024-11-27 15:41:38,211 - INFO - Fetching reviews for Tom Clancy's Rainbow Six® Siege (488822).
