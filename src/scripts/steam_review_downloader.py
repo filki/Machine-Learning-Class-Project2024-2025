@@ -4,6 +4,7 @@ import time
 from datetime import datetime
 import urllib.parse
 import sys
+import pandas as pd
 
 def get_steam_reviews(app_id, cursor="*", total_reviews=None):
     reviews_list = []
@@ -65,30 +66,36 @@ def get_steam_reviews(app_id, cursor="*", total_reviews=None):
     print(f"\nFinished fetching {len(reviews_list)} reviews")
     return reviews_list
 
-def save_reviews_to_file(reviews, appid):
+
+def save_reviews_to_csv(reviews, appid):
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"data/steam_reviews_{appid}_{timestamp}.json"
+    filename = f"data/steam_reviews_{appid}_{timestamp}.csv"
     
     print(f"\nSaving {len(reviews)} reviews to {filename}...")
-    with open(filename, 'w', encoding='utf-8') as f:
-        json.dump({
-            'appid': appid,
-            'total_reviews': len(reviews),
-            'fetch_date': timestamp,
-            'reviews': reviews
-        }, f, indent=2, ensure_ascii=False)
     
+    # Convert reviews to a DataFrame
+    df = pd.json_normalize(reviews, sep='_')
+    
+    # Add app-specific metadata
+    df['appid'] = appid
+    df['fetch_date'] = timestamp
+    df['total_reviews'] = len(reviews)
+    
+    # Write to CSV
+    df.to_csv(filename, index=False, encoding='utf-8')
     print(f"Successfully saved reviews to {filename}")
 
 def main():
 
-    app_id = 70 # Half Life
-    
+    app_id = 220 
+    #70 Half Life
+    #220 Half Life 2
+
     print(f"Starting to fetch reviews for app ID: {app_id}")
     reviews = get_steam_reviews(app_id, total_reviews=100)
     
     if reviews:
-        save_reviews_to_file(reviews, app_id)
+        save_reviews_to_csv(reviews, app_id)
 
 if __name__ == "__main__":
     main()
