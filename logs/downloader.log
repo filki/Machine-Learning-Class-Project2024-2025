@@ -129,3 +129,526 @@
 2024-11-27 15:41:38,208 - INFO - Successfully saved reviews to data/downloader/steam_reviews_271590_20241127_154138.csv
 2024-11-27 15:41:38,210 - INFO - Starting to fetch reviews for app ID: 488822 (Tom Clancy's Rainbow Six® Siege)
 2024-11-27 15:41:38,211 - INFO - Fetching reviews for Tom Clancy's Rainbow Six® Siege (488822).
+2024-11-27 16:06:55,003 - INFO - Starting to fetch reviews for app ID: 730 (Counter-Strike 2)
+2024-11-27 16:06:55,004 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 16:06:56,751 - INFO - Progress: 20 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 16:06:58,253 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 16:07:01,122 - INFO - Progress: 40 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 16:07:02,624 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 16:07:03,852 - INFO - Progress: 60 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 16:07:05,354 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 16:07:06,553 - INFO - Progress: 80 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 16:07:08,053 - INFO - Fetching reviews for Counter-Strike 2 (730).
+2024-11-27 16:07:08,739 - INFO - Progress: 100 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-27 16:07:08,739 - INFO - Reached target of 100 reviews for Counter-Strike 2 (730)
+2024-11-27 16:07:08,739 - INFO - Finished fetching 100 reviews for Counter-Strike 2 (730)
+2024-11-27 16:07:08,742 - INFO - Saving 100 reviews to data/downloader/steam_reviews_730_20241127_160708.csv...
+2024-11-27 16:07:08,772 - INFO - Successfully saved reviews to data/downloader/steam_reviews_730_20241127_160708.csv
+2024-11-27 16:07:08,774 - INFO - Starting to fetch reviews for app ID: 578080 (PUBG: BATTLEGROUNDS)
+2024-11-27 16:07:08,775 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 16:07:09,409 - INFO - Progress: 20 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 16:07:10,910 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 16:07:11,372 - INFO - Progress: 40 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 16:07:12,874 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 16:07:13,357 - INFO - Progress: 60 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-27 16:07:14,858 - INFO - Fetching reviews for PUBG: BATTLEGROUNDS (578080).
+2024-11-27 16:07:15,287 - INFO - Progress: 80 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:19:57,449 - INFO - Progress: 20 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:19:57,452 - INFO - Progress: 20 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:19:57,508 - INFO - Progress: 20 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:19:59,393 - INFO - Progress: 40 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:19:59,396 - INFO - Progress: 40 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:19:59,654 - INFO - Progress: 40 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:20:01,186 - INFO - Progress: 60 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:20:01,201 - INFO - Progress: 60 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:20:01,705 - INFO - Progress: 60 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:20:02,945 - INFO - Progress: 80 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:20:02,966 - INFO - Progress: 80 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:20:03,992 - INFO - Progress: 80 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:20:04,819 - INFO - Progress: 100 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:20:04,820 - INFO - Finished fetching 100 reviews for Counter-Strike 2 (730)
+2024-11-28 21:20:04,821 - INFO - Saving 100 reviews to data/downloader/steam_reviews_730_20241128_212004.csv...
+2024-11-28 21:20:04,872 - INFO - Successfully saved reviews to data/downloader/steam_reviews_730_20241128_212004.csv
+2024-11-28 21:20:04,884 - INFO - Progress: 100 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:20:04,884 - INFO - Finished fetching 100 reviews for PUBG: BATTLEGROUNDS (578080)
+2024-11-28 21:20:04,886 - INFO - Saving 100 reviews to data/downloader/steam_reviews_578080_20241128_212004.csv...
+2024-11-28 21:20:04,907 - INFO - Successfully saved reviews to data/downloader/steam_reviews_578080_20241128_212004.csv
+2024-11-28 21:20:06,237 - INFO - Progress: 100 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:20:06,239 - INFO - Finished fetching 100 reviews for Grand Theft Auto V (271590)
+2024-11-28 21:20:06,239 - INFO - Saving 100 reviews to data/downloader/steam_reviews_271590_20241128_212006.csv...
+2024-11-28 21:20:06,270 - INFO - Successfully saved reviews to data/downloader/steam_reviews_271590_20241128_212006.csv
+2024-11-28 21:20:08,606 - INFO - Progress: 2 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:08,625 - INFO - Progress: 2 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:09,017 - INFO - Progress: 20 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:10,506 - INFO - Progress: 4 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:10,507 - INFO - Progress: 4 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:11,167 - INFO - Progress: 40 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:12,396 - INFO - Progress: 6 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:12,397 - INFO - Progress: 6 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:13,318 - INFO - Progress: 60 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:14,341 - INFO - Progress: 8 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:14,343 - INFO - Progress: 8 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:15,573 - INFO - Progress: 80 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:16,087 - INFO - Progress: 10 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:16,124 - INFO - Progress: 10 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:17,724 - INFO - Progress: 100 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:17,725 - INFO - Finished fetching 100 reviews for Tom Clancy's Rainbow Six® Siege (359550)
+2024-11-28 21:20:17,725 - INFO - Saving 100 reviews to data/downloader/steam_reviews_359550_20241128_212017.csv...
+2024-11-28 21:20:17,739 - INFO - Successfully saved reviews to data/downloader/steam_reviews_359550_20241128_212017.csv
+2024-11-28 21:20:17,929 - INFO - Progress: 12 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:17,930 - INFO - Progress: 12 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:19,768 - INFO - Progress: 14 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:19,769 - INFO - Progress: 14 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:21,539 - INFO - Progress: 16 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:21,565 - INFO - Progress: 16 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:23,456 - INFO - Progress: 18 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:23,457 - INFO - Progress: 18 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:25,259 - INFO - Progress: 20 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:25,343 - INFO - Progress: 20 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:27,067 - INFO - Progress: 22 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:27,136 - INFO - Progress: 22 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:28,916 - INFO - Progress: 24 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:28,924 - INFO - Progress: 24 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:30,829 - INFO - Progress: 26 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:30,830 - INFO - Progress: 26 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:32,605 - INFO - Progress: 28 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:32,614 - INFO - Progress: 28 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:34,383 - INFO - Progress: 30 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:34,411 - INFO - Progress: 30 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:36,287 - INFO - Progress: 32 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:36,288 - INFO - Progress: 32 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:38,056 - INFO - Progress: 34 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:38,064 - INFO - Progress: 34 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:39,852 - INFO - Progress: 36 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:39,863 - INFO - Progress: 36 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:41,784 - INFO - Progress: 38 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:41,785 - INFO - Progress: 38 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:43,627 - INFO - Progress: 40 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:43,655 - INFO - Progress: 40 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:45,409 - INFO - Progress: 42 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:45,418 - INFO - Progress: 42 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:47,189 - INFO - Progress: 44 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:47,232 - INFO - Progress: 44 reviews fetched for: 488823 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:57,963 - INFO - Progress: 20 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:57,968 - INFO - Progress: 20 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:20:57,986 - INFO - Progress: 20 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:20:57,997 - INFO - Progress: 2 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:58,041 - INFO - Progress: 20 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:20:59,296 - INFO - Progress: 40 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:59,299 - INFO - Progress: 40 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:20:59,303 - INFO - Progress: 40 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:20:59,303 - INFO - Progress: 4 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:20:59,670 - INFO - Progress: 40 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:21:00,561 - INFO - Progress: 60 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:00,573 - INFO - Progress: 6 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:00,576 - INFO - Progress: 60 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:21:00,625 - INFO - Progress: 60 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:21:01,240 - INFO - Progress: 60 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:21:01,854 - INFO - Progress: 80 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:01,856 - INFO - Progress: 80 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:21:01,857 - INFO - Progress: 8 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:01,956 - INFO - Progress: 80 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:21:02,768 - INFO - Progress: 80 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:21:03,187 - INFO - Progress: 100 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:03,191 - INFO - Progress: 100 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:21:03,192 - INFO - Finished fetching 100 reviews for Tom Clancy's Rainbow Six® Siege (359550)
+2024-11-28 21:21:03,193 - INFO - Saving 100 reviews to data/downloader/steam_reviews_359550_20241128_212103.csv...
+2024-11-28 21:21:03,225 - INFO - Successfully saved reviews to data/downloader/steam_reviews_359550_20241128_212103.csv
+2024-11-28 21:21:03,226 - INFO - Finished fetching 100 reviews for Grand Theft Auto V (271590)
+2024-11-28 21:21:03,226 - INFO - Saving 100 reviews to data/downloader/steam_reviews_271590_20241128_212103.csv...
+2024-11-28 21:21:03,251 - INFO - Successfully saved reviews to data/downloader/steam_reviews_271590_20241128_212103.csv
+2024-11-28 21:21:03,255 - INFO - Progress: 10 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:03,257 - INFO - Progress: 100 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:21:03,259 - INFO - Finished fetching 100 reviews for Counter-Strike 2 (730)
+2024-11-28 21:21:03,259 - INFO - Saving 100 reviews to data/downloader/steam_reviews_730_20241128_212103.csv...
+2024-11-28 21:21:03,281 - INFO - Successfully saved reviews to data/downloader/steam_reviews_730_20241128_212103.csv
+2024-11-28 21:21:04,209 - INFO - Progress: 100 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:21:04,210 - INFO - Finished fetching 100 reviews for PUBG: BATTLEGROUNDS (578080)
+2024-11-28 21:21:04,210 - INFO - Saving 100 reviews to data/downloader/steam_reviews_578080_20241128_212104.csv...
+2024-11-28 21:21:04,223 - INFO - Successfully saved reviews to data/downloader/steam_reviews_578080_20241128_212104.csv
+2024-11-28 21:21:04,720 - INFO - Progress: 12 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:06,025 - INFO - Progress: 14 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:07,283 - INFO - Progress: 16 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:08,662 - INFO - Progress: 18 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:10,148 - INFO - Progress: 20 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:11,452 - INFO - Progress: 22 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:12,912 - INFO - Progress: 24 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:14,346 - INFO - Progress: 26 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:15,649 - INFO - Progress: 28 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:16,916 - INFO - Progress: 30 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:18,340 - INFO - Progress: 32 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:19,772 - INFO - Progress: 34 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:21,074 - INFO - Progress: 36 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:38,156 - INFO - Progress: 20 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:38,158 - INFO - Progress: 2 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:38,165 - INFO - Progress: 20 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:21:38,200 - INFO - Progress: 20 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:21:38,216 - INFO - Progress: 20 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:21:39,532 - INFO - Progress: 40 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:39,534 - INFO - Progress: 40 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:21:39,536 - INFO - Progress: 40 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:21:39,538 - INFO - Progress: 40 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:21:39,539 - INFO - Progress: 4 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:40,807 - INFO - Progress: 6 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:40,811 - INFO - Progress: 60 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:21:40,816 - INFO - Progress: 60 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:21:40,827 - INFO - Progress: 60 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:40,847 - INFO - Progress: 60 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:21:42,202 - INFO - Progress: 80 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:21:42,205 - INFO - Progress: 80 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:42,207 - INFO - Progress: 80 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:21:42,209 - INFO - Progress: 8 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:42,234 - INFO - Progress: 80 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:21:43,633 - INFO - Progress: 100 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:21:43,634 - INFO - Progress: 100 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:21:43,635 - INFO - Progress: 10 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:43,635 - INFO - Finished fetching 100 reviews for PUBG: BATTLEGROUNDS (578080)
+2024-11-28 21:21:43,636 - INFO - Saving 100 reviews to data/downloader/steam_reviews_578080_20241128_212143.csv...
+2024-11-28 21:21:43,650 - INFO - Successfully saved reviews to data/downloader/steam_reviews_578080_20241128_212143.csv
+2024-11-28 21:21:43,650 - INFO - Finished fetching 100 reviews for Counter-Strike 2 (730)
+2024-11-28 21:21:43,650 - INFO - Saving 100 reviews to data/downloader/steam_reviews_730_20241128_212143.csv...
+2024-11-28 21:21:43,668 - INFO - Successfully saved reviews to data/downloader/steam_reviews_730_20241128_212143.csv
+2024-11-28 21:21:43,670 - INFO - Progress: 100 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:43,672 - INFO - Progress: 100 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:21:43,672 - INFO - Finished fetching 100 reviews for Tom Clancy's Rainbow Six® Siege (359550)
+2024-11-28 21:21:43,672 - INFO - Saving 100 reviews to data/downloader/steam_reviews_359550_20241128_212143.csv...
+2024-11-28 21:21:43,685 - INFO - Successfully saved reviews to data/downloader/steam_reviews_359550_20241128_212143.csv
+2024-11-28 21:21:43,686 - INFO - Finished fetching 100 reviews for Grand Theft Auto V (271590)
+2024-11-28 21:21:43,686 - INFO - Saving 100 reviews to data/downloader/steam_reviews_271590_20241128_212143.csv...
+2024-11-28 21:21:43,698 - INFO - Successfully saved reviews to data/downloader/steam_reviews_271590_20241128_212143.csv
+2024-11-28 21:21:44,895 - INFO - Progress: 12 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:46,172 - INFO - Progress: 14 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:47,530 - INFO - Progress: 16 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:48,957 - INFO - Progress: 18 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:50,289 - INFO - Progress: 20 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:51,579 - INFO - Progress: 22 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:52,848 - INFO - Progress: 24 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:54,157 - INFO - Progress: 26 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:55,511 - INFO - Progress: 28 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:56,887 - INFO - Progress: 30 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:58,570 - INFO - Progress: 32 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:21:59,914 - INFO - Progress: 34 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:22:06,985 - INFO - Progress: 20 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:22:06,988 - INFO - Progress: 20 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:22:06,992 - INFO - Progress: 20 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:22:06,995 - INFO - Progress: 20 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:22:06,996 - INFO - Progress: 2 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:22:08,417 - INFO - Progress: 40 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:22:08,420 - INFO - Progress: 40 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:22:08,423 - INFO - Progress: 40 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:22:08,427 - INFO - Progress: 40 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:22:08,428 - INFO - Progress: 4 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:22:09,851 - INFO - Progress: 60 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:22:09,853 - INFO - Progress: 60 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:22:09,856 - INFO - Progress: 60 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:22:09,858 - INFO - Progress: 60 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:22:09,860 - INFO - Progress: 6 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:22:11,103 - INFO - Progress: 80 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:22:11,106 - INFO - Progress: 80 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:22:11,120 - INFO - Progress: 80 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:22:11,125 - INFO - Progress: 80 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:22:11,183 - INFO - Progress: 8 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:22:12,410 - INFO - Progress: 100 reviews fetched for: 271590 (Grand Theft Auto V).
+2024-11-28 21:22:12,413 - INFO - Progress: 100 reviews fetched for: 359550 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:22:12,416 - INFO - Progress: 100 reviews fetched for: 730 (Counter-Strike 2).
+2024-11-28 21:22:12,416 - INFO - Finished fetching 100 reviews for Grand Theft Auto V (271590)
+2024-11-28 21:22:12,417 - INFO - Saving 100 reviews to data/downloader/steam_reviews_271590_20241128_212212.csv...
+2024-11-28 21:22:12,444 - INFO - Successfully saved reviews to data/downloader/steam_reviews_271590_20241128_212212.csv
+2024-11-28 21:22:12,445 - INFO - Finished fetching 100 reviews for Tom Clancy's Rainbow Six® Siege (359550)
+2024-11-28 21:22:12,446 - INFO - Saving 100 reviews to data/downloader/steam_reviews_359550_20241128_212212.csv...
+2024-11-28 21:22:12,470 - INFO - Successfully saved reviews to data/downloader/steam_reviews_359550_20241128_212212.csv
+2024-11-28 21:22:12,470 - INFO - Finished fetching 100 reviews for Counter-Strike 2 (730)
+2024-11-28 21:22:12,471 - INFO - Saving 100 reviews to data/downloader/steam_reviews_730_20241128_212212.csv...
+2024-11-28 21:22:12,493 - INFO - Successfully saved reviews to data/downloader/steam_reviews_730_20241128_212212.csv
+2024-11-28 21:22:12,496 - INFO - Progress: 100 reviews fetched for: 578080 (PUBG: BATTLEGROUNDS).
+2024-11-28 21:22:12,498 - INFO - Finished fetching 100 reviews for PUBG: BATTLEGROUNDS (578080)
+2024-11-28 21:22:12,498 - INFO - Saving 100 reviews to data/downloader/steam_reviews_578080_20241128_212212.csv...
+2024-11-28 21:22:12,520 - INFO - Successfully saved reviews to data/downloader/steam_reviews_578080_20241128_212212.csv
+2024-11-28 21:22:12,618 - INFO - Progress: 10 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:22:13,915 - INFO - Progress: 12 reviews fetched for: 488822 (Tom Clancy's Rainbow Six® Siege).
+2024-11-28 21:23:52,948 - INFO - Starting download for Counter-Strike 2 (730)
+2024-11-28 21:23:52,949 - INFO - Starting download for PUBG: BATTLEGROUNDS (578080)
+2024-11-28 21:23:52,951 - INFO - Starting download for Grand Theft Auto V (271590)
+2024-11-28 21:23:52,952 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (488822)
+2024-11-28 21:23:52,953 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (359550)
+2024-11-28 21:23:57,615 - INFO - Completed Tom Clancy's Rainbow Six® Siege: 100 reviews
+2024-11-28 21:23:57,642 - INFO - Saved Tom Clancy's Rainbow Six® Siege reviews to data/downloader/steam_reviews_359550_20241128_212357.csv
+2024-11-28 21:23:57,659 - INFO - Completed PUBG: BATTLEGROUNDS: 100 reviews
+2024-11-28 21:23:57,688 - INFO - Saved PUBG: BATTLEGROUNDS reviews to data/downloader/steam_reviews_578080_20241128_212357.csv
+2024-11-28 21:23:57,695 - INFO - Completed Grand Theft Auto V: 100 reviews
+2024-11-28 21:23:57,719 - INFO - Saved Grand Theft Auto V reviews to data/downloader/steam_reviews_271590_20241128_212357.csv
+2024-11-28 21:23:57,726 - INFO - Completed Counter-Strike 2: 100 reviews
+2024-11-28 21:23:57,749 - INFO - Saved Counter-Strike 2 reviews to data/downloader/steam_reviews_730_20241128_212357.csv
+2024-11-28 21:24:48,514 - INFO - Completed Tom Clancy's Rainbow Six® Siege: 100 reviews
+2024-11-28 21:24:48,529 - INFO - Saved Tom Clancy's Rainbow Six® Siege reviews to data/downloader/steam_reviews_488822_20241128_212448.csv
+2024-11-28 21:24:50,541 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (488823)
+2024-11-28 21:24:50,542 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (488821)
+2024-11-28 21:24:50,542 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (488824)
+2024-11-28 21:24:50,543 - INFO - Starting download for Terraria (105600)
+2024-11-28 21:24:50,544 - INFO - Starting download for Garry's Mod (4000)
+2024-11-28 21:24:56,378 - INFO - Completed Garry's Mod: 100 reviews
+2024-11-28 21:24:56,398 - INFO - Saved Garry's Mod reviews to data/downloader/steam_reviews_4000_20241128_212456.csv
+2024-11-28 21:24:57,536 - INFO - Completed Terraria: 100 reviews
+2024-11-28 21:24:57,561 - INFO - Saved Terraria reviews to data/downloader/steam_reviews_105600_20241128_212457.csv
+2024-11-28 21:26:33,941 - INFO - Starting download for Counter-Strike 2 (730)
+2024-11-28 21:26:33,942 - INFO - Starting download for PUBG: BATTLEGROUNDS (578080)
+2024-11-28 21:26:33,942 - INFO - Starting download for Grand Theft Auto V (271590)
+2024-11-28 21:26:33,942 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (488822)
+2024-11-28 21:26:33,942 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (359550)
+2024-11-28 21:26:38,865 - INFO - Completed Grand Theft Auto V: 100 reviews
+2024-11-28 21:26:38,892 - INFO - Saved Grand Theft Auto V reviews to data/downloader/steam_reviews_271590_20241128_212638.csv
+2024-11-28 21:26:38,893 - INFO - Completed Tom Clancy's Rainbow Six® Siege: 100 reviews
+2024-11-28 21:26:38,917 - INFO - Saved Tom Clancy's Rainbow Six® Siege reviews to data/downloader/steam_reviews_359550_20241128_212638.csv
+2024-11-28 21:26:38,919 - INFO - Completed Counter-Strike 2: 100 reviews
+2024-11-28 21:26:38,940 - INFO - Saved Counter-Strike 2 reviews to data/downloader/steam_reviews_730_20241128_212638.csv
+2024-11-28 21:26:38,942 - INFO - Completed PUBG: BATTLEGROUNDS: 100 reviews
+2024-11-28 21:26:38,966 - INFO - Saved PUBG: BATTLEGROUNDS reviews to data/downloader/steam_reviews_578080_20241128_212638.csv
+2024-11-28 21:26:39,476 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (488823)
+2024-11-28 21:26:39,477 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (488821)
+2024-11-28 21:26:39,477 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (488824)
+2024-11-28 21:26:39,477 - INFO - Starting download for Terraria (105600)
+2024-11-28 21:26:44,395 - INFO - Completed Terraria: 100 reviews
+2024-11-28 21:26:44,417 - INFO - Saved Terraria reviews to data/downloader/steam_reviews_105600_20241128_212644.csv
+2024-11-28 21:26:44,928 - INFO - Starting download for Garry's Mod (4000)
+2024-11-28 21:26:49,560 - INFO - Completed Garry's Mod: 100 reviews
+2024-11-28 21:26:49,580 - INFO - Saved Garry's Mod reviews to data/downloader/steam_reviews_4000_20241128_212649.csv
+2024-11-28 21:26:50,094 - INFO - Starting download for Rust (252490)
+2024-11-28 21:26:55,953 - INFO - Completed Rust: 100 reviews
+2024-11-28 21:26:55,977 - INFO - Saved Rust reviews to data/downloader/steam_reviews_252490_20241128_212655.csv
+2024-11-28 21:26:56,482 - INFO - Starting download for Wallpaper Engine (431960)
+2024-11-28 21:27:02,302 - INFO - Completed Wallpaper Engine: 100 reviews
+2024-11-28 21:27:02,331 - INFO - Saved Wallpaper Engine reviews to data/downloader/steam_reviews_431960_20241128_212702.csv
+2024-11-28 21:27:02,851 - INFO - Starting download for The Witcher 3: Wild Hunt (292030)
+2024-11-28 21:27:09,484 - INFO - Completed The Witcher 3: Wild Hunt: 100 reviews
+2024-11-28 21:27:09,516 - INFO - Saved The Witcher 3: Wild Hunt reviews to data/downloader/steam_reviews_292030_20241128_212709.csv
+2024-11-28 21:27:10,031 - INFO - Starting download for ELDEN RING (1245620)
+2024-11-28 21:27:16,498 - INFO - Completed ELDEN RING: 100 reviews
+2024-11-28 21:27:16,528 - INFO - Saved ELDEN RING reviews to data/downloader/steam_reviews_1245620_20241128_212716.csv
+2024-11-28 21:27:16,585 - INFO - Completed Tom Clancy's Rainbow Six® Siege: 100 reviews
+2024-11-28 21:27:16,606 - INFO - Saved Tom Clancy's Rainbow Six® Siege reviews to data/downloader/steam_reviews_488824_20241128_212716.csv
+2024-11-28 21:27:17,036 - INFO - Starting download for Cyberpunk 2077 (1091500)
+2024-11-28 21:27:17,037 - INFO - Starting download for Left 4 Dead 2 (550)
+2024-11-28 21:27:22,805 - INFO - Completed Cyberpunk 2077: 100 reviews
+2024-11-28 21:27:22,836 - INFO - Saved Cyberpunk 2077 reviews to data/downloader/steam_reviews_1091500_20241128_212722.csv
+2024-11-28 21:27:22,917 - INFO - Completed Left 4 Dead 2: 100 reviews
+2024-11-28 21:27:22,943 - INFO - Saved Left 4 Dead 2 reviews to data/downloader/steam_reviews_550_20241128_212722.csv
+2024-11-28 21:27:23,349 - INFO - Starting download for HELLDIVERS™ 2 (553850)
+2024-11-28 21:27:23,350 - INFO - Starting download for Stardew Valley (413150)
+2024-11-28 21:27:28,965 - INFO - Completed Tom Clancy's Rainbow Six® Siege: 100 reviews
+2024-11-28 21:27:28,985 - INFO - Saved Tom Clancy's Rainbow Six® Siege reviews to data/downloader/steam_reviews_488822_20241128_212728.csv
+2024-11-28 21:27:29,499 - INFO - Starting download for Euro Truck Simulator 2 (227300)
+2024-11-28 21:27:30,087 - INFO - Completed Stardew Valley: 100 reviews
+2024-11-28 21:27:30,119 - INFO - Saved Stardew Valley reviews to data/downloader/steam_reviews_413150_20241128_212730.csv
+2024-11-28 21:27:30,630 - INFO - Starting download for Among Us (945360)
+2024-11-28 21:27:33,032 - INFO - Completed HELLDIVERS™ 2: 100 reviews
+2024-11-28 21:27:33,055 - INFO - Saved HELLDIVERS™ 2 reviews to data/downloader/steam_reviews_553850_20241128_212733.csv
+2024-11-28 21:27:33,429 - INFO - Completed Tom Clancy's Rainbow Six® Siege: 100 reviews
+2024-11-28 21:27:33,446 - INFO - Saved Tom Clancy's Rainbow Six® Siege reviews to data/downloader/steam_reviews_488821_20241128_212733.csv
+2024-11-28 21:27:33,527 - INFO - Completed Tom Clancy's Rainbow Six® Siege: 100 reviews
+2024-11-28 21:27:33,543 - INFO - Saved Tom Clancy's Rainbow Six® Siege reviews to data/downloader/steam_reviews_488823_20241128_212733.csv
+2024-11-28 21:27:33,546 - INFO - Starting download for Black Myth: Wukong (2358720)
+2024-11-28 21:27:33,547 - INFO - Starting download for Baldur's Gate 3 (1086940)
+2024-11-28 21:27:33,548 - INFO - Starting download for Phasmophobia (739630)
+2024-11-28 21:28:19,800 - INFO - Starting download for Counter-Strike 2 (730)
+2024-11-28 21:28:19,801 - INFO - Starting download for PUBG: BATTLEGROUNDS (578080)
+2024-11-28 21:28:19,801 - INFO - Starting download for Grand Theft Auto V (271590)
+2024-11-28 21:28:19,801 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (488822)
+2024-11-28 21:28:19,803 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (359550)
+2024-11-28 21:28:24,506 - INFO - Completed Grand Theft Auto V: 100 reviews
+2024-11-28 21:28:24,543 - INFO - Saved Grand Theft Auto V reviews to data/downloader/steam_reviews_271590_20241128_212824.csv
+2024-11-28 21:28:24,555 - INFO - Completed Counter-Strike 2: 100 reviews
+2024-11-28 21:28:24,581 - INFO - Saved Counter-Strike 2 reviews to data/downloader/steam_reviews_730_20241128_212824.csv
+2024-11-28 21:28:24,593 - INFO - Completed PUBG: BATTLEGROUNDS: 100 reviews
+2024-11-28 21:28:24,617 - INFO - Saved PUBG: BATTLEGROUNDS reviews to data/downloader/steam_reviews_578080_20241128_212824.csv
+2024-11-28 21:28:24,621 - INFO - Completed Tom Clancy's Rainbow Six® Siege: 100 reviews
+2024-11-28 21:28:24,644 - INFO - Saved Tom Clancy's Rainbow Six® Siege reviews to data/downloader/steam_reviews_359550_20241128_212824.csv
+2024-11-28 21:28:25,069 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (488823)
+2024-11-28 21:28:25,070 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (488821)
+2024-11-28 21:28:25,071 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (488824)
+2024-11-28 21:28:25,071 - INFO - Starting download for Terraria (105600)
+2024-11-28 21:28:29,798 - INFO - Completed Terraria: 100 reviews
+2024-11-28 21:28:29,826 - INFO - Saved Terraria reviews to data/downloader/steam_reviews_105600_20241128_212829.csv
+2024-11-28 21:28:30,340 - INFO - Starting download for Garry's Mod (4000)
+2024-11-28 21:28:35,097 - INFO - Completed Garry's Mod: 100 reviews
+2024-11-28 21:28:35,121 - INFO - Saved Garry's Mod reviews to data/downloader/steam_reviews_4000_20241128_212835.csv
+2024-11-28 21:28:35,640 - INFO - Starting download for Rust (252490)
+2024-11-28 21:55:31,022 - ERROR - Error processing PUBG: BATTLEGROUNDS: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:31,024 - ERROR - Error processing Grand Theft Auto V: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:31,025 - ERROR - Error processing Counter-Strike 2: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:31,027 - ERROR - Error processing Tom Clancy's Rainbow Six® Siege: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:31,033 - ERROR - Error processing Tom Clancy's Rainbow Six® Siege: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:32,084 - ERROR - Error processing Terraria: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:32,086 - ERROR - Error processing Garry's Mod: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:32,088 - ERROR - Error processing Tom Clancy's Rainbow Six® Siege: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:32,089 - ERROR - Error processing Tom Clancy's Rainbow Six® Siege: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:32,096 - ERROR - Error processing Tom Clancy's Rainbow Six® Siege: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:33,119 - ERROR - Error processing Wallpaper Engine: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:33,120 - ERROR - Error processing Cyberpunk 2077: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:33,122 - ERROR - Error processing ELDEN RING: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:33,123 - ERROR - Error processing Rust: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:33,124 - ERROR - Error processing The Witcher 3: Wild Hunt: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:34,140 - ERROR - Error processing Stardew Valley: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:34,141 - ERROR - Error processing HELLDIVERS™ 2: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:34,144 - ERROR - Error processing Left 4 Dead 2: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:34,145 - ERROR - Error processing Among Us: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:34,147 - ERROR - Error processing Euro Truck Simulator 2: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:35,059 - ERROR - Error processing Phasmophobia: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:35,060 - ERROR - Error processing Baldur's Gate 3: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:35,061 - ERROR - Error processing Dead by Daylight: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:35,063 - ERROR - Error processing Red Dead Redemption 2: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:35,072 - ERROR - Error processing Black Myth: Wukong: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:35,890 - ERROR - Error processing Fall Guys: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:35,900 - ERROR - Error processing The Forest: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:35,914 - ERROR - Error processing Rocket League®: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:35,915 - ERROR - Error processing ARK: Survival Evolved: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:35,923 - ERROR - Error processing PAYDAY 2: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:36,794 - ERROR - Error processing Lethal Company: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:36,795 - ERROR - Error processing Geometry Dash: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:36,796 - ERROR - Error processing Valheim: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:36,804 - ERROR - Error processing Portal 2: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:36,805 - ERROR - Error processing Portal 2: 'Portal 2'
+2024-11-28 21:55:37,605 - ERROR - Error processing DayZ: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:37,613 - ERROR - Error processing Hollow Knight: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:37,621 - ERROR - Error processing Call of Duty®: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:37,640 - ERROR - Error processing Dying Light: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:37,653 - ERROR - Error processing Don't Starve Together: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:38,603 - ERROR - Error processing Monster Hunter: World: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:38,604 - ERROR - Error processing Bloons TD 6: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:38,606 - ERROR - Error processing Palworld: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:38,608 - ERROR - Error processing Raft: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:55:38,616 - ERROR - Error processing Sea of Thieves: 2024 Edition: not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:04,873 - ERROR - Error processing Counter-Strike 2 (730): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:04,875 - ERROR - Error processing Tom Clancy's Rainbow Six® Siege (359550): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:04,877 - ERROR - Error processing Grand Theft Auto V (271590): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:04,878 - ERROR - Error processing PUBG: BATTLEGROUNDS (578080): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:04,880 - ERROR - Error processing Tom Clancy's Rainbow Six® Siege (488822): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:05,781 - ERROR - Error processing Terraria (105600): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:05,783 - ERROR - Error processing Garry's Mod (4000): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:05,792 - ERROR - Error processing Tom Clancy's Rainbow Six® Siege (488824): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:05,795 - ERROR - Error processing Tom Clancy's Rainbow Six® Siege (488823): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:05,797 - ERROR - Error processing Tom Clancy's Rainbow Six® Siege (488821): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:06,814 - ERROR - Error processing Wallpaper Engine (431960): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:06,815 - ERROR - Error processing ELDEN RING (1245620): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:06,818 - ERROR - Error processing Cyberpunk 2077 (1091500): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:06,819 - ERROR - Error processing Rust (252490): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:06,827 - ERROR - Error processing The Witcher 3: Wild Hunt (292030): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:07,649 - ERROR - Error processing Left 4 Dead 2 (550): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:07,659 - ERROR - Error processing HELLDIVERS™ 2 (553850): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:07,667 - ERROR - Error processing Among Us (945360): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:07,720 - ERROR - Error processing Stardew Valley (413150): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:07,727 - ERROR - Error processing Euro Truck Simulator 2 (227300): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:08,454 - ERROR - Error processing Dead by Daylight (381210): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:08,462 - ERROR - Error processing Baldur's Gate 3 (1086940): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:08,470 - ERROR - Error processing Phasmophobia (739630): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:08,478 - ERROR - Error processing Red Dead Redemption 2 (1174180): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:08,486 - ERROR - Error processing Black Myth: Wukong (2358720): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:09,479 - ERROR - Error processing The Forest (242760): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:09,480 - ERROR - Error processing PAYDAY 2 (218620): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:09,483 - ERROR - Error processing Rocket League® (252950): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:09,484 - ERROR - Error processing ARK: Survival Evolved (346110): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:09,485 - ERROR - Error processing Fall Guys (1097150): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:10,501 - ERROR - Error processing Geometry Dash (322170): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:10,503 - ERROR - Error processing Lethal Company (1966720): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:10,504 - ERROR - Error processing Portal 2 (620): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:10,505 - ERROR - Error processing Valheim (892970): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:10,508 - ERROR - Error processing Portal 2 (659): 'Portal 2'
+2024-11-28 21:58:11,367 - ERROR - Error processing DayZ (221100): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:11,368 - ERROR - Error processing Don't Starve Together (322330): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:11,375 - ERROR - Error processing Call of Duty® (1938090): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:11,385 - ERROR - Error processing Hollow Knight (367520): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:11,393 - ERROR - Error processing Dying Light (239140): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:12,352 - ERROR - Error processing Monster Hunter: World (582010): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:12,353 - ERROR - Error processing Sea of Thieves: 2024 Edition (1172620): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:12,354 - ERROR - Error processing Palworld (1623730): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:12,356 - ERROR - Error processing Raft (648800): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:12,358 - ERROR - Error processing Bloons TD 6 (960090): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:13,377 - ERROR - Error processing Fallout 4 (377160): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:13,379 - ERROR - Error processing The Binding of Isaac: Rebirth (250900): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:13,381 - ERROR - Error processing Hades (1145360): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:13,382 - ERROR - Error processing Subnautica (264710): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:13,384 - ERROR - Error processing DARK SOULS™ III (374320): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:14,218 - ERROR - Error processing No Man's Sky (275850): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:14,241 - ERROR - Error processing People Playground (1118200): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:14,244 - ERROR - Error processing Deep Rock Galactic (548430): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:14,252 - ERROR - Error processing Project Zomboid (108600): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:14,259 - ERROR - Error processing BeamNG.drive (284160): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:15,040 - ERROR - Error processing Sid Meier’s Civilization® VI (289070): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:15,052 - ERROR - Error processing Vampire Survivors (1794680): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:15,060 - ERROR - Error processing Forza Horizon 4 (1293830): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:15,077 - ERROR - Error processing 7 Days to Die (251570): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:15,103 - ERROR - Error processing New World (1063730): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:16,021 - ERROR - Error processing Hearts of Iron IV (394360): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:16,022 - ERROR - Error processing Halo: The Master Chief Collection (976730): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:16,025 - ERROR - Error processing Undertale (391540): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:16,026 - ERROR - Error processing Sekiro™: Shadows Die Twice - GOTY Edition (814380): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:16,028 - ERROR - Error processing Battlefield™ 2042 (1517290): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:17,045 - ERROR - Error processing Borderlands 2 (49520): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:17,046 - ERROR - Error processing Titanfall® 2 (1237970): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:17,065 - ERROR - Error processing Arma 3 (107410): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:17,067 - ERROR - Error processing Hogwarts Legacy (990080): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:17,069 - ERROR - Error processing Risk of Rain 2 (632360): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:17,899 - ERROR - Error processing Cities: Skylines (255710): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:17,899 - ERROR - Error processing NARAKA: BLADEPOINT (1203220): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:17,931 - ERROR - Error processing Battlefield™ V (1238810): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:17,935 - ERROR - Error processing \u9b3c\u8c37\u516b\u8352 Tale of Immortal (1468810): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:17,964 - ERROR - Error processing Mount & Blade II: Bannerlord (261550): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:18,878 - ERROR - Error processing Fallout: New Vegas (22380): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:18,880 - ERROR - Error processing The Elder Scrolls V: Skyrim (72850): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:18,886 - ERROR - Error processing Forza Horizon 5 (1551360): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:18,887 - ERROR - Error processing Sons Of The Forest (1326470): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:18,888 - ERROR - Error processing Hunt: Showdown 1896 (594650): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:19,925 - ERROR - Error processing DOOM Eternal (782330): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:19,928 - ERROR - Error processing The Elder Scrolls V: Skyrim Special Edition (489830): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:19,929 - ERROR - Error processing RimWorld (294100): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:19,930 - ERROR - Error processing Divinity: Original Sin 2 - Definitive Edition (435150): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:19,932 - ERROR - Error processing Half-Life 2 (220): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:20,948 - ERROR - Error processing Factorio (427520): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:20,950 - ERROR - Error processing Human Fall Flat (477160): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:20,951 - ERROR - Error processing Cuphead (268910): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:20,953 - ERROR - Error processing Counter-Strike (10): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:20,954 - ERROR - Error processing Ready or Not (1144200): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:21,872 - ERROR - Error processing Far Cry® 5 (552520): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:21,874 - ERROR - Error processing It Takes Two (1426210): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:21,876 - ERROR - Error processing Z1 Battle Royale (433850): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:21,877 - ERROR - Error processing Satisfactory (526870): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:21,879 - ERROR - Error processing It Takes Two Friend's Pass (2995920): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:22,719 - ERROR - Error processing Portal (52003): 'Portal'
+2024-11-28 21:58:22,728 - ERROR - Error processing Portal (400): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:22,742 - ERROR - Error processing Slay the Spire (646570): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:22,752 - ERROR - Error processing Grand Theft Auto IV: The Complete Edition (12210): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:22,826 - ERROR - Error processing Assassin's Creed® Odyssey (812140): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:23,610 - ERROR - Error processing Battlefield™ 1 (1238840): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:23,611 - ERROR - Error processing Dead Cells (588650): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:23,612 - ERROR - Error processing theHunter: Call of the Wild™ (518790): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:23,614 - ERROR - Error processing American Truck Simulator (270880): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:23,623 - ERROR - Error processing Squad (393380): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:24,617 - ERROR - Error processing Call of Duty®: Black Ops III (311210): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:24,635 - ERROR - Error processing DOOM (379720): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:24,639 - ERROR - Error processing Call of Duty®: Black Ops III (366842): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:24,641 - ERROR - Error processing Call of Duty®: Black Ops III (388520): not enough values to unpack (expected 3, got 2)
+2024-11-28 21:58:24,642 - ERROR - Error processing Dying Light 2 Stay Human: Reloaded Edition (534380): not enough values to unpack (expected 3, got 2)
+2024-12-01 17:21:52,267 - INFO - Starting download for Counter-Strike 2 (730)
+2024-12-01 17:21:52,269 - INFO - Starting download for PUBG: BATTLEGROUNDS (578080)
+2024-12-01 17:21:52,270 - INFO - Starting download for Grand Theft Auto V (271590)
+2024-12-01 17:21:58,863 - INFO - Completed PUBG: BATTLEGROUNDS positive reviews: 100 reviews
+2024-12-01 17:21:59,222 - INFO - Completed Grand Theft Auto V negative reviews: 100 reviews
+2024-12-01 17:21:59,419 - INFO - Completed Grand Theft Auto V positive reviews: 100 reviews
+2024-12-01 17:21:59,464 - INFO - Saved Grand Theft Auto V positive reviews to data/downloader/steam_reviews_271590_positive_20241201_172159.csv
+2024-12-01 17:21:59,488 - INFO - Saved Grand Theft Auto V negative reviews to data/downloader/steam_reviews_271590_negative_20241201_172159.csv
+2024-12-01 17:22:00,173 - INFO - Completed PUBG: BATTLEGROUNDS negative reviews: 100 reviews
+2024-12-01 17:22:00,189 - INFO - Saved PUBG: BATTLEGROUNDS positive reviews to data/downloader/steam_reviews_578080_positive_20241201_172200.csv
+2024-12-01 17:22:00,204 - INFO - Saved PUBG: BATTLEGROUNDS negative reviews to data/downloader/steam_reviews_578080_negative_20241201_172200.csv
+2024-12-01 17:22:00,215 - INFO - Completed Counter-Strike 2 negative reviews: 100 reviews
+2024-12-01 17:22:00,500 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (488822)
+2024-12-01 17:22:00,500 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (359550)
+2024-12-01 17:22:01,953 - INFO - Completed Counter-Strike 2 positive reviews: 100 reviews
+2024-12-01 17:22:01,981 - INFO - Saved Counter-Strike 2 positive reviews to data/downloader/steam_reviews_730_positive_20241201_172201.csv
+2024-12-01 17:22:02,006 - INFO - Saved Counter-Strike 2 negative reviews to data/downloader/steam_reviews_730_negative_20241201_172201.csv
+2024-12-01 17:22:03,022 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (488823)
+2024-12-01 17:22:03,354 - INFO - Completed Tom Clancy's Rainbow Six® Siege negative reviews: 0 reviews
+2024-12-01 17:22:07,194 - INFO - Completed Tom Clancy's Rainbow Six® Siege negative reviews: 100 reviews
+2024-12-01 17:22:07,654 - INFO - Completed Tom Clancy's Rainbow Six® Siege positive reviews: 100 reviews
+2024-12-01 17:22:07,684 - INFO - Saved Tom Clancy's Rainbow Six® Siege positive reviews to data/downloader/steam_reviews_359550_positive_20241201_172207.csv
+2024-12-01 17:22:07,704 - INFO - Saved Tom Clancy's Rainbow Six® Siege negative reviews to data/downloader/steam_reviews_359550_negative_20241201_172207.csv
+2024-12-01 17:22:08,713 - INFO - Starting download for Tom Clancy's Rainbow Six® Siege (488821)
+2024-12-01 17:22:09,249 - INFO - Completed Tom Clancy's Rainbow Six® Siege positive reviews: 0 reviews
