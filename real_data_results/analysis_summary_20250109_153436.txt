@@ -1,0 +1,13 @@
+Analysis Summary
+Timestamp: 20250109_153436
+
+Total documents analyzed: 1547
+Number of topics found: 37
+Number of clusters found: 297
+
+Top 5 Topics:
+Topic -1: -1_game_just_like_fun (Size: 633)
+Topic 0: 0_bugs_game_updates_crashes (Size: 145)
+Topic 1: 1_cheaters_counter_strike_cheating (Size: 68)
+Topic 2: 2_best_great_game_games (Size: 43)
+Topic 3: 3_combat_boss_bosses_mechanics (Size: 43)
