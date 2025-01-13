@@ -115,7 +115,7 @@ def preprocess_data_parallel(data, cleaned_data_path, chunk_size=10000):
     return data
 
 
-def perform_lda_analysis(data, n_topics=20, batch_size=4096):
+def perform_lda_analysis(data, n_topics=300, batch_size=4096):
     print("Preparing data for vectorization...")
 
     # Ensure no NaN values before vectorization
