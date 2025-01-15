@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from sentence_transformers import SentenceTransformer
+from transformers import pipeline
 from umap import UMAP
 import hdbscan
 from bertopic import BERTopic
@@ -392,3 +393,139 @@ class SteamReviewAnalyzer:
         logger.info(f"Saved detailed results. Summary available at: {summary_path}")
         
         return final_results
+    
+
+from transformers import pipeline
+import pandas as pd
+import numpy as np
+from tqdm import tqdm
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+class SentimentAnalyzer:
+    def __init__(self):
+        """Initialize the sentiment analyzer with a pre-trained model"""
+        self.sentiment_pipeline = pipeline(
+            "sentiment-analysis",
+            model="distilbert-base-uncased-finetuned-sst-2-english",
+            max_length=512,
+            truncation=True
+        )
+    
+    def analyze_batch(self, texts: List[str], batch_size: int = 32) -> List[dict]:
+        """Analyze sentiment for a batch of texts"""
+        results = []
+        for i in tqdm(range(0, len(texts), batch_size), desc="Analyzing sentiment"):
+            batch = texts[i:i + batch_size]
+            batch_results = self.sentiment_pipeline(batch)
+            results.extend(batch_results)
+        return results
+
+class EnhancedSteamReviewAnalyzer(SteamReviewAnalyzer):
+    def __init__(self, config: ModelConfig = ModelConfig(), checkpoint_dir: str = 'checkpoints'):
+        super().__init__(config, checkpoint_dir)
+        self.sentiment_analyzer = SentimentAnalyzer()
+    
+    def _analyze_topic_sentiment(self, sentences: List[str], topics: List[int]) -> pd.DataFrame:
+        """Analyze sentiment for each topic"""
+        # Create DataFrame with sentences and their topics
+        df = pd.DataFrame({
+            'sentence': sentences,
+            'topic': topics
+        })
+        
+        # Get sentiment for all sentences
+        sentiments = self.sentiment_analyzer.analyze_batch(sentences)
+        df['sentiment'] = [s['label'] for s in sentiments]
+        df['sentiment_score'] = [s['score'] for s in sentiments]
+        
+        # Convert sentiment labels to numeric scores
+        df['sentiment_value'] = df['sentiment'].map({'POSITIVE': 1, 'NEGATIVE': -1})
+        
+        # Calculate topic sentiment metrics
+        topic_sentiment = df.groupby('topic').agg({
+            'sentiment_value': ['mean', 'count'],
+            'sentiment_score': ['mean', 'std']
+        }).round(3)
+        
+        topic_sentiment.columns = ['sentiment_mean', 'sentence_count', 'confidence_mean', 'confidence_std']
+        return topic_sentiment.reset_index()
+    
+    def create_sentiment_visualizations(self, topic_sentiment: pd.DataFrame, output_dir: str):
+        """Create visualizations for sentiment analysis results"""
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        
+        # 1. Topic Sentiment Distribution
+        plt.figure(figsize=(12, 6))
+        sns.barplot(
+            data=topic_sentiment,
+            x='topic',
+            y='sentiment_mean',
+            color='skyblue'
+        )
+        plt.axhline(y=0, color='r', linestyle='--', alpha=0.3)
+        plt.title('Average Sentiment by Topic')
+        plt.xlabel('Topic ID')
+        plt.ylabel('Average Sentiment (-1 to 1)')
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        plt.savefig(f"{output_dir}/topic_sentiment_{timestamp}.png")
+        plt.close()
+        
+        # 2. Topic Sentiment Confidence
+        plt.figure(figsize=(12, 6))
+        plt.errorbar(
+            topic_sentiment['topic'],
+            topic_sentiment['confidence_mean'],
+            yerr=topic_sentiment['confidence_std'],
+            fmt='o',
+            capsize=5
+        )
+        plt.title('Sentiment Confidence by Topic')
+        plt.xlabel('Topic ID')
+        plt.ylabel('Confidence Score (with std dev)')
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        plt.savefig(f"{output_dir}/topic_sentiment_confidence_{timestamp}.png")
+        plt.close()
+    
+    def run_analysis(self, reviews: pd.Series, resume: bool = True) -> dict:
+        """Enhanced run_analysis method with sentiment analysis"""
+        # Run the original analysis
+        results = super().run_analysis(reviews, resume)
+        
+        # Add sentiment analysis
+        logger.info("Performing sentiment analysis...")
+        topic_sentiment = self._analyze_topic_sentiment(
+            results['sentences'],
+            results['results']['topics']
+        )
+        
+        # Add sentiment results to the final results
+        results['sentiment_analysis'] = topic_sentiment.to_dict(orient='records')
+        
+        # Create sentiment visualizations
+        base_dir = self.checkpoint_dir.split('_checkpoints')[0]
+        viz_dir = f"{base_dir}_visualizations" if '_checkpoints' in self.checkpoint_dir else 'visualizations'
+        self.create_sentiment_visualizations(topic_sentiment, viz_dir)
+        
+        # Update the summary file with sentiment information
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        results_dir = f"{base_dir}_results" if '_checkpoints' in self.checkpoint_dir else 'results'
+        
+        with open(f"{results_dir}/sentiment_analysis_{timestamp}.txt", 'w') as f:
+            f.write("Topic Sentiment Analysis Summary\n")
+            f.write("=============================\n\n")
+            
+            # Sort topics by absolute sentiment for reporting
+            topic_sentiment['abs_sentiment'] = abs(topic_sentiment['sentiment_mean'])
+            sorted_sentiment = topic_sentiment.sort_values('abs_sentiment', ascending=False)
+            
+            for _, row in sorted_sentiment.iterrows():
+                sentiment_direction = "POSITIVE" if row['sentiment_mean'] > 0 else "NEGATIVE"
+                f.write(f"Topic {row['topic']}:\n")
+                f.write(f"  Average Sentiment: {row['sentiment_mean']:.3f} ({sentiment_direction})\n")
+                f.write(f"  Confidence: {row['confidence_mean']:.3f} ± {row['confidence_std']:.3f}\n")
+                f.write(f"  Number of Sentences: {row['sentence_count']}\n\n")
+        
+        return results

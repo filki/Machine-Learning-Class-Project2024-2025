@@ -1,0 +1,13 @@
+Analysis Summary
+Timestamp: 20250114_144044
+
+Total documents analyzed: 4693
+Number of topics found: 101
+Number of clusters found: 873
+
+Top 5 Topics:
+Topic -1: -1_game_like_just_games (Size: 1903)
+Topic 0: 0_combat_fight_enemies_fights (Size: 117)
+Topic 1: 1_quests_quest_main_certain (Size: 91)
+Topic 2: 2_story_writing_fantastic_quote (Size: 82)
+Topic 3: 3_bosses_boss_fights_fight (Size: 67)
