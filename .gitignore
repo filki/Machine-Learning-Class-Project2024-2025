@@ -2,4 +2,5 @@
 testing
 ml_venv
 __pycache__
-.*pkl
+*.pkl
+data
