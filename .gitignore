@@ -1,10 +1,5 @@
 .venv
 testing
-*.csv
 ml_venv
 __pycache__
-test_checkpoints
-test_results
-test_visualizations
-real_data_checkpoints
-*.pkl
+.*pkl

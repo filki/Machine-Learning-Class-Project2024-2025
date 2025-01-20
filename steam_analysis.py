@@ -2,8 +2,6 @@ import pandas as pd
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from transformers import pipeline
-from umap import UMAP
-import hdbscan
 from bertopic import BERTopic
 import blingfire
 from typing import List, Tuple, Any
@@ -28,23 +26,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-@dataclass
-class ModelConfig:
-    """Configuration for the analysis pipeline"""
-    sentence_transformer_model: str = 'all-MiniLM-L6-v2'
-    umap_n_neighbors: int = 15
-    umap_n_components: int = 5
-    umap_min_dist: float = 0.1
-    hdbscan_min_cluster_size: int = 15
-    bertopic_model: str = "all-MiniLM-L6-v2"
-
 class SteamReviewAnalyzer:
-    def __init__(self, config: ModelConfig = ModelConfig(), checkpoint_dir: str = 'checkpoints'):
-        self.config = config
+    def __init__(self, transformer_model: str = "all-MiniLM-L6-v2", checkpoint_dir: str = 'checkpoints'):
+        self.transformer_model = transformer_model
         self.checkpoint_dir = checkpoint_dir
-        self.sentence_transformer = None
-        self.umap_model = None
-        self.cluster_model = None
         self.topic_model = None
         
         # Create checkpoint directory
@@ -121,6 +106,7 @@ class SteamReviewAnalyzer:
         reviews = reviews.dropna()
         reviews_tokenized = []
         
+        # Blingfire - review tokenization 
         for i, review in enumerate(tqdm(reviews, desc="Preprocessing")):
             sentences = blingfire.text_to_sentences(review)
             reviews_tokenized.append(sentences)
@@ -180,31 +166,11 @@ class SteamReviewAnalyzer:
         # Create embeddings (with its own checkpointing)
         embeddings = self.create_embeddings(sentences, checkpoint_id, resume)
         
-        # UMAP reduction
-        logger.info("Performing UMAP dimension reduction...")
-        umap_model = UMAP(
-            n_neighbors=self.config.umap_n_neighbors,
-            n_components=self.config.umap_n_components,
-            min_dist=self.config.umap_min_dist,
-            metric='cosine'
-        )
-        umap_embeddings = umap_model.fit_transform(embeddings)
-        
-        # Clustering
-        logger.info("Performing clustering...")
-        cluster_model = hdbscan.HDBSCAN(
-            min_cluster_size=self.config.hdbscan_min_cluster_size,
-            metric='euclidean',
-            cluster_selection_method='eom'
-        )
-        clusters = cluster_model.fit_predict(umap_embeddings)
-        
         # Topic modeling
         logger.info("Performing topic modeling...")
         topic_model = BERTopic(
-            embedding_model=self.config.bertopic_model,
+            embedding_model=self.transformer_model,
             verbose=True,
-            # Automatic topic naming
             top_n_words=4,  # Number of words to use for naming
             vectorizer_model=CountVectorizer(stop_words="english") 
         )
@@ -212,7 +178,6 @@ class SteamReviewAnalyzer:
         
         results = {
             'embeddings': embeddings,
-            'clusters': clusters,
             'topics': topics,
             'topic_model': topic_model,
             'probabilities': probs

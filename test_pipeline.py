@@ -14,16 +14,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def create_tiny_dataset():
-    """Create a very small test dataset"""
-    return pd.Series([
-        "This game is amazing! The graphics are beautiful and the story is engaging.",
-        "Terrible optimization. Keeps crashing on my PC. Would not recommend.",
-        "Great multiplayer experience, but single player needs work.",
-        "Average game, nothing special. Decent graphics but boring gameplay.",
-        "One of the best games I've played this year! Highly recommend it!"
-    ])
-
 def verify_outputs(base_dir: str, timestamp_pattern: str) -> bool:
     """Verify that all expected output files were created"""
     import re
