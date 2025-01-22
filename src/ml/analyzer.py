@@ -14,6 +14,9 @@ from tqdm import tqdm
 from .utils import generate_checkpoint_id, save_checkpoint, load_checkpoint
 from .visualizations import create_visualizations, create_sentiment_visualizations
 from .bbcode_cleaner import BBCodeCleaner
+import blingfire
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 class SteamReviewAnalyzer:
     def __init__(self, sentence_transformer_model: str = 'all-MiniLM-L6-v2', 
@@ -109,11 +112,30 @@ class SteamReviewAnalyzer:
         # Create embeddings
         embeddings = self.create_embeddings(sentences, checkpoint_id, resume)
         
+        # Combined stop words (gaming-specific and common English)
         gaming_stop_words = [
-    'game', 'games', 'play', 'played', 'playing',
-    'steam', 'review', 'reviews', 'recommend',
-    'hour', 'hours'
-                            ]
+            # Gaming-specific terms
+            'game', 'games', 'play', 'played', 'playing',
+            'steam', 'review', 'reviews', 'recommend',
+            'hour', 'hours',
+            # Common English stop words
+            'i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves',
+            'you', 'your', 'yours', 'yourself', 'yourselves',
+            'he', 'him', 'his', 'himself', 'she', 'her', 'hers', 'herself',
+            'it', 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves',
+            'what', 'which', 'who', 'whom', 'this', 'that', 'these', 'those',
+            'am', 'is', 'are', 'was', 'were', 'be', 'been', 'being',
+            'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing',
+            'a', 'an', 'the', 'and', 'but', 'if', 'or', 'because', 'as',
+            'until', 'while', 'of', 'at', 'by', 'for', 'with', 'about',
+            'against', 'between', 'into', 'through', 'during', 'before', 'after',
+            'above', 'below', 'to', 'from', 'up', 'down', 'in', 'out', 'on',
+            'off', 'over', 'under', 'again', 'further', 'then', 'once', 'here',
+            'there', 'when', 'where', 'why', 'how', 'all', 'any', 'both', 'each',
+            'few', 'more', 'most', 'other', 'some', 'such', 'no', 'nor', 'not',
+            'only', 'own', 'same', 'so', 'than', 'too', 'very', 's', 't',
+            'can', 'will', 'just', 'don', 'should', 'now'
+        ]
 
         # Topic modeling with original settings
         self.topic_model = BERTopic(
@@ -121,7 +143,7 @@ class SteamReviewAnalyzer:
             verbose=True,
             top_n_words=4,
             vectorizer_model=CountVectorizer(
-                stop_words=list(("english") + gaming_stop_words),
+                stop_words=list(gaming_stop_words),
                 min_df=5,   # Minimum document frequency
                 ngram_range=(1, 2)  # Allow bigrams
             )

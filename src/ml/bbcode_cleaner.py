@@ -11,24 +11,24 @@ class BBCodeCleaner:
     
     # Common BBCode tags used in Steam reviews
     BBCODE_PATTERNS = {
-        'headers': r'\[h[1-6]\](.*?)\[/h[1-6]\]',
-        'bold': r'\[b\](.*?)\[/b\]',
-        'italic': r'\[i\](.*?)\[/i\]',
-        'underline': r'\[u\](.*?)\[/u\]',
-        'strike': r'\[s\](.*?)\[/s\]',
-        'url_with_text': r'\[url=.*?\](.*?)\[/url\]',
-        'url_simple': r'\[url\](.*?)\[/url\]',
-        'image': r'\[img\].*?\[/img\]',
-        'quote': r'\[quote\](.*?)\[/quote\]',
-        'list': r'\[list\](.*?)\[/list\]',
-        'list_item': r'\[\*\](.*?)(?=\[\*\]|\[/list\])',
-        'size': r'\[size=.*?\](.*?)\[/size\]',
-        'color': r'\[color=.*?\](.*?)\[/color\]',
-        'spoiler': r'\[spoiler\](.*?)\[/spoiler\]',
-        'code': r'\[code\](.*?)\[/code\]',
-        'noparse': r'\[noparse\](.*?)\[/noparse\]',
-        'table': r'\[table\].*?\[/table\]',
-        'emoticon': r'\[emoticon\].*?\[/emoticon\]'
+        'headers': (r'\[h[1-6]\](.*?)\[/h[1-6]\]', r'\1'),
+        'bold': (r'\[b\](.*?)\[/b\]', r'\1'),
+        'italic': (r'\[i\](.*?)\[/i\]', r'\1'),
+        'underline': (r'\[u\](.*?)\[/u\]', r'\1'),
+        'strike': (r'\[s\](.*?)\[/s\]', r'\1'),
+        'url_with_text': (r'\[url=.*?\](.*?)\[/url\]', r'\1'),
+        'url_simple': (r'\[url\](.*?)\[/url\]', r'\1'),
+        'image': (r'\[img\].*?\[/img\]', ''),  # Remove images completely
+        'quote': (r'\[quote\](.*?)\[/quote\]', r'\1'),
+        'list': (r'\[list\](.*?)\[/list\]', r'\1'),
+        'list_item': (r'\[\*\](.*?)(?=\[\*\]|\[/list\]|$)', r'\1'),
+        'size': (r'\[size=.*?\](.*?)\[/size\]', r'\1'),
+        'color': (r'\[color=.*?\](.*?)\[/color\]', r'\1'),
+        'spoiler': (r'\[spoiler\](.*?)\[/spoiler\]', r'\1'),
+        'code': (r'\[code\](.*?)\[/code\]', r'\1'),
+        'noparse': (r'\[noparse\](.*?)\[/noparse\]', r'\1'),
+        'table': (r'\[table\].*?\[/table\]', ' '),  # Replace tables with space
+        'emoticon': (r'\[emoticon\].*?\[/emoticon\]', ' ')  # Replace emoticons with space
     }
     
     def __init__(self, preserve_content: bool = True):
@@ -57,15 +57,19 @@ class BBCodeCleaner:
         cleaned_text = text
         
         # Handle each BBCode pattern
-        for tag_name, pattern in self.BBCODE_PATTERNS.items():
-            if self.preserve_content:
-                # Replace tags with their content
-                cleaned_text = re.sub(pattern, r'\1', cleaned_text, 
-                                    flags=re.IGNORECASE | re.DOTALL)
-            else:
-                # Remove tags and their content completely
-                cleaned_text = re.sub(pattern, '', cleaned_text, 
-                                    flags=re.IGNORECASE | re.DOTALL)
+        for tag_name, (pattern, repl) in self.BBCODE_PATTERNS.items():
+            try:
+                if self.preserve_content:
+                    # Replace tags with their content using the specified replacement
+                    cleaned_text = re.sub(pattern, repl, cleaned_text, 
+                                        flags=re.IGNORECASE | re.DOTALL)
+                else:
+                    # Remove tags and their content completely
+                    cleaned_text = re.sub(pattern, '', cleaned_text, 
+                                        flags=re.IGNORECASE | re.DOTALL)
+            except Exception as e:
+                logger.warning(f"Error processing {tag_name} pattern: {str(e)}")
+                continue
         
         # Clean up extra whitespace
         cleaned_text = re.sub(r'\s+', ' ', cleaned_text)
@@ -89,7 +93,6 @@ class BBCodeCleaner:
         for review in reviews:
             if isinstance(review, dict):
                 # If review is a dictionary, extract the text field
-                # Assuming 'review' or 'text' as possible keys
                 text = review.get('review', review.get('text', ''))
             else:
                 text = review
@@ -116,9 +119,13 @@ class BBCodeCleaner:
             if not isinstance(review, str):
                 continue
                 
-            for tag, pattern in self.BBCODE_PATTERNS.items():
-                matches = re.findall(pattern, review, flags=re.IGNORECASE | re.DOTALL)
-                tag_counts[tag] += len(matches)
+            for tag_name, (pattern, _) in self.BBCODE_PATTERNS.items():
+                try:
+                    matches = re.findall(pattern, review, flags=re.IGNORECASE | re.DOTALL)
+                    tag_counts[tag_name] += len(matches)
+                except Exception as e:
+                    logger.warning(f"Error analyzing {tag_name} usage: {str(e)}")
+                    continue
         
         logger.info("BBCode usage analysis completed")
         return tag_counts
