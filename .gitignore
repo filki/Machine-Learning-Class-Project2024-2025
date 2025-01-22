@@ -1,3 +1,6 @@
 .venv
 testing
-*.csv
+ml_venv
+__pycache__
+*.pkl
+data
