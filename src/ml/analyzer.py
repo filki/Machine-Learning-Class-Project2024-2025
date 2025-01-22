@@ -11,8 +11,9 @@ from datetime import datetime
 import os
 from typing import List, Dict, Any
 from tqdm import tqdm
-from .utils import generate_checkpoint_id, save_checkpoint, load_checkpoint, preprocess_reviews
+from .utils import generate_checkpoint_id, save_checkpoint, load_checkpoint
 from .visualizations import create_visualizations, create_sentiment_visualizations
+from .bbcode_cleaner import BBCodeCleaner
 
 class SteamReviewAnalyzer:
     def __init__(self, sentence_transformer_model: str = 'all-MiniLM-L6-v2', 
@@ -26,6 +27,7 @@ class SteamReviewAnalyzer:
         self.sentence_transformer = None
         self.topic_model = None
         self.sentiment_pipeline = None
+        self.bbcode_cleaner = BBCodeCleaner(preserve_content=True)
         
         os.makedirs(checkpoint_dir, exist_ok=True)
 
@@ -107,13 +109,19 @@ class SteamReviewAnalyzer:
         # Create embeddings
         embeddings = self.create_embeddings(sentences, checkpoint_id, resume)
         
+        gaming_stop_words = [
+    'game', 'games', 'play', 'played', 'playing',
+    'steam', 'review', 'reviews', 'recommend',
+    'hour', 'hours'
+                            ]
+
         # Topic modeling with original settings
         self.topic_model = BERTopic(
             embedding_model=self.sentence_transformer_model,
             verbose=True,
             top_n_words=4,
             vectorizer_model=CountVectorizer(
-                stop_words="english",
+                stop_words=list(("english") + gaming_stop_words),
                 min_df=5,   # Minimum document frequency
                 ngram_range=(1, 2)  # Allow bigrams
             )
@@ -132,6 +140,48 @@ class SteamReviewAnalyzer:
         
         return results
 
+    def preprocess_reviews(self, reviews: pd.Series) -> List[str]:
+        """Tokenize reviews into sentences with BBCode cleaning
+        
+        Args:
+            reviews: Series of review texts
+            
+        Returns:
+            List[str]: List of preprocessed sentences
+        """
+        reviews = reviews.dropna()
+        
+        # Clean BBCode first
+        logger.info("Cleaning BBCode tags...")
+        cleaned_reviews = self.bbcode_cleaner.clean_reviews(reviews.tolist())
+        
+        # Log BBCode statistics
+        bbcode_stats = self.bbcode_cleaner.analyze_bbcode_usage(reviews.tolist())
+        logger.info("BBCode usage statistics:")
+        for tag, count in bbcode_stats.items():
+            if count > 0:
+                logger.info(f"{tag}: {count} occurrences")
+        
+        # Tokenize into sentences
+        reviews_tokenized = []
+        for review in tqdm(cleaned_reviews, desc="Preprocessing reviews"):
+            try:
+                sentences = blingfire.text_to_sentences(review)
+                reviews_tokenized.append(sentences)
+            except Exception as e:
+                logger.warning(f"Error tokenizing review: {str(e)}")
+                continue
+        
+        all_sentences = [
+            sentence 
+            for review in reviews_tokenized 
+            for sentence in review.split('\n') 
+            if sentence.strip()
+        ]
+        
+        logger.info(f"Extracted {len(all_sentences)} sentences from {len(reviews)} reviews")
+        return all_sentences
+
     def run_analysis(self, reviews: pd.Series, viz_dir: str = None, resume: bool = True) -> Dict[str, Any]:
         """Run the complete analysis pipeline"""
         # Generate checkpoint ID
@@ -141,7 +191,7 @@ class SteamReviewAnalyzer:
         viz_dir = viz_dir or 'visualizations'
         
         # Run analysis
-        sentences = preprocess_reviews(reviews)
+        sentences = self.preprocess_reviews(reviews)
         results = self.analyze_topics(sentences, checkpoint_id, resume)
         
         final_results = {
