@@ -3,4 +3,4 @@ testing
 ml_venv
 __pycache__
 *.pkl
-data
+output/
