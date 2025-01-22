@@ -1,7 +1,5 @@
 import pandas as pd
 import logging
-import os
-from datetime import datetime
 from src.ml.analyzer import SteamReviewAnalyzer
 from src.ml.utils import get_output_dirs, save_analysis_results
 

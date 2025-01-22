@@ -2,12 +2,8 @@ import pandas as pd
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from transformers import pipeline
-from umap import UMAP
-import hdbscan
 from bertopic import BERTopic
 from sklearn.feature_extraction.text import CountVectorizer
-import logging
-from datetime import datetime
 import os
 from typing import List, Dict, Any
 from tqdm import tqdm
