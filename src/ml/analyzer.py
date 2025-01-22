@@ -11,22 +11,19 @@ from datetime import datetime
 import os
 from typing import List, Dict, Any
 from tqdm import tqdm
-from .model_config import ModelConfig
 from .utils import generate_checkpoint_id, save_checkpoint, load_checkpoint, preprocess_reviews
 from .visualizations import create_visualizations, create_sentiment_visualizations
 
 class SteamReviewAnalyzer:
-    def __init__(self, config: ModelConfig = ModelConfig(), 
+    def __init__(self, sentence_transformer_model: str = 'all-MiniLM-L6-v2', 
                  checkpoint_dir: str = 'checkpoints',
                  include_sentiment: bool = False):
-        self.config = config
+        self.sentence_transformer_model = sentence_transformer_model
         self.checkpoint_dir = checkpoint_dir
         self.include_sentiment = include_sentiment
         
         # Models (initialized when needed)
         self.sentence_transformer = None
-        self.umap_model = None
-        self.cluster_model = None
         self.topic_model = None
         self.sentiment_pipeline = None
         
@@ -83,7 +80,7 @@ class SteamReviewAnalyzer:
                 return data
         
         if self.sentence_transformer is None:
-            self.sentence_transformer = SentenceTransformer(self.config.sentence_transformer_model)
+            self.sentence_transformer = SentenceTransformer(self.sentence_transformer_model)
         
         embeddings = []
         batch_size = 32
@@ -112,7 +109,7 @@ class SteamReviewAnalyzer:
         
         # Topic modeling with original settings
         self.topic_model = BERTopic(
-            embedding_model=self.transformer_model,  # Use direct model name
+            embedding_model=self.sentence_transformer_model,
             verbose=True,
             top_n_words=4,
             vectorizer_model=CountVectorizer(

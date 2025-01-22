@@ -4,13 +4,20 @@ import pickle
 from datetime import datetime
 import hashlib
 import logging
-from typing import Any, Tuple
+from typing import Any, Tuple, List
 import blingfire
 from tqdm.auto import tqdm
 import matplotlib.pyplot as plt
 import pandas as pd
 
-def generate_checkpoint_id(data) -> str:
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
+def generate_checkpoint_id(data: pd.Series) -> str:
     """Generate a unique identifier for the dataset"""
     sample = str(data.head(3).values) + str(data.shape)
     return hashlib.md5(sample.encode()).hexdigest()[:10]
@@ -80,25 +87,6 @@ def save_analysis_results(results: dict, results_dir: str) -> str:
                     })
             pd.DataFrame(topic_details).to_csv(os.path.join(results_dir, f'topic_details_{timestamp}.csv'), index=False)
             
-            # Save cluster information
-            if 'clusters' in results['results']:
-                cluster_info = pd.DataFrame({
-                    'document_id': range(len(results['results']['clusters'])),
-                    'cluster': results['results']['clusters'],
-                    'topic': results['results']['topics']
-                })
-                cluster_info.to_csv(os.path.join(results_dir, f'cluster_assignments_{timestamp}.csv'), index=False)
-                
-                # Save cluster statistics
-                cluster_stats = cluster_info.groupby('cluster').agg({
-                    'document_id': 'count',
-                    'topic': lambda x: len(set(x))
-                }).rename(columns={
-                    'document_id': 'size',
-                    'topic': 'unique_topics'
-                })
-                cluster_stats.to_csv(os.path.join(results_dir, f'cluster_stats_{timestamp}.csv'))
-            
             # Save document-topic mapping
             doc_topics = pd.DataFrame({
                 'document_id': range(len(results['results']['topics'])),
@@ -106,13 +94,6 @@ def save_analysis_results(results: dict, results_dir: str) -> str:
                 'sentence': results['sentences']
             })
             doc_topics.to_csv(os.path.join(results_dir, f'document_topics_{timestamp}.csv'), index=False)
-            
-            # Save topic-topic similarity if available
-            try:
-                topic_sims = topic_model.topic_similarities()
-                pd.DataFrame(topic_sims).to_csv(os.path.join(results_dir, f'topic_similarities_{timestamp}.csv'))
-            except:
-                logging.warning("Could not generate topic similarities")
                 
             summary['topics'] = results['results']['topics'].tolist() if hasattr(results['results']['topics'], 'tolist') else results['results']['topics']
         
@@ -131,17 +112,17 @@ def save_analysis_results(results: dict, results_dir: str) -> str:
             
         return pickle_path
     except Exception as e:
-        logging.error(f"Error saving analysis results: {str(e)}")
+        logger.error(f"Error saving analysis results: {str(e)}")
         raise
 
-def get_output_dirs(base_dir: str = 'output') -> tuple:
+def get_output_dirs(base_dir: str = 'output') -> Tuple[str, str, str]:
     """Create and return output directory paths
     
     Args:
         base_dir: Base directory for all outputs
         
     Returns:
-        tuple: (checkpoints_dir, viz_dir, results_dir)
+        Tuple[str, str, str]: (checkpoints_dir, viz_dir, results_dir)
     """
     checkpoints_dir = os.path.join(base_dir, 'checkpoints')
     viz_dir = os.path.join(base_dir, 'visualizations')
@@ -153,11 +134,20 @@ def get_output_dirs(base_dir: str = 'output') -> tuple:
         
     return checkpoints_dir, viz_dir, results_dir
 
-def save_visualization(fig, filename: str, output_dir: str):
-    """Save a matplotlib figure with proper directory handling"""
+def save_visualization(fig: plt.Figure, filename: str, output_dir: str) -> str:
+    """Save a matplotlib figure with proper directory handling
+    
+    Args:
+        fig: Matplotlib figure to save
+        filename: Name of the output file
+        output_dir: Directory to save the visualization
+        
+    Returns:
+        str: Path to the saved visualization
+    """
     os.makedirs(output_dir, exist_ok=True)
     path = os.path.join(output_dir, filename)
-    fig.savefig(path)
+    fig.savefig(path, dpi=300, bbox_inches='tight')
     plt.close(fig)
     return path
 
@@ -185,18 +175,26 @@ def load_checkpoint(checkpoint_dir: str, stage: str, checkpoint_id: str) -> Tupl
         with open(latest['filename'], 'rb') as f:
             data = pickle.load(f)
             
+        logger.info(f"Loaded checkpoint from {latest['filename']}")
         return data, True
         
     except Exception as e:
-        logging.warning(f"Failed to load checkpoint: {e}")
+        logger.warning(f"Failed to load checkpoint: {e}")
         return None, False
 
-def preprocess_reviews(reviews):
-    """Tokenize reviews into sentences"""
+def preprocess_reviews(reviews: pd.Series) -> List[str]:
+    """Tokenize reviews into sentences
+    
+    Args:
+        reviews: Pandas Series containing the reviews to process
+        
+    Returns:
+        List[str]: List of preprocessed sentences
+    """
     reviews = reviews.dropna()
     reviews_tokenized = []
     
-    for review in tqdm(reviews, desc="Preprocessing"):
+    for review in tqdm(reviews, desc="Preprocessing reviews"):
         sentences = blingfire.text_to_sentences(review)
         reviews_tokenized.append(sentences)
     
@@ -207,4 +205,5 @@ def preprocess_reviews(reviews):
         if sentence.strip()
     ]
     
+    logger.info(f"Extracted {len(all_sentences)} sentences from {len(reviews)} reviews")
     return all_sentences

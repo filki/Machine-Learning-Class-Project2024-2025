@@ -3,7 +3,6 @@ import logging
 import os
 from datetime import datetime
 from src.ml.analyzer import SteamReviewAnalyzer
-from src.ml.model_config import ModelConfig
 from src.ml.utils import get_output_dirs, save_analysis_results
 
 # Configure logging
@@ -24,7 +23,7 @@ def main():
         
         # Initialize analyzer
         analyzer = SteamReviewAnalyzer(
-            config=ModelConfig(),
+            sentence_transformer_model='all-MiniLM-L6-v2', # Change to try different models
             checkpoint_dir=checkpoints_dir,
             include_sentiment=True
         )
