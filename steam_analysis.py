@@ -18,6 +18,9 @@ import seaborn as sns
 from pathlib import Path
 from wordcloud import WordCloud, STOPWORDS
 from sklearn.feature_extraction.text import CountVectorizer, ENGLISH_STOP_WORDS
+from src.ml.bbcode_cleaner import BBCodeCleaner
+import nltk
+from nltk.tokenize import sent_tokenize
 
 # Configure logging
 logging.basicConfig(
@@ -31,6 +34,7 @@ class SteamReviewAnalyzer:
         self.transformer_model = transformer_model
         self.checkpoint_dir = checkpoint_dir
         self.topic_model = None
+        self.bbcode_cleaner = BBCodeCleaner(preserve_content=True)
         
         # Create checkpoint directory
         os.makedirs(checkpoint_dir, exist_ok=True)
@@ -96,36 +100,55 @@ class SteamReviewAnalyzer:
             return None, False
 
     def preprocess_reviews(self, reviews: pd.Series, checkpoint_id: str = None, resume: bool = True) -> List[str]:
-        """Tokenize reviews into sentences with checkpointing"""
-        if checkpoint_id and resume:
-            data, loaded = self._load_checkpoint('preprocess', checkpoint_id)
-            if loaded:
-                return data
+        """
+        Tokenize reviews into sentences with checkpointing and BBCode cleaning.
         
-        logger.info("Preprocessing reviews...")
-        reviews = reviews.dropna()
-        reviews_tokenized = []
-        
-        # Blingfire - review tokenization 
-        for i, review in enumerate(tqdm(reviews, desc="Preprocessing")):
-            sentences = blingfire.text_to_sentences(review)
-            reviews_tokenized.append(sentences)
+        Args:
+            reviews (pd.Series): Series of review texts
+            checkpoint_id (str, optional): Identifier for checkpointing
+            resume (bool): Whether to resume from checkpoint
             
-            if i % 1000 == 0:
-                logger.info(f"Processed {i}/{len(reviews)} reviews")
+        Returns:
+            List[str]: List of preprocessed sentences
+        """
+        if checkpoint_id and resume:
+            cached_data = self._load_checkpoint('preprocessing', checkpoint_id)
+            if cached_data is not None:
+                logger.info("Loaded preprocessed reviews from checkpoint")
+                return cached_data
+
+        logger.info("Preprocessing reviews...")
         
-        all_sentences = [
-            sentence 
-            for review in reviews_tokenized 
-            for sentence in review.split('\n') 
-            if sentence.strip()
-        ]
+        # Clean BBCode first
+        logger.info("Cleaning BBCode tags...")
+        cleaned_reviews = self.bbcode_cleaner.clean_reviews(reviews.tolist())
+        
+        # Analyze BBCode usage for insights
+        bbcode_stats = self.bbcode_cleaner.analyze_bbcode_usage(reviews.tolist())
+        logger.info("BBCode usage statistics:")
+        for tag, count in bbcode_stats.items():
+            if count > 0:
+                logger.info(f"{tag}: {count} occurrences")
+
+        # Tokenize into sentences
+        logger.info("Tokenizing into sentences...")
+        sentences = []
+        for review in cleaned_reviews:
+            try:
+                # Split into sentences (you might want to customize this based on your needs)
+                review_sentences = sent_tokenize(review)
+                sentences.extend(review_sentences)
+            except Exception as e:
+                logger.warning(f"Error tokenizing review: {str(e)}")
+                continue
+
+        # Remove empty sentences and strip whitespace
+        sentences = [s.strip() for s in sentences if s.strip()]
         
         if checkpoint_id:
-            self._save_checkpoint('preprocess', all_sentences, checkpoint_id)
-        
-        logger.info(f"Extracted {len(all_sentences)} sentences from {len(reviews)} reviews")
-        return all_sentences
+            self._save_checkpoint('preprocessing', sentences, checkpoint_id)
+            
+        return sentences
 
     def create_embeddings(self, sentences: List[str], checkpoint_id: str = None, resume: bool = True) -> np.ndarray:
         """Create embeddings with checkpointing"""
@@ -166,13 +189,19 @@ class SteamReviewAnalyzer:
         # Create embeddings (with its own checkpointing)
         embeddings = self.create_embeddings(sentences, checkpoint_id, resume)
         
+        gaming_stop_words = [
+        'game', 'games', 'play', 'played', 'playing',
+    'steam', 'review', 'reviews', 'recommend',
+    'hour', 'hours'
+        ]
+
         # Topic modeling
         logger.info("Performing topic modeling...")
         topic_model = BERTopic(
             embedding_model=self.transformer_model,
             verbose=True,
             top_n_words=4,  # Number of words to use for naming
-            vectorizer_model=CountVectorizer(stop_words="english") 
+            vectorizer_model=CountVectorizer(stop_words= list("english") + gaming_stop_words) 
         )
         topics, probs = topic_model.fit_transform(sentences)
         
