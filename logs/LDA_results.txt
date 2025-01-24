@@ -1,0 +1,5105 @@
+
+==============================
+Number of topics: 300
+Model perplexity: 4210.41
+Topics:
+Topic 1:
+  - crazy: 0.0033
+  - female: 0.0033
+  - er: 0.0033
+  - release: 0.0033
+  - long: 0.0033
+  - well: 0.0033
+  - shit: 0.0033
+  - meant: 0.0033
+  - cheaper: 0.0033
+  - removing: 0.0033
+  - ah: 0.0033
+  - game: 0.0033
+  - male: 0.0033
+  - tutorial: 0.0033
+  - pay: 0.0033
+
+Topic 2:
+  - keeping: 600.2479
+  - safe: 485.7200
+  - green: 182.5940
+  - soooo: 120.2887
+  - obnoxious: 82.5580
+  - mage: 79.6249
+  - gabe: 47.8430
+  - cancerous: 34.9433
+  - ehhh: 19.0143
+  - milf: 17.0909
+  - dj: 16.2505
+  - decoction: 15.3856
+  - newell: 11.5489
+  - aand: 11.3321
+  - isometric: 10.1810
+
+Topic 3:
+  - continues: 594.2493
+  - coin: 177.9545
+  - disappoint: 101.7422
+  - gaem: 48.6502
+  - frustrate: 40.9646
+  - perm: 28.4550
+  - hav: 23.3758
+  - cheerful: 20.5969
+  - eco: 17.2737
+  - buyed: 9.5114
+  - new: 5.8323
+  - way: 0.0398
+  - prophunt: 0.0039
+  - money: 0.0034
+  - oh: 0.0034
+
+Topic 4:
+  - among: 3219.4175
+  - sussy: 316.0542
+  - stinky: 118.3119
+  - destroyer: 97.4617
+  - redacted: 67.1964
+  - accepting: 60.5278
+  - streak: 47.9949
+  - trait: 37.3435
+  - know: 16.4570
+  - gaslit: 15.1220
+  - ruined: 10.9882
+  - game: 1.9332
+  - bad: 0.2042
+  - beat: 0.0035
+  - fun: 0.0034
+
+Topic 5:
+  - computer: 1956.2689
+  - program: 661.8397
+  - respond: 153.9610
+  - unpopular: 65.8307
+  - preview: 27.9887
+  - redigit: 9.5629
+  - mentorship: 8.8986
+  - never: 0.0043
+  - like: 0.0035
+  - background: 0.0035
+  - screensavers: 0.0034
+  - even: 0.0034
+  - got: 0.0034
+  - fact: 0.0034
+  - review: 0.0034
+
+Topic 6:
+  - dop: 3757.5716
+  - skibidi: 466.0709
+  - welcome: 234.2449
+  - accidentally: 217.9036
+  - soo: 217.6722
+  - criminal: 213.9813
+  - admit: 180.0023
+  - fi: 170.3806
+  - rizz: 157.4458
+  - sci: 152.0831
+  - moderation: 126.8901
+  - license: 85.0564
+  - sorted: 72.4919
+  - salty: 69.3709
+  - western: 59.2369
+
+Topic 7:
+  - solo: 1987.4881
+  - pubg: 1941.7506
+  - ranked: 1759.1036
+  - fortnite: 678.2514
+  - higher: 302.9086
+  - esports: 228.3651
+  - haha: 201.4581
+  - gary: 147.5500
+  - roblox: 145.7867
+  - group: 111.0629
+  - unranked: 88.7066
+  - dayz: 79.6000
+  - portal: 74.3167
+  - play: 74.0614
+  - need: 70.4363
+
+Topic 8:
+  - game: 0.0034
+  - hour: 0.0033
+  - time: 0.0033
+  - kind: 0.0033
+  - also: 0.0033
+  - amount: 0.0033
+  - people: 0.0033
+  - change: 0.0033
+  - gas: 0.0033
+  - hope: 0.0033
+  - still: 0.0033
+  - would: 0.0033
+  - feel: 0.0033
+  - fed: 0.0033
+  - going: 0.0033
+
+Topic 9:
+  - outfit: 126.5118
+  - longest: 97.1658
+  - cc: 22.9696
+  - facilitate: 13.8076
+  - formatting: 11.7795
+  - slowest: 9.6194
+  - game: 0.4343
+  - terrarium: 0.0034
+  - lack: 0.0034
+  - moral: 0.0033
+  - another: 0.0033
+  - found: 0.0033
+  - change: 0.0033
+  - kept: 0.0033
+  - multiplayer: 0.0033
+
+Topic 10:
+  - developer: 4245.8153
+  - direction: 878.4562
+  - publisher: 753.9254
+  - baron: 93.8380
+  - clueless: 45.8243
+  - advertisement: 45.5754
+  - print: 33.9468
+  - advertise: 21.3469
+  - underhanded: 20.9340
+  - workbench: 20.1141
+  - wraith: 9.3055
+  - fable: 8.2751
+  - game: 0.0231
+  - see: 0.0051
+  - yen: 0.0045
+
+Topic 11:
+  - bandit: 10690.0575
+  - bought: 7716.3967
+  - available: 6051.1005
+  - one: 5137.1331
+  - isnt: 3012.1716
+  - ive: 2007.3783
+  - kid: 1343.5078
+  - banger: 1285.6497
+  - download: 311.2393
+  - thats: 220.4600
+  - godly: 207.5731
+  - say: 127.4726
+  - reg: 104.6872
+  - signing: 102.9899
+  - late: 70.7849
+
+Topic 12:
+  - abigail: 55.0105
+  - hailey: 16.8755
+  - removed: 0.0033
+  - welp: 0.0033
+  - depending: 0.0033
+  - lasted: 0.0033
+  - removing: 0.0033
+  - buying: 0.0033
+  - body: 0.0033
+  - time: 0.0033
+  - seen: 0.0033
+  - fun: 0.0033
+  - replaced: 0.0033
+  - type: 0.0033
+  - logic: 0.0033
+
+Topic 13:
+  - killed: 1762.6231
+  - went: 1626.1114
+  - woke: 433.8749
+  - spawned: 192.6885
+  - racism: 171.3118
+  - trade: 113.7744
+  - judge: 79.4096
+  - away: 26.8027
+  - bubble: 23.3555
+  - cav: 21.4835
+  - acoustic: 17.7989
+  - bogus: 11.9425
+  - game: 11.3586
+  - baldi: 11.1353
+  - genetic: 10.1375
+
+Topic 14:
+  - future: 1264.3317
+  - store: 796.7416
+  - moving: 684.4700
+  - middle: 565.4610
+  - baby: 460.2125
+  - sweet: 376.2825
+  - warbonds: 363.7482
+  - activity: 359.6401
+  - deduction: 254.7764
+  - legendary: 240.0178
+  - nowhere: 235.8699
+  - follow: 209.4578
+  - detected: 166.5390
+  - jumping: 154.7758
+  - shoe: 153.5098
+
+Topic 15:
+  - experience: 5161.8056
+  - gemstone: 5012.8138
+  - world: 5005.2977
+  - gameplay: 4622.4383
+  - game: 4456.7748
+  - every: 2194.4865
+  - offer: 2031.6171
+  - feel: 1884.0256
+  - mechanic: 1751.8738
+  - immersive: 1728.7434
+  - engaging: 1702.0923
+  - character: 1695.0292
+  - whether: 1638.7810
+  - new: 1537.0891
+  - depth: 1489.7296
+
+Topic 16:
+  - weirdo: 54.0649
+  - game: 0.0033
+  - friend: 0.0033
+  - minecraft: 0.0033
+  - hour: 0.0033
+  - one: 0.0033
+  - made: 0.0033
+  - think: 0.0033
+  - called: 0.0033
+  - thanks: 0.0033
+  - playing: 0.0033
+  - green: 0.0033
+  - liking: 0.0033
+  - placing: 0.0033
+  - leave: 0.0033
+
+Topic 17:
+  - wiki: 549.4880
+  - chicken: 432.0414
+  - suit: 374.6280
+  - gam: 69.0632
+  - thirty: 31.9799
+  - dressed: 29.4244
+  - fried: 26.9080
+  - manure: 18.1950
+  - unholy: 17.5069
+  - rainmeter: 16.6741
+  - breast: 15.5936
+  - fertiliser: 12.9133
+  - lik: 12.5974
+  - iridium: 0.8838
+  - watering: 0.0051
+
+Topic 18:
+  - terrible: 2177.6508
+  - stardew: 1854.5380
+  - valley: 1629.3427
+  - win: 1544.7304
+  - fight: 1013.3578
+  - game: 800.8178
+  - ball: 622.3989
+  - animal: 602.5562
+  - reccomend: 578.3165
+  - whenever: 558.7662
+  - pure: 450.3398
+  - infected: 332.7535
+  - rush: 319.8920
+  - plant: 302.4781
+  - beach: 265.6800
+
+Topic 19:
+  - run: 4703.2189
+  - end: 2205.4759
+  - zombie: 1567.9815
+  - low: 1211.3100
+  - beat: 1167.4649
+  - skill: 1077.5092
+  - classic: 1048.8034
+  - game: 852.4655
+  - addictive: 717.3439
+  - poor: 589.8496
+  - useless: 585.9109
+  - ui: 565.8127
+  - test: 425.1563
+  - cross: 422.9241
+  - great: 342.8126
+
+Topic 20:
+  - greedy: 399.9276
+  - og: 288.1762
+  - assume: 180.6494
+  - assed: 39.7006
+  - nya: 33.1131
+  - bearing: 29.7214
+  - kan: 25.4139
+  - husk: 21.4608
+  - burnout: 21.2798
+  - unbearably: 18.5217
+  - discriminate: 16.1235
+  - pi: 11.3860
+  - sharkcards: 11.2118
+  - juggling: 10.8275
+  - fishron: 8.0633
+
+Topic 21:
+  - fart: 0.0034
+  - h: 0.0033
+  - playing: 0.0033
+  - terrarium: 0.0033
+  - game: 0.0033
+  - want: 0.0033
+  - dei: 0.0033
+  - business: 0.0033
+  - من: 0.0033
+  - im: 0.0033
+  - never: 0.0033
+  - horrible: 0.0033
+  - toot: 0.0033
+  - coping: 0.0033
+  - big: 0.0033
+
+Topic 22:
+  - made: 8500.9807
+  - friendship: 420.8275
+  - game: 162.4698
+  - crippled: 27.9729
+  - communicative: 27.0945
+  - rap: 25.8824
+  - smapi: 23.8640
+  - plantera: 23.4447
+  - poggers: 14.3929
+  - mutated: 11.7650
+  - friend: 0.0035
+  - chocolatier: 0.0035
+  - play: 0.0034
+  - got: 0.0034
+  - ruined: 0.0034
+
+Topic 23:
+  - understand: 0.0033
+  - stupid: 0.0033
+  - game: 0.0033
+  - universally: 0.0033
+  - beloved: 0.0033
+  - probably: 0.0033
+  - losing: 0.0033
+  - attention: 0.0033
+  - played: 0.0033
+  - bench: 0.0033
+  - would: 0.0033
+  - back: 0.0033
+  - take: 0.0033
+  - point: 0.0033
+  - grabbed: 0.0033
+
+Topic 24:
+  - cave: 321.9917
+  - bat: 132.5218
+  - crowd: 103.7998
+  - favour: 87.7578
+  - downvote: 46.7377
+  - appease: 36.3505
+  - adictive: 15.5624
+  - journalist: 14.1582
+  - sighted: 11.4608
+  - woke: 0.0036
+  - creation: 0.0036
+  - game: 0.0035
+  - removing: 0.0035
+  - fun: 0.0034
+  - female: 0.0034
+
+Topic 25:
+  - big: 3203.8770
+  - fart: 112.7495
+  - offlined: 102.0055
+  - wire: 49.2493
+  - jynxzi: 48.6327
+  - h: 38.8537
+  - gu: 30.3151
+  - toot: 19.6936
+  - thing: 16.7628
+  - kpop: 16.5277
+  - ching: 12.2351
+  - scawy: 10.8349
+  - tried: 0.0275
+  - jager: 0.0041
+  - fun: 0.0037
+
+Topic 26:
+  - everyday: 285.5559
+  - literal: 270.9818
+  - dimension: 105.5392
+  - invaded: 60.9339
+  - sane: 59.7180
+  - xx: 19.7775
+  - unleashing: 19.1748
+  - wana: 18.1168
+  - dickhead: 15.8553
+  - everygame: 14.1912
+  - vm: 12.2158
+  - excludes: 10.1450
+  - game: 0.0040
+  - everyone: 0.0035
+  - stop: 0.0034
+
+Topic 27:
+  - good: 5731.4337
+  - grind: 3920.2275
+  - hard: 3174.5815
+  - average: 3044.0477
+  - bad: 2705.5071
+  - long: 2697.7720
+  - bug: 2549.6470
+  - easy: 2525.8227
+  - game: 2484.8049
+  - decent: 2357.4509
+  - rank: 1940.2495
+  - gameplay: 1926.4339
+  - story: 1817.9039
+  - paint: 1728.8773
+  - money: 1710.7066
+
+Topic 28:
+  - advance: 133.4132
+  - quickplay: 80.4551
+  - donkey: 53.0946
+  - dishonest: 30.4409
+  - game: 0.0034
+  - gmae: 0.0034
+  - customization: 0.0034
+  - know: 0.0034
+  - choice: 0.0033
+  - player: 0.0033
+  - especially: 0.0033
+  - think: 0.0033
+  - as: 0.0033
+  - different: 0.0033
+  - kill: 0.0033
+
+Topic 29:
+  - ty: 67.0596
+  - really: 0.0034
+  - play: 0.0034
+  - childhood: 0.0034
+  - opinion: 0.0034
+  - would: 0.0034
+  - like: 0.0033
+  - time: 0.0033
+  - baby: 0.0033
+  - enjoy: 0.0033
+  - general: 0.0033
+  - played: 0.0033
+  - first: 0.0033
+  - game: 0.0033
+  - love: 0.0033
+
+Topic 30:
+  - de: 1394.1583
+  - sus: 1058.5815
+  - la: 876.7213
+  - un: 527.7192
+  - que: 466.4787
+  - con: 456.3015
+  - en: 428.2753
+  - el: 335.4065
+  - son: 323.8010
+  - si: 298.3358
+  - juego: 263.2688
+  - mi: 231.3380
+  - e: 213.6449
+  - bile: 209.0051
+  - te: 207.3836
+
+Topic 31:
+  - rn: 167.9491
+  - staying: 129.4073
+  - terminids: 128.0751
+  - visit: 122.3578
+  - ideal: 116.6948
+  - nerve: 107.2695
+  - interacting: 97.9990
+  - wit: 94.7742
+  - boyfriend: 83.3716
+  - restore: 78.4304
+  - escalation: 54.0771
+  - nurse: 30.3383
+  - lesbian: 27.1509
+  - homework: 24.3607
+  - iz: 22.3917
+
+Topic 32:
+  - coming: 1783.8928
+  - fog: 171.2628
+  - troubleshooting: 129.3402
+  - stalker: 62.8852
+  - screensaver: 42.4037
+  - divorce: 41.8681
+  - volumetric: 26.6089
+  - attraction: 18.1441
+  - hogging: 17.8313
+  - skyrim: 3.1248
+  - posing: 0.0036
+  - od: 0.0035
+  - ets: 0.0035
+  - barone: 0.0034
+  - simultaneously: 0.0034
+
+Topic 33:
+  - see: 4842.1823
+  - sad: 1329.8337
+  - okay: 965.6994
+  - addicting: 681.7182
+  - aside: 421.0376
+  - aaa: 246.2464
+  - hardcore: 208.1880
+  - democratic: 172.7386
+  - hooked: 84.2037
+  - lowkey: 77.2019
+  - corrupt: 74.8588
+  - microphone: 68.0183
+  - leaked: 59.2351
+  - shuts: 59.2026
+  - game: 52.6340
+
+Topic 34:
+  - opinion: 1571.6347
+  - believe: 1366.3059
+  - trooper: 390.0662
+  - political: 240.5066
+  - drama: 201.4964
+  - wolf: 188.0049
+  - agenda: 121.3666
+  - cape: 119.5194
+  - arrogant: 51.9382
+  - dandelion: 36.9420
+  - supporter: 22.6889
+  - storefront: 18.1718
+  - nap: 17.0096
+  - notion: 15.8326
+  - kitten: 15.8323
+
+Topic 35:
+  - yennefer: 919.2749
+  - humor: 280.2142
+  - bear: 223.1974
+  - beer: 74.2259
+  - sentry: 39.7768
+  - griffin: 36.8247
+  - gunned: 23.5251
+  - slavic: 23.3369
+  - probs: 21.3544
+  - donating: 20.6841
+  - belly: 13.8662
+  - legged: 11.7179
+  - grandmaster: 11.0316
+  - ruthlessly: 10.6273
+  - judged: 10.3034
+
+Topic 36:
+  - modern: 889.9489
+  - audience: 309.7970
+  - pander: 26.2282
+  - chipi: 23.1981
+  - jus: 23.1729
+  - censored: 16.6959
+  - splatter: 11.7451
+  - yuck: 10.4816
+  - game: 0.0085
+  - go: 0.0034
+  - world: 0.0034
+  - let: 0.0034
+  - played: 0.0034
+  - dont: 0.0034
+  - im: 0.0033
+
+Topic 37:
+  - huge: 1425.4601
+  - break: 852.0094
+  - w: 776.0634
+  - ta: 665.3238
+  - buck: 570.3903
+  - dr: 251.0764
+  - tl: 220.3297
+  - z: 179.7184
+  - bank: 160.8601
+  - storage: 157.1015
+  - wood: 143.2152
+  - po: 137.4922
+  - baka: 121.0337
+  - bang: 114.1293
+  - nie: 97.9916
+
+Topic 38:
+  - server: 9064.0604
+  - try: 985.8263
+  - public: 758.7692
+  - shooting: 758.5462
+  - private: 459.7189
+  - silly: 387.8285
+  - connect: 263.8095
+  - gamble: 175.8718
+  - admins: 171.5882
+  - innocent: 170.9028
+  - deathmatch: 170.2933
+  - xp: 147.0353
+  - loaded: 140.7185
+  - monthly: 136.3258
+  - camping: 121.7923
+
+Topic 39:
+  - helldivers: 2541.9308
+  - democracy: 2098.9945
+  - country: 2096.8759
+  - decision: 1550.2273
+  - game: 1462.7498
+  - service: 1371.5692
+  - forced: 1115.0814
+  - issue: 1023.9909
+  - patch: 999.6351
+  - impossible: 958.1627
+  - month: 907.9432
+  - managed: 869.6295
+  - region: 813.6878
+  - required: 768.1453
+  - data: 762.6204
+
+Topic 40:
+  - passed: 214.0840
+  - guardian: 81.7952
+  - determining: 15.8548
+  - game: 0.0034
+  - even: 0.0034
+  - used: 0.0034
+  - like: 0.0034
+  - console: 0.0034
+  - year: 0.0034
+  - way: 0.0033
+  - time: 0.0033
+  - controller: 0.0033
+  - get: 0.0033
+  - something: 0.0033
+  - want: 0.0033
+
+Topic 41:
+  - connecting: 147.8520
+  - element: 0.0034
+  - well: 0.0033
+  - work: 0.0033
+  - click: 0.0033
+  - o: 0.0033
+  - fucking: 0.0033
+  - cant: 0.0033
+  - join: 0.0033
+  - ui: 0.0033
+  - ever: 0.0033
+  - actually: 0.0033
+  - thatcher: 0.0033
+  - might: 0.0033
+  - god: 0.0033
+
+Topic 42:
+  - structure: 268.8691
+  - bone: 213.4722
+  - bare: 162.4675
+  - optimize: 113.4715
+  - ก: 30.3277
+  - wildest: 29.1213
+  - ได: 21.7015
+  - ม: 19.6066
+  - ไม: 18.5442
+  - แต: 15.4853
+  - geralts: 15.3596
+  - ง: 15.2536
+  - น: 14.8420
+  - อ: 12.6040
+  - localization: 12.5069
+
+Topic 43:
+  - item: 2600.5661
+  - reward: 634.7248
+  - blocked: 260.9638
+  - chest: 195.6740
+  - metal: 157.6963
+  - minus: 106.2669
+  - homophobic: 81.7643
+  - germany: 47.7296
+  - shortcut: 43.6583
+  - keeper: 40.5568
+  - paris: 24.6508
+  - haram: 17.2038
+  - depot: 13.0092
+  - clickbait: 11.1992
+  - moscow: 8.5563
+
+Topic 44:
+  - miss: 972.3333
+  - satisfying: 955.7982
+  - marry: 250.3558
+  - extreme: 213.5274
+  - manages: 175.4877
+  - aura: 34.5747
+  - caroline: 29.8292
+  - milfs: 27.7839
+  - warmup: 18.2317
+  - suggesting: 17.8206
+  - jas: 16.1178
+  - bahamas: 14.4925
+  - scroller: 12.4867
+  - defuser: 12.2241
+  - bride: 9.3164
+
+Topic 45:
+  - army: 136.2672
+  - seige: 40.7085
+  - classical: 17.7317
+  - pegged: 10.7251
+  - game: 0.0034
+  - enjoyer: 0.0034
+  - thought: 0.0034
+  - enemy: 0.0033
+  - goblin: 0.0033
+  - death: 0.0033
+  - year: 0.0033
+  - dei: 0.0033
+  - updating: 0.0033
+  - hardmode: 0.0033
+  - whoever: 0.0033
+
+Topic 46:
+  - ig: 103.1505
+  - blacksmith: 72.0020
+  - becouse: 42.8304
+  - alr: 28.7309
+  - daylight: 26.5678
+  - nahhh: 10.5788
+  - game: 0.2474
+  - sdv: 0.0034
+  - control: 0.0034
+  - jynxi: 0.0034
+  - jynxzi: 0.0033
+  - help: 0.0033
+  - morty: 0.0033
+  - know: 0.0033
+  - bit: 0.0033
+
+Topic 47:
+  - witcher: 2504.6218
+  - found: 1868.4864
+  - geralt: 898.0542
+  - wild: 814.1811
+  - failed: 505.8374
+  - cod: 432.3771
+  - enjoyment: 206.2697
+  - ii: 200.1694
+  - decides: 196.7351
+  - reputation: 187.0102
+  - dinner: 163.0109
+  - evening: 120.7121
+  - rivia: 112.5300
+  - curse: 111.5711
+  - abysmal: 100.3288
+
+Topic 48:
+  - make: 0.0033
+  - political: 0.0033
+  - good: 0.0033
+  - hope: 0.0033
+  - heart: 0.0033
+  - like: 0.0033
+  - sense: 0.0033
+  - year: 0.0033
+  - support: 0.0033
+  - game: 0.0033
+  - war: 0.0033
+  - worth: 0.0033
+  - usd: 0.0033
+  - really: 0.0033
+  - world: 0.0033
+
+Topic 49:
+  - siege: 6711.0074
+  - rainbow: 6098.5799
+  - six: 6087.9310
+  - tom: 253.5007
+  - clancy: 219.4558
+  - breaching: 59.5946
+  - reviewing: 55.4741
+  - montreal: 42.7686
+  - talked: 41.6641
+  - abusing: 30.7029
+  - ew: 29.3133
+  - intergalactic: 29.1736
+  - disgustingly: 27.3542
+  - acog: 24.2176
+  - yap: 21.3266
+
+Topic 50:
+  - guy: 2563.5063
+  - die: 2344.3175
+  - stupid: 1751.9164
+  - hit: 1723.3761
+  - shoot: 1417.5039
+  - lose: 1262.8986
+  - spawn: 947.8595
+  - like: 865.8025
+  - kill: 686.9558
+  - cuz: 639.4898
+  - dude: 588.3968
+  - call: 475.9558
+  - billion: 253.3726
+  - school: 240.5616
+  - outside: 240.2180
+
+Topic 51:
+  - ran: 519.1573
+  - surprised: 319.3406
+  - clue: 231.7347
+  - nigga: 137.0428
+  - meaningless: 115.2410
+  - comedy: 102.4975
+  - kd: 70.8185
+  - overtime: 67.1472
+  - ironically: 59.9679
+  - korean: 58.4229
+  - scripting: 45.8197
+  - smack: 45.4395
+  - hilarity: 44.0017
+  - hitreg: 40.4445
+  - concurrent: 35.1777
+
+Topic 52:
+  - k: 4709.0867
+  - resolution: 171.6975
+  - merge: 123.9652
+  - tower: 113.5236
+  - defender: 110.6008
+  - hog: 79.5000
+  - debt: 57.8748
+  - rider: 49.2001
+  - unfriendly: 34.0497
+  - river: 29.4266
+  - deployed: 28.9638
+  - monty: 28.3099
+  - swarm: 26.0873
+  - kph: 23.7898
+  - careless: 22.7955
+
+Topic 53:
+  - imagination: 247.9429
+  - growing: 241.5247
+  - browsing: 64.0421
+  - sprite: 41.6572
+  - exactly: 0.0035
+  - workspace: 0.0034
+  - item: 0.0034
+  - character: 0.0034
+  - long: 0.0034
+  - game: 0.0034
+  - time: 0.0033
+  - want: 0.0033
+  - tried: 0.0033
+  - much: 0.0033
+  - wiki: 0.0033
+
+Topic 54:
+  - insane: 0.0034
+  - fishing: 0.0034
+  - game: 0.0033
+  - thing: 0.0033
+  - make: 0.0033
+  - think: 0.0033
+  - enjoy: 0.0033
+  - creature: 0.0033
+  - getting: 0.0033
+  - pretty: 0.0033
+  - fucked: 0.0033
+  - million: 0.0033
+  - weird: 0.0033
+  - animal: 0.0033
+  - amount: 0.0033
+
+Topic 55:
+  - game: 10484.9791
+  - time: 9247.2862
+  - every: 6164.5720
+  - crash: 5603.6481
+  - issue: 4368.5353
+  - minute: 2362.8544
+  - fix: 2202.5633
+  - screen: 2194.5068
+  - unplayable: 1837.0339
+  - try: 1782.6194
+  - fixed: 1558.6123
+  - update: 1510.3174
+  - problem: 1305.7265
+  - constantly: 1237.4856
+  - single: 1163.1455
+
+Topic 56:
+  - enjoy: 4173.0376
+  - kinda: 1785.6897
+  - bored: 1228.8989
+  - mid: 1128.2913
+  - room: 1016.2977
+  - step: 754.8273
+  - whilst: 327.0714
+  - locked: 317.6084
+  - optional: 307.0818
+  - stone: 261.2041
+  - sweaty: 222.4308
+  - ngl: 221.1151
+  - utter: 216.8731
+  - game: 213.3071
+  - thoroughly: 155.2866
+
+Topic 57:
+  - discord: 577.9527
+  - official: 550.2038
+  - outbreak: 15.6119
+  - gatekeep: 11.6400
+  - game: 0.0035
+  - joined: 0.0035
+  - got: 0.0034
+  - play: 0.0034
+  - friend: 0.0034
+  - fun: 0.0034
+  - sake: 0.0034
+  - sbmm: 0.0034
+  - person: 0.0034
+  - banned: 0.0033
+  - staff: 0.0033
+
+Topic 58:
+  - rust: 2771.1494
+  - itll: 2382.9070
+  - minecraft: 1480.9127
+  - survival: 1270.2492
+  - raid: 320.5907
+  - facepunch: 286.6693
+  - clan: 225.7460
+  - garrys: 190.9305
+  - raided: 175.4813
+  - ops: 154.7672
+  - harsh: 145.1712
+  - like: 121.6234
+  - raiding: 118.7986
+  - game: 89.3302
+  - tarkov: 87.1890
+
+Topic 59:
+  - loot: 975.5708
+  - gear: 815.0617
+  - book: 520.8300
+  - exploration: 511.9411
+  - warbond: 409.1108
+  - flame: 227.9310
+  - er: 209.8028
+  - festival: 172.5897
+  - reader: 52.2214
+  - maze: 48.8541
+  - frenzied: 40.8232
+  - warden: 31.4730
+  - sen: 30.9315
+  - luv: 27.8250
+  - attentive: 18.5263
+
+Topic 60:
+  - ad: 236.0762
+  - shark: 204.4837
+  - unbelievable: 153.1426
+  - sexual: 137.5378
+  - fivem: 107.0160
+  - toggle: 100.1874
+  - sensitivity: 85.6846
+  - tuning: 75.9810
+  - gtao: 64.0333
+  - court: 49.7675
+  - enterprise: 45.4758
+  - lspdfr: 32.4023
+  - snail: 31.0317
+  - intercourse: 29.9198
+  - added: 27.5528
+
+Topic 61:
+  - get: 24361.8763
+  - gold: 5507.4441
+  - team: 2907.1328
+  - toxic: 2679.1003
+  - killing: 901.8014
+  - nerfs: 571.6675
+  - mate: 452.7079
+  - couldnt: 314.4794
+  - cooldown: 221.7872
+  - past: 207.6175
+  - bag: 195.8400
+  - faggot: 170.8370
+  - staff: 167.3888
+  - sucking: 160.0981
+  - prepared: 140.7930
+
+Topic 62:
+  - game: 43523.0347
+  - evil: 577.6143
+  - resident: 98.6374
+  - mercy: 76.7003
+  - so: 45.2224
+  - presence: 0.0035
+  - removing: 0.0034
+  - like: 0.0034
+  - thing: 0.0034
+  - eye: 0.0034
+  - back: 0.0034
+  - get: 0.0034
+  - gender: 0.0034
+  - people: 0.0034
+  - good: 0.0034
+
+Topic 63:
+  - leaf: 450.6482
+  - image: 285.8818
+  - fallen: 193.6863
+  - dangerous: 148.0896
+  - serf: 94.5721
+  - pandering: 43.2678
+  - garrysmod: 29.7651
+  - steamapps: 25.8645
+  - sacrificed: 23.0191
+  - playermodels: 21.3739
+  - removing: 0.0059
+  - darkrp: 0.0034
+  - wall: 0.0034
+  - gender: 0.0034
+  - hate: 0.0034
+
+Topic 64:
+  - copper: 514.3902
+  - winning: 286.8128
+  - emerald: 112.6785
+  - tickle: 30.0801
+  - alphabet: 12.6797
+  - stop: 0.0034
+  - know: 0.0034
+  - delusional: 0.0033
+  - gender: 0.0033
+  - catering: 0.0033
+  - mouse: 0.0033
+  - squad: 0.0033
+  - based: 0.0033
+  - game: 0.0033
+  - grind: 0.0033
+
+Topic 65:
+  - shooter: 3516.1706
+  - content: 2935.9351
+  - person: 2082.2069
+  - anymore: 1768.6084
+  - added: 1231.7446
+  - used: 826.0752
+  - liked: 586.9549
+  - remember: 487.5860
+  - incredibly: 485.8840
+  - barely: 480.4356
+  - relaxing: 460.4089
+  - hype: 450.3713
+  - wasted: 416.5202
+  - like: 409.0372
+  - game: 406.6875
+
+Topic 66:
+  - pocket: 130.1682
+  - slop: 96.5378
+  - finest: 91.9281
+  - funding: 21.5517
+  - bhopping: 18.3249
+  - curfew: 14.9018
+  - concord: 13.4095
+  - theft: 0.0035
+  - game: 0.0034
+  - battleeye: 0.0034
+  - known: 0.0034
+  - darkrp: 0.0033
+  - kill: 0.0033
+  - ai: 0.0033
+  - bos: 0.0033
+
+Topic 67:
+  - insane: 1268.2633
+  - fishing: 760.2624
+  - existence: 224.1224
+  - unreal: 164.5050
+  - bane: 27.6511
+  - dpi: 21.8153
+  - lining: 20.2555
+  - viewed: 19.2892
+  - incels: 16.1712
+  - vinewood: 15.8101
+  - walter: 14.2816
+  - diligence: 13.1549
+  - visionary: 12.2599
+  - definently: 11.3312
+  - depicting: 11.1861
+
+Topic 68:
+  - cheater: 10656.7365
+  - straight: 834.5882
+  - every: 703.2824
+  - month: 628.2131
+  - game: 581.9914
+  - lot: 280.1073
+  - faceit: 262.1866
+  - witch: 235.3600
+  - ruin: 175.1447
+  - need: 169.7780
+  - ddos: 137.5769
+  - skull: 119.1487
+  - something: 107.0514
+  - state: 105.7603
+  - literally: 101.5662
+
+Topic 69:
+  - booted: 109.2061
+  - backup: 0.0034
+  - game: 0.0034
+  - file: 0.0033
+  - get: 0.0033
+  - seige: 0.0033
+  - tutorial: 0.0033
+  - tk: 0.0033
+  - quickplay: 0.0033
+  - work: 0.0033
+  - bunch: 0.0033
+  - hour: 0.0033
+  - coherent: 0.0033
+  - leaving: 0.0033
+  - wasted: 0.0033
+
+Topic 70:
+  - game: 6501.4750
+  - like: 6127.3185
+  - time: 5171.0981
+  - get: 5113.3641
+  - trinket: 5020.1058
+  - even: 3595.3937
+  - one: 3388.2234
+  - thing: 2844.9747
+  - go: 2490.6490
+  - know: 2062.0216
+  - first: 2021.3656
+  - feel: 1820.6364
+  - really: 1818.9181
+  - would: 1618.1242
+  - every: 1590.6687
+
+Topic 71:
+  - later: 2011.6820
+  - realistic: 1072.4223
+  - small: 869.3605
+  - capacity: 773.3892
+  - figure: 644.8305
+  - smoke: 560.2428
+  - tiny: 198.9499
+  - ice: 158.4259
+  - complaining: 157.3733
+  - planning: 152.1933
+  - yo: 150.6473
+  - patient: 147.8954
+  - fanbase: 146.5111
+  - janky: 141.3449
+  - inch: 133.8250
+
+Topic 72:
+  - boring: 4345.1152
+  - extremely: 1464.2136
+  - slow: 1291.4828
+  - annoying: 1229.7207
+  - repetitive: 921.1776
+  - basically: 613.9423
+  - recomend: 603.6550
+  - quickly: 521.7368
+  - game: 407.2084
+  - becomes: 385.4051
+  - af: 327.5034
+  - gunplay: 252.0026
+  - tedious: 248.9500
+  - chore: 226.5121
+  - paced: 212.1854
+
+Topic 73:
+  - murder: 359.7719
+  - crime: 313.2582
+  - tos: 181.1591
+  - fraud: 77.6061
+  - treason: 40.7764
+  - possession: 34.6682
+  - somethings: 30.0590
+  - misconduct: 17.2514
+  - federal: 17.2280
+  - graveyard: 15.9707
+  - elses: 13.2348
+  - keller: 12.9187
+  - arrest: 12.6726
+  - tampering: 12.2087
+  - helen: 9.6766
+
+Topic 74:
+  - tought: 10.0739
+  - bro: 0.0033
+  - spawn: 0.0033
+  - game: 0.0033
+  - attacking: 0.0033
+  - need: 0.0033
+  - play: 0.0033
+  - crap: 0.0033
+  - mob: 0.0033
+  - like: 0.0033
+  - bos: 0.0033
+  - fun: 0.0033
+  - would: 0.0033
+  - piece: 0.0033
+  - even: 0.0033
+
+Topic 75:
+  - hate: 4530.1820
+  - game: 833.5254
+  - ld: 453.6353
+  - meta: 119.2400
+  - desire: 118.0945
+  - horrid: 115.4908
+  - depressed: 108.4538
+  - overly: 105.3120
+  - exploit: 61.4843
+  - forbid: 60.4519
+  - struggled: 54.2735
+  - blizzard: 51.0971
+  - jam: 50.3786
+  - appreciated: 49.7231
+  - aggressive: 42.8609
+
+Topic 76:
+  - ore: 123.6309
+  - pelican: 90.9583
+  - doo: 67.1078
+  - sexist: 64.7827
+  - __: 59.4491
+  - flop: 47.9782
+  - progressive: 37.7871
+  - gmae: 29.6366
+  - pseudo: 26.4128
+  - game: 2.3520
+  - horse: 0.0035
+  - democratic: 0.0034
+  - body: 0.0034
+  - barone: 0.0034
+  - type: 0.0034
+
+Topic 77:
+  - ash: 8177.1705
+  - show: 3569.2865
+  - soul: 3343.4228
+  - bos: 2940.6292
+  - boss: 2820.6957
+  - elden: 2672.4246
+  - ring: 2656.9311
+  - dark: 1398.7792
+  - sometimes: 1275.7586
+  - fight: 1229.5012
+  - attack: 1148.7569
+  - world: 981.7567
+  - open: 861.0690
+  - design: 789.3944
+  - dlc: 726.3237
+
+Topic 78:
+  - word: 1560.2738
+  - called: 1358.7365
+  - pvp: 1199.8261
+  - n: 1045.8753
+  - pve: 974.5885
+  - white: 254.6818
+  - griefing: 232.1657
+  - trolling: 186.1177
+  - defend: 175.1880
+  - disconnecting: 144.9366
+  - gamemodes: 128.5056
+  - snoy: 121.0174
+  - invasion: 116.0177
+  - netcode: 112.2494
+  - youtubers: 95.7224
+
+Topic 79:
+  - even: 6977.4524
+  - cant: 5440.1240
+  - play: 1223.6182
+  - sex: 1156.5954
+  - without: 510.0166
+  - game: 442.6407
+  - log: 327.3724
+  - moon: 317.6645
+  - raided: 280.8774
+  - screw: 279.7934
+  - playerbase: 266.5380
+  - lord: 179.9563
+  - aimbot: 178.2235
+  - drunk: 141.9596
+  - homeless: 115.1335
+
+Topic 80:
+  - quality: 1941.3368
+  - produce: 85.7280
+  - torch: 58.5204
+  - realistically: 51.8358
+  - dogwater: 51.6191
+  - spammed: 46.3223
+  - redeeming: 40.4759
+  - adjusts: 19.6047
+  - wool: 12.3703
+  - jojamart: 10.9963
+  - explanatory: 10.5208
+  - never: 0.0119
+  - game: 0.0101
+  - gender: 0.0035
+  - made: 0.0034
+
+Topic 81:
+  - screaming: 369.2282
+  - login: 310.2016
+  - painful: 182.6643
+  - popularity: 151.6667
+  - truckersmp: 110.0006
+  - implementing: 86.5572
+  - haley: 85.8624
+  - communist: 59.5381
+  - cumbersome: 57.9757
+  - turkish: 46.3396
+  - attracted: 45.4563
+  - kissing: 45.2761
+  - secured: 32.4282
+  - harvey: 31.4146
+  - unmodded: 24.5703
+
+Topic 82:
+  - rdm: 45.3219
+  - prophunt: 0.0033
+  - diferentes: 0.0033
+  - wall: 0.0033
+  - mystical: 0.0033
+  - emphasize: 0.0033
+  - ssn: 0.0033
+  - cleverly: 0.0033
+  - exorbitant: 0.0033
+  - midst: 0.0033
+  - exposure: 0.0033
+  - commitment: 0.0033
+  - liberdade: 0.0033
+  - moderation: 0.0033
+  - fee: 0.0033
+
+Topic 83:
+  - wallpapper: 15.4326
+  - terminally: 10.8820
+  - game: 0.0034
+  - gender: 0.0033
+  - time: 0.0033
+  - bottom: 0.0033
+  - removed: 0.0033
+  - door: 0.0033
+  - place: 0.0033
+  - every: 0.0033
+  - year: 0.0033
+  - online: 0.0033
+  - people: 0.0033
+  - press: 0.0033
+  - see: 0.0033
+
+Topic 84:
+  - friendliness: 12.5524
+  - scene: 0.0034
+  - e: 0.0034
+  - ok: 0.0034
+  - lot: 0.0033
+  - pero: 0.0033
+  - h: 0.0033
+  - yet: 0.0033
+  - game: 0.0033
+  - run: 0.0033
+  - part: 0.0033
+  - rare: 0.0033
+  - really: 0.0033
+  - repeat: 0.0033
+  - o: 0.0033
+
+Topic 85:
+  - year: 8775.9924
+  - ten: 506.2677
+  - chose: 263.0759
+  - kidding: 78.9709
+  - goblin: 75.9678
+  - wound: 34.2636
+  - credential: 20.1367
+  - tinkerer: 16.0368
+  - separating: 14.4332
+  - game: 0.0047
+  - barely: 0.0035
+  - bad: 0.0034
+  - play: 0.0034
+  - like: 0.0034
+  - pierre: 0.0034
+
+Topic 86:
+  - bad: 7726.7042
+  - game: 5186.7911
+  - suck: 3636.4605
+  - like: 2532.5055
+  - real: 2400.2736
+  - worse: 1493.8494
+  - feel: 1204.4495
+  - little: 1181.8783
+  - season: 982.9113
+  - last: 906.8740
+  - watch: 828.4892
+  - boy: 665.5343
+  - nothing: 640.5175
+  - thing: 584.2332
+  - randoms: 508.4264
+
+Topic 87:
+  - seen: 1564.9742
+  - thank: 1377.5554
+  - sell: 629.8504
+  - bullshit: 568.0410
+  - cdpr: 547.8501
+  - reading: 447.5860
+  - putting: 398.6878
+  - br: 281.4594
+  - joined: 274.6421
+  - making: 209.9902
+  - sbi: 180.1384
+  - cu: 141.5042
+  - fk: 102.1279
+  - employee: 82.8082
+  - approved: 79.8256
+
+Topic 88:
+  - slowly: 560.7380
+  - digging: 85.6620
+  - kernal: 26.0900
+  - downward: 21.1344
+  - deimos: 19.6822
+  - dumber: 16.9580
+  - oval: 14.7344
+  - alibi: 13.1718
+  - grossly: 11.2376
+  - hate: 0.0034
+  - moss: 0.0034
+  - tedious: 0.0034
+  - lot: 0.0034
+  - rivia: 0.0033
+  - devs: 0.0033
+
+Topic 89:
+  - immediately: 714.3656
+  - butt: 228.4639
+  - partner: 188.9559
+  - web: 127.0840
+  - furry: 108.5016
+  - pirate: 89.8958
+  - threatened: 46.3934
+  - guitar: 20.0191
+  - unsecure: 16.1330
+  - dox: 13.5702
+  - admiring: 12.7054
+  - doxxed: 11.7581
+  - game: 1.5124
+  - dark: 0.0144
+  - play: 0.0054
+
+Topic 90:
+  - using: 2375.4193
+  - cheating: 2234.3991
+  - report: 968.9339
+  - bother: 679.8889
+  - odd: 122.3662
+  - aimbots: 114.1386
+  - without: 107.7551
+  - even: 88.1374
+  - wallhack: 61.7685
+  - smurfing: 44.4481
+  - plugin: 33.6041
+  - endgame: 27.7262
+  - instead: 26.3630
+  - aimbotting: 25.8346
+  - anticheats: 22.4461
+
+Topic 91:
+  - expensive: 402.4227
+  - multi: 319.0553
+  - discount: 225.4763
+  - spin: 212.2628
+  - confused: 151.0202
+  - budget: 118.3932
+  - elli: 84.9945
+  - cayo: 75.8847
+  - perico: 58.3811
+  - rochelle: 49.4843
+  - hearted: 44.9027
+  - gm: 36.2314
+  - botched: 21.1210
+  - genuinly: 20.0503
+  - adicting: 16.3908
+
+Topic 92:
+  - brute: 0.0033
+  - treated: 0.0033
+  - pink: 0.0033
+  - loathe: 0.0033
+  - gog: 0.0033
+  - blended: 0.0033
+  - rain: 0.0033
+  - сколько: 0.0033
+  - society: 0.0033
+  - payouts: 0.0033
+  - ehhh: 0.0033
+  - angola: 0.0033
+  - ridiculus: 0.0033
+  - grind: 0.0033
+  - recommendable: 0.0033
+
+Topic 93:
+  - terrarium: 0.0033
+  - may: 0.0033
+  - game: 0.0033
+  - player: 0.0033
+  - gaming: 0.0033
+  - critic: 0.0033
+  - multiplayer: 0.0033
+  - criticism: 0.0033
+  - narrative: 0.0033
+  - experience: 0.0033
+  - platform: 0.0033
+  - graphic: 0.0033
+  - argue: 0.0033
+  - learning: 0.0033
+  - issue: 0.0033
+
+Topic 94:
+  - taken: 802.9414
+  - fantasy: 611.3112
+  - beta: 353.1007
+  - news: 225.5891
+  - moral: 181.7642
+  - downfall: 80.5954
+  - compass: 19.2298
+  - farmville: 13.9502
+  - aquired: 12.7620
+  - mishandling: 11.9465
+  - disowned: 9.6324
+  - game: 0.0068
+  - virtue: 0.0041
+  - gender: 0.0040
+  - right: 0.0037
+
+Topic 95:
+  - asian: 115.3544
+  - causal: 16.3638
+  - screensavers: 14.5553
+  - gender: 0.0034
+  - option: 0.0033
+  - game: 0.0033
+  - white: 0.0033
+  - play: 0.0033
+  - patch: 0.0033
+  - male: 0.0033
+  - recommend: 0.0033
+  - rip: 0.0033
+  - collabs: 0.0033
+  - anymore: 0.0033
+  - love: 0.0033
+
+Topic 96:
+  - ninja: 56.1538
+  - turtle: 38.6500
+  - cracking: 30.7933
+  - mutant: 28.8153
+  - jerry: 20.3185
+  - savior: 13.8745
+  - coconut: 13.6500
+  - infertile: 11.4698
+  - avail: 0.0034
+  - hate: 0.0034
+  - game: 0.0034
+  - hard: 0.0034
+  - tried: 0.0034
+  - troubleshooting: 0.0034
+  - time: 0.0034
+
+Topic 97:
+  - desert: 159.8801
+  - pierre: 105.7676
+  - underground: 0.0033
+  - mayonnaise: 0.0033
+  - junimo: 0.0033
+  - go: 0.0033
+  - play: 0.0033
+  - jungle: 0.0033
+  - joke: 0.0033
+  - respawns: 0.0033
+  - teletubbies: 0.0033
+  - blaine: 0.0033
+  - ld: 0.0033
+  - capping: 0.0033
+  - nudity: 0.0033
+
+Topic 98:
+  - ashamed: 88.9239
+  - gifs: 23.7317
+  - themselfs: 13.0843
+  - murican: 8.2530
+  - ideology: 0.0033
+  - could: 0.0033
+  - push: 0.0033
+  - refund: 0.0033
+  - get: 0.0033
+  - dei: 0.0033
+  - people: 0.0033
+  - turn: 0.0033
+  - support: 0.0033
+  - removing: 0.0033
+  - form: 0.0033
+
+Topic 99:
+  - crazy: 1315.9967
+  - hopefully: 626.5678
+  - damage: 620.6514
+  - cute: 452.9818
+  - zone: 445.0200
+  - steal: 370.8718
+  - shotgun: 367.4365
+  - apart: 336.4241
+  - unstable: 303.7353
+  - boom: 202.2536
+  - ish: 201.2042
+  - edge: 189.5000
+  - experiencing: 168.3191
+  - priority: 150.8624
+  - rifle: 150.1102
+
+Topic 100:
+  - old: 3727.2888
+  - else: 1715.2857
+  - star: 836.3604
+  - solid: 789.5572
+  - scene: 764.9657
+  - something: 756.7638
+  - idk: 755.4904
+  - racist: 753.4693
+  - cut: 684.6516
+  - turned: 637.3360
+  - email: 576.0670
+  - game: 540.3471
+  - deleted: 338.4670
+  - part: 326.2645
+  - lvl: 312.9987
+
+Topic 101:
+  - slime: 158.5744
+  - jungle: 140.0556
+  - underground: 126.9211
+  - stance: 98.2474
+  - mimic: 71.1967
+  - satirical: 66.2761
+  - fnaf: 63.8572
+  - lewis: 40.2141
+  - serpent: 38.8459
+  - adversary: 31.1647
+  - spiked: 29.0313
+  - northern: 28.6092
+  - kidney: 25.5321
+  - arrival: 20.7153
+  - lao: 12.4512
+
+Topic 102:
+  - account: 7819.7603
+  - already: 2119.9665
+  - pay: 1633.1743
+  - need: 1424.1877
+  - another: 1313.4204
+  - linking: 1034.4877
+  - hacked: 413.4678
+  - harvest: 303.5918
+  - linked: 296.1996
+  - original: 228.7015
+  - connected: 209.3048
+  - game: 179.5411
+  - play: 166.8615
+  - torture: 164.1162
+  - unacceptable: 162.8782
+
+Topic 103:
+  - online: 6360.6448
+  - psn: 5542.1376
+  - please: 4759.5786
+  - fix: 3381.5872
+  - problem: 2721.0805
+  - working: 1167.3241
+  - connect: 676.4879
+  - issue: 570.9236
+  - offline: 559.1089
+  - help: 499.3125
+  - message: 324.5588
+  - ridiculous: 307.9725
+  - play: 248.8474
+  - game: 225.7968
+  - updating: 140.4005
+
+Topic 104:
+  - plane: 233.9910
+  - solved: 148.4769
+  - tornado: 138.4005
+  - forgive: 85.3955
+  - trashy: 49.2269
+  - swim: 44.0001
+  - experiance: 28.3288
+  - challange: 24.2503
+  - wen: 23.7974
+  - hone: 22.5537
+  - practise: 19.5198
+  - yu: 14.6303
+  - tryin: 14.2375
+  - ordnance: 13.8894
+  - bein: 10.8061
+
+Topic 105:
+  - progress: 1580.9753
+  - april: 136.3590
+  - accused: 77.9076
+  - bloated: 75.8446
+  - toaster: 64.6362
+  - retro: 58.8777
+  - sam: 53.3873
+  - tdm: 50.0306
+  - spreadsheet: 46.9416
+  - ounce: 40.5845
+  - sdv: 33.2792
+  - al: 32.3845
+  - igra: 29.5868
+  - callouts: 28.2481
+  - haiti: 13.5943
+
+Topic 106:
+  - battle: 2240.3108
+  - lost: 2003.2851
+  - error: 1120.6509
+  - value: 785.7388
+  - pick: 779.1257
+  - troll: 500.3953
+  - poorly: 486.5591
+  - designed: 406.6281
+  - website: 319.0880
+  - sanity: 297.5834
+  - pathetic: 227.4806
+  - outdated: 151.3411
+  - dozen: 150.9758
+  - specially: 128.3497
+  - champion: 119.2989
+
+Topic 107:
+  - arrowhead: 2229.2592
+  - goat: 186.8168
+  - sandwich: 47.9218
+  - liberator: 26.5576
+  - game: 0.4510
+  - jynxzi: 0.0034
+  - ever: 0.0034
+  - player: 0.0034
+  - next: 0.0033
+  - feed: 0.0033
+  - tell: 0.0033
+  - pelican: 0.0033
+  - seen: 0.0033
+  - time: 0.0033
+  - considered: 0.0033
+
+Topic 108:
+  - molested: 35.4383
+  - violently: 25.8208
+  - like: 0.0034
+  - poop: 0.0033
+  - bad: 0.0033
+  - demon: 0.0033
+  - game: 0.0033
+  - woke: 0.0033
+  - black: 0.0033
+  - go: 0.0033
+  - eater: 0.0033
+  - got: 0.0033
+  - people: 0.0033
+  - random: 0.0033
+  - terrible: 0.0033
+
+Topic 109:
+  - nice: 6969.7206
+  - cool: 3621.0729
+  - super: 3313.6808
+  - always: 3303.4598
+  - min: 852.9489
+  - ton: 617.3486
+  - stuff: 403.5627
+  - awesome: 393.4205
+  - blah: 392.5914
+  - singleplayer: 340.4629
+  - weird: 327.7405
+  - fell: 281.5468
+  - enjoyable: 271.7801
+  - game: 247.1149
+  - graphic: 229.0940
+
+Topic 110:
+  - pushed: 238.5028
+  - jbmod: 54.9293
+  - copycat: 15.6244
+  - game: 0.0034
+  - appease: 0.0034
+  - terrarium: 0.0033
+  - play: 0.0033
+  - hour: 0.0033
+  - remember: 0.0033
+  - money: 0.0033
+  - child: 0.0033
+  - chocolatier: 0.0033
+  - say: 0.0033
+  - wait: 0.0033
+  - good: 0.0033
+
+Topic 111:
+  - pc: 7191.4489
+  - setting: 2202.9720
+  - p: 2201.9148
+  - version: 2083.0521
+  - graphic: 1683.3003
+  - console: 1617.2724
+  - performance: 1214.6463
+  - x: 1074.6603
+  - even: 1062.2802
+  - game: 859.8967
+  - xbox: 827.8055
+  - card: 727.4361
+  - mobile: 723.3325
+  - operator: 641.0053
+  - high: 562.6421
+
+Topic 112:
+  - confirmed: 53.0312
+  - chapa: 23.1984
+  - battleye: 0.0034
+  - game: 0.0033
+  - dei: 0.0033
+  - fucking: 0.0033
+  - made: 0.0033
+  - year: 0.0033
+  - expert: 0.0033
+  - mode: 0.0033
+  - super: 0.0033
+  - honestly: 0.0033
+  - boss: 0.0033
+  - wall: 0.0033
+  - b: 0.0033
+
+Topic 113:
+  - mob: 307.1424
+  - rolling: 230.0260
+  - bet: 158.2740
+  - ttt: 77.2821
+  - approaching: 55.7598
+  - cactus: 45.1117
+  - belt: 41.6375
+  - pickaxe: 36.7562
+  - receipt: 24.6754
+  - harass: 21.4104
+  - game: 2.4361
+  - later: 0.0060
+  - get: 0.0041
+  - fun: 0.0038
+  - rdm: 0.0035
+
+Topic 114:
+  - system: 3899.6374
+  - running: 2278.6657
+  - access: 1635.9825
+  - save: 1207.4123
+  - file: 994.2064
+  - drop: 703.2579
+  - including: 522.2852
+  - optimized: 490.1573
+  - data: 440.1584
+  - delete: 366.8381
+  - caused: 366.5150
+  - reporting: 267.3796
+  - solve: 237.6439
+  - cloud: 211.8417
+  - hardware: 208.1158
+
+Topic 115:
+  - care: 2997.7702
+  - top: 2274.6722
+  - genuinely: 1068.8621
+  - beginning: 723.4186
+  - blow: 493.8456
+  - nobody: 490.8922
+  - ppl: 393.8289
+  - arent: 263.3821
+  - certainly: 252.8125
+  - upset: 235.3503
+  - creation: 229.9505
+  - successful: 204.5918
+  - explain: 196.9780
+  - arc: 125.8711
+  - wrong: 108.6186
+
+Topic 116:
+  - game: 0.0033
+  - make: 0.0033
+  - year: 0.0033
+  - worth: 0.0033
+  - hope: 0.0033
+  - terrarium: 0.0033
+  - closest: 0.0033
+  - would: 0.0033
+  - ah: 0.0033
+  - told: 0.0033
+  - thing: 0.0033
+  - got: 0.0033
+  - change: 0.0033
+  - people: 0.0033
+  - like: 0.0033
+
+Topic 117:
+  - credit: 5698.5881
+  - golden: 5234.2038
+  - home: 675.9875
+  - land: 371.4536
+  - town: 329.0222
+  - dream: 316.5581
+  - upon: 298.8483
+  - hide: 295.5130
+  - seek: 285.0446
+  - power: 280.7328
+  - dance: 266.5643
+  - royal: 250.0506
+  - magic: 234.7870
+  - come: 212.5851
+  - legend: 177.6033
+
+Topic 118:
+  - play: 20814.8082
+  - friend: 14105.7201
+  - game: 6578.1375
+  - great: 5227.3325
+  - join: 1901.3404
+  - thanks: 1348.2161
+  - group: 1029.8468
+  - age: 802.4261
+  - gave: 740.5965
+  - totally: 675.2746
+  - royale: 668.8729
+  - want: 661.5387
+  - session: 568.4331
+  - queue: 496.0404
+  - able: 488.6386
+
+Topic 119:
+  - important: 864.2239
+  - angry: 444.7266
+  - teamkill: 23.3685
+  - поставил: 14.1451
+  - geneva: 11.2843
+  - remeber: 8.7858
+  - game: 0.0035
+  - get: 0.0034
+  - lack: 0.0034
+  - dont: 0.0034
+  - bad: 0.0034
+  - minecraft: 0.0034
+  - even: 0.0034
+  - official: 0.0034
+  - year: 0.0033
+
+Topic 120:
+  - little: 0.0033
+  - heart: 0.0033
+  - ky: 0.0033
+  - turned: 0.0033
+  - crystal: 0.0033
+  - got: 0.0033
+  - applied: 0.0033
+  - yard: 0.0033
+  - spend: 0.0033
+  - borne: 0.0033
+  - foil: 0.0033
+  - refreshingly: 0.0033
+  - sabotaging: 0.0033
+  - attracted: 0.0033
+  - moved: 0.0033
+
+Topic 121:
+  - anything: 3470.2530
+  - edit: 2042.6178
+  - alot: 1229.6239
+  - there: 927.0505
+  - actual: 920.0498
+  - modded: 598.1558
+  - recoil: 566.9081
+  - comment: 552.7502
+  - rp: 426.7835
+  - lmao: 305.5086
+  - like: 265.2395
+  - forcing: 230.9212
+  - complain: 218.3783
+  - actually: 87.6543
+  - french: 83.5021
+
+Topic 122:
+  - amount: 3319.6279
+  - large: 734.3160
+  - safety: 158.2219
+  - fought: 137.9712
+  - networking: 87.6835
+  - altogether: 85.3159
+  - episode: 72.7035
+  - handful: 67.6098
+  - optimal: 61.9921
+  - ungodly: 51.9345
+  - unethical: 26.2694
+  - powerpoint: 20.8734
+  - fixation: 20.7783
+  - coziness: 10.9962
+  - glacial: 10.1688
+
+Topic 123:
+  - non: 1409.5550
+  - di: 75.5214
+  - saga: 53.5715
+  - fa: 23.9729
+  - ci: 20.2699
+  - gioco: 15.2573
+  - fluent: 11.8227
+  - complacent: 11.0500
+  - escalated: 10.3541
+  - la: 0.0035
+  - come: 0.0034
+  - pa: 0.0034
+  - andrzej: 0.0034
+  - corpo: 0.0034
+  - sex: 0.0033
+
+Topic 124:
+  - steam: 7302.0085
+  - sony: 7283.6253
+  - user: 1878.9492
+  - linux: 1728.5663
+  - deck: 1409.5576
+  - playstation: 1296.6671
+  - software: 1106.4268
+  - able: 734.9245
+  - learning: 664.5132
+  - great: 619.3175
+  - friendly: 557.0221
+  - decided: 538.1925
+  - game: 496.5705
+  - battleye: 437.1364
+  - library: 419.5835
+
+Topic 125:
+  - terrarium: 2042.9797
+  - pixel: 407.1386
+  - trevor: 252.9040
+  - eh: 95.0782
+  - sending: 90.2686
+  - franklin: 85.6358
+  - micheal: 40.5322
+  - injustice: 21.8391
+  - carnage: 21.6466
+  - injecting: 18.5926
+  - alias: 16.1188
+  - treasonous: 13.9060
+  - robber: 12.7372
+  - criminally: 10.6493
+  - philip: 9.6923
+
+Topic 126:
+  - и: 818.4688
+  - в: 781.7565
+  - не: 566.9356
+  - на: 426.2378
+  - игра: 377.1720
+  - что: 315.8329
+  - с: 303.9189
+  - я: 299.4221
+  - это: 269.7852
+  - но: 251.3371
+  - за: 180.3600
+  - то: 178.9062
+  - из: 173.9098
+  - а: 161.7466
+  - как: 148.2053
+
+Topic 127:
+  - many: 12018.4795
+  - filter: 317.2837
+  - replaced: 230.5723
+  - option: 101.9191
+  - boob: 71.7722
+  - booby: 37.4891
+  - game: 10.8828
+  - recolors: 10.2931
+  - blackbeard: 10.2789
+  - see: 0.6353
+  - removed: 0.0123
+  - body: 0.0041
+  - like: 0.0035
+  - gender: 0.0034
+  - dryad: 0.0034
+
+Topic 128:
+  - trend: 157.1111
+  - guilty: 60.3773
+  - imagined: 45.3534
+  - hollywood: 26.8663
+  - game: 0.0034
+  - character: 0.0034
+  - play: 0.0034
+  - multiplayer: 0.0034
+  - growing: 0.0034
+  - imagination: 0.0033
+  - friend: 0.0033
+  - story: 0.0033
+  - want: 0.0033
+  - fantasy: 0.0033
+  - feel: 0.0033
+
+Topic 129:
+  - pod: 156.2820
+  - من: 41.0370
+  - في: 29.0761
+  - inject: 27.6656
+  - على: 22.7181
+  - لعبة: 22.2473
+  - mislead: 16.8638
+  - فيه: 14.6645
+  - اللعبة: 13.9106
+  - كل: 10.8752
+  - play: 0.0034
+  - game: 0.0034
+  - year: 0.0034
+  - garbage: 0.0033
+  - time: 0.0033
+
+Topic 130:
+  - chat: 1206.7913
+  - ask: 711.8064
+  - creator: 563.6299
+  - communicate: 196.2280
+  - abandoned: 184.9881
+  - faceit: 130.0468
+  - penis: 117.2393
+  - consent: 69.5437
+  - bullied: 63.4310
+  - proximity: 59.8031
+  - affecting: 57.9837
+  - publicly: 51.8503
+  - cookie: 49.1111
+  - matrix: 47.1579
+  - harassed: 41.7890
+
+Topic 131:
+  - review: 7389.2009
+  - negative: 2133.1128
+  - positive: 1723.7921
+  - leave: 1262.4193
+  - giving: 758.6175
+  - leaving: 604.4920
+  - fair: 582.6660
+  - rating: 530.8055
+  - probably: 507.6301
+  - read: 444.3030
+  - score: 287.1990
+  - change: 192.3271
+  - know: 155.6309
+  - earlier: 120.2643
+  - said: 119.7588
+
+Topic 132:
+  - tradition: 45.9794
+  - game: 0.0033
+  - get: 0.0033
+  - horrible: 0.0033
+  - new: 0.0033
+  - think: 0.0033
+  - wasted: 0.0033
+  - hour: 0.0033
+  - player: 0.0033
+  - life: 0.0033
+  - noob: 0.0033
+  - soooo: 0.0033
+  - experience: 0.0033
+  - bad: 0.0033
+  - cu: 0.0033
+
+Topic 133:
+  - e: 736.2042
+  - de: 599.7133
+  - que: 548.1810
+  - jogo: 491.7470
+  - em: 424.2164
+  - é: 347.1649
+  - um: 302.3322
+  - eu: 294.2142
+  - o: 284.1245
+  - com: 280.5982
+  - lua: 241.5712
+  - se: 239.1968
+  - não: 217.9217
+  - uma: 174.9391
+  - muito: 172.5457
+
+Topic 134:
+  - aint: 239.9546
+  - smurfs: 140.3880
+  - headlight: 46.3128
+  - actualy: 36.3810
+  - watermelon: 28.0748
+  - an: 23.9913
+  - singlehandedly: 13.5308
+  - hellbent: 12.5857
+  - stinking: 10.3717
+  - game: 0.0035
+  - nah: 0.0034
+  - barone: 0.0034
+  - sorry: 0.0034
+  - way: 0.0033
+  - appeal: 0.0033
+
+Topic 135:
+  - make: 14388.8245
+  - rage: 713.2621
+  - holy: 360.0182
+  - game: 221.2869
+  - inducing: 139.1333
+  - stink: 54.0805
+  - sanction: 43.7170
+  - goood: 34.7703
+  - competative: 21.9481
+  - quitter: 20.6782
+  - unheard: 19.8628
+  - frags: 18.0562
+  - screeching: 16.3867
+  - gamee: 10.7162
+  - finnish: 10.4977
+
+Topic 136:
+  - people: 10894.7063
+  - ill: 463.3708
+  - knowledge: 288.9581
+  - mentally: 255.3429
+  - favor: 249.4796
+  - actually: 85.9802
+  - bite: 72.6056
+  - california: 34.5087
+  - common: 27.8988
+  - doggy: 18.4644
+  - another: 13.9864
+  - andd: 12.8065
+  - insider: 12.4684
+  - millionaire: 10.8917
+  - mentaly: 10.0594
+
+Topic 137:
+  - superiority: 12.8187
+  - festering: 11.1378
+  - creeping: 0.0033
+  - devs: 0.0033
+  - way: 0.0033
+  - game: 0.0033
+  - used: 0.0033
+  - like: 0.0033
+  - play: 0.0033
+  - group: 0.0033
+  - society: 0.0033
+  - certain: 0.0033
+  - done: 0.0033
+  - moral: 0.0033
+  - attitude: 0.0033
+
+Topic 138:
+  - suggest: 506.1065
+  - retard: 140.5441
+  - attract: 56.1669
+  - game: 0.0066
+  - smoker: 0.0034
+  - play: 0.0034
+  - cav: 0.0034
+  - fucking: 0.0034
+  - looking: 0.0034
+  - mainly: 0.0034
+  - recommend: 0.0033
+  - pc: 0.0033
+  - controller: 0.0033
+  - would: 0.0033
+  - fun: 0.0033
+
+Topic 139:
+  - october: 97.7483
+  - winner: 88.7116
+  - bandai: 31.8930
+  - disruption: 24.1062
+  - satnav: 22.5743
+  - schizophrenia: 21.6377
+  - namco: 18.5977
+  - discrimination: 16.9329
+  - tekken: 16.9208
+  - uphold: 15.5960
+  - nav: 15.4883
+  - sanctioned: 12.3319
+  - unexplained: 11.2644
+  - online: 0.0035
+  - issue: 0.0035
+
+Topic 140:
+  - mean: 2617.8486
+  - imposter: 1239.4473
+  - girl: 609.8413
+  - goofy: 224.6718
+  - gyatt: 105.1202
+  - eric: 63.2973
+  - duke: 46.9191
+  - altered: 35.8967
+  - rizzler: 25.6801
+  - carbon: 19.2163
+  - kaboom: 18.0365
+  - body: 0.0214
+  - made: 0.0097
+  - want: 0.0059
+  - chocolatier: 0.0035
+
+Topic 141:
+  - u: 12195.1331
+  - say: 10630.8792
+  - game: 4996.2845
+  - ur: 1009.7634
+  - parent: 164.6270
+  - shut: 125.8316
+  - stole: 111.6262
+  - ect: 73.5353
+  - horrific: 57.3921
+  - devil: 46.6890
+  - recomand: 35.6030
+  - urself: 35.2081
+  - spouse: 33.0420
+  - gyat: 30.1005
+  - like: 28.8920
+
+Topic 142:
+  - as: 2795.2549
+  - head: 2675.5134
+  - shitty: 932.3830
+  - water: 392.0734
+  - game: 244.6486
+  - goated: 141.4866
+  - aka: 132.2535
+  - oppressor: 105.5152
+  - mk: 104.3775
+  - asshole: 104.3234
+  - helping: 103.4589
+  - pp: 72.2402
+  - bash: 64.7650
+  - med: 59.4486
+  - fkn: 56.6133
+
+Topic 143:
+  - lobby: 2406.0890
+  - left: 2271.7779
+  - control: 1909.8513
+  - controller: 1280.3155
+  - mouse: 915.6885
+  - mind: 841.6510
+  - right: 812.5303
+  - keyboard: 764.8261
+  - premium: 686.2315
+  - setup: 528.3308
+  - hand: 507.4805
+  - everybody: 262.4422
+  - lazy: 148.8402
+  - interface: 105.7724
+  - frustrated: 95.4081
+
+Topic 144:
+  - cks: 11.7008
+  - oppinion: 10.1885
+  - hate: 0.0034
+  - game: 0.0033
+  - hundred: 0.0033
+  - playing: 0.0033
+  - like: 0.0033
+  - hour: 0.0033
+  - every: 0.0033
+  - interface: 0.0033
+  - play: 0.0033
+  - moment: 0.0033
+  - keep: 0.0033
+  - day: 0.0033
+  - without: 0.0033
+
+Topic 145:
+  - life: 5341.2307
+  - map: 3698.1451
+  - build: 1630.7553
+  - farming: 904.1813
+  - lol: 898.7284
+  - day: 857.5486
+  - endless: 818.1705
+  - ready: 767.7670
+  - house: 699.9035
+  - sleep: 650.8696
+  - building: 631.9792
+  - like: 592.9429
+  - mental: 583.8127
+  - forget: 558.9804
+  - night: 548.0701
+
+Topic 146:
+  - quit: 811.0426
+  - gg: 274.8501
+  - autistic: 150.2829
+  - comunity: 61.5985
+  - pleased: 53.7856
+  - electrical: 43.5093
+  - furries: 34.8673
+  - freind: 24.0354
+  - gamplay: 21.6909
+  - bossfight: 17.7897
+  - game: 4.6324
+  - devs: 0.0035
+  - fuze: 0.0035
+  - people: 0.0034
+  - dont: 0.0034
+
+Topic 147:
+  - got: 9413.6453
+  - reason: 3271.5150
+  - banned: 2979.9615
+  - someone: 1541.2277
+  - said: 1452.8547
+  - nothing: 631.6892
+  - saying: 620.4367
+  - know: 560.3898
+  - happened: 515.8863
+  - never: 484.3339
+  - case: 461.8361
+  - serious: 332.5122
+  - tell: 295.8916
+  - reported: 215.7737
+  - game: 185.9647
+
+Topic 148:
+  - cheat: 4947.3274
+  - anti: 3884.9047
+  - fps: 3590.9406
+  - game: 2842.1085
+  - ubisoft: 1427.1583
+  - horrible: 1398.9336
+  - support: 1149.1218
+  - anticheat: 1068.6777
+  - hell: 986.2552
+  - competitive: 772.3434
+  - use: 614.3997
+  - monitor: 542.0662
+  - due: 527.5241
+  - practice: 495.5450
+  - company: 465.0790
+
+Topic 149:
+  - control: 0.0033
+  - slow: 0.0033
+  - bare: 0.0033
+  - pace: 0.0033
+  - concept: 0.0033
+  - old: 0.0033
+  - mechanic: 0.0033
+  - nice: 0.0033
+  - angola: 0.0033
+  - damaged: 0.0033
+  - enormous: 0.0033
+  - crab: 0.0033
+  - senegal: 0.0033
+  - arrested: 0.0033
+  - stockholm: 0.0033
+
+Topic 150:
+  - jump: 841.6940
+  - gate: 217.5586
+  - dirt: 129.1708
+  - bridge: 119.0810
+  - wash: 36.7651
+  - invited: 24.6715
+  - shovel: 19.1888
+  - indoors: 16.3707
+  - drunkard: 5.7416
+  - like: 0.0035
+  - building: 0.0034
+  - fable: 0.0034
+  - game: 0.0034
+  - hour: 0.0034
+  - meant: 0.0033
+
+Topic 151:
+  - heavy: 637.8015
+  - roll: 539.0179
+  - shield: 331.2719
+  - raise: 179.6539
+  - swing: 172.6948
+  - railgun: 144.9652
+  - slash: 108.9904
+  - light: 90.1404
+  - slam: 80.1488
+  - stomp: 62.7549
+  - gravity: 61.7585
+  - chop: 59.5788
+  - tit: 51.7025
+  - axe: 51.0906
+  - sebastian: 49.7842
+
+Topic 152:
+  - reversed: 267.3912
+  - cent: 155.6070
+  - untrustworthy: 13.9284
+  - migration: 13.5564
+  - game: 0.0040
+  - policy: 0.0040
+  - refund: 0.0034
+  - released: 0.0034
+  - uninstall: 0.0034
+  - decided: 0.0034
+  - time: 0.0033
+  - rip: 0.0033
+  - back: 0.0033
+  - garbage: 0.0033
+  - overrated: 0.0033
+
+Topic 153:
+  - allowed: 624.4306
+  - repeat: 555.1289
+  - ride: 450.2733
+  - brings: 424.0216
+  - legit: 378.8500
+  - disgusting: 369.8540
+  - battlepass: 253.2473
+  - cutscene: 180.7186
+  - meat: 173.7729
+  - yall: 173.5365
+  - rinse: 107.4306
+  - gog: 93.1842
+  - activation: 81.3347
+  - tad: 50.4837
+  - metro: 47.4966
+
+Topic 154:
+  - watering: 174.2678
+  - clint: 20.9381
+  - male: 0.0034
+  - female: 0.0034
+  - option: 0.0033
+  - replaced: 0.0033
+  - body: 0.0033
+  - woke: 0.0033
+  - type: 0.0033
+  - barone: 0.0033
+  - scarcely: 0.0033
+  - estonia: 0.0033
+  - an: 0.0033
+  - есть: 0.0033
+  - impenetrable: 0.0033
+
+Topic 155:
+  - omen: 22.9453
+  - 게임: 19.0116
+  - good: 0.0034
+  - get: 0.0034
+  - game: 0.0034
+  - pretty: 0.0033
+  - would: 0.0033
+  - like: 0.0033
+  - actually: 0.0033
+  - playing: 0.0033
+  - much: 0.0033
+  - gf: 0.0033
+  - played: 0.0033
+  - boring: 0.0033
+  - amount: 0.0033
+
+Topic 156:
+  - motherfucking: 19.0935
+  - wallpaperengine: 14.3518
+  - appalled: 9.9413
+  - game: 0.0034
+  - scammed: 0.0033
+  - half: 0.0033
+  - valve: 0.0033
+  - price: 0.0033
+  - lean: 0.0033
+  - stop: 0.0033
+  - type: 0.0033
+  - another: 0.0033
+  - body: 0.0033
+  - looking: 0.0033
+  - negative: 0.0033
+
+Topic 157:
+  - getting: 5742.4833
+  - helldivers: 1218.3706
+  - kicked: 927.6665
+  - clear: 391.0909
+  - rat: 272.3720
+  - replaying: 126.3990
+  - attitude: 103.9594
+  - remains: 97.0473
+  - steer: 89.2604
+  - clash: 83.7157
+  - corpo: 73.2673
+  - ass: 71.7598
+  - used: 64.3615
+  - hq: 56.5157
+  - requesting: 48.5039
+
+Topic 158:
+  - game: 6340.6969
+  - fucking: 4740.9656
+  - im: 3875.8334
+  - dont: 2586.9033
+  - stop: 2417.4838
+  - like: 2398.7527
+  - let: 2268.1893
+  - play: 1947.8312
+  - want: 1849.8787
+  - cause: 1517.9652
+  - wont: 1499.6375
+  - god: 1438.4069
+  - damn: 1046.1798
+  - thats: 939.2156
+  - playing: 935.7930
+
+Topic 159:
+  - sim: 664.3763
+  - entertaining: 615.9867
+  - addicted: 577.2331
+  - vibe: 533.9256
+  - imo: 432.1244
+  - unfun: 170.8531
+  - showed: 154.5370
+  - unlimited: 152.8549
+  - gf: 115.3923
+  - dating: 111.5841
+  - sauce: 107.4506
+  - gunfight: 74.4812
+  - acid: 71.3659
+  - stunt: 68.1623
+  - paywall: 59.1137
+
+Topic 160:
+  - starting: 985.2685
+  - wifi: 131.1574
+  - waller: 48.8035
+  - adn: 20.0573
+  - suspend: 16.8012
+  - anew: 13.9572
+  - gambled: 10.8399
+  - ethernet: 10.7917
+  - get: 0.0035
+  - away: 0.0034
+  - world: 0.0034
+  - game: 0.0034
+  - play: 0.0034
+  - chocolatier: 0.0034
+  - group: 0.0034
+
+Topic 161:
+  - place: 1723.6113
+  - video: 1411.8773
+  - chance: 1059.1741
+  - blast: 546.0108
+  - final: 506.8433
+  - project: 438.5996
+  - mama: 342.5886
+  - tea: 304.2917
+  - cup: 211.2204
+  - era: 192.2701
+  - accept: 177.9129
+  - halo: 169.0950
+  - liber: 125.4541
+  - suspicious: 125.0093
+  - ha: 64.3952
+
+Topic 162:
+  - everyone: 4425.7700
+  - vac: 875.2409
+  - popular: 838.0598
+  - application: 421.8628
+  - horny: 89.4770
+  - finaly: 35.3388
+  - redownload: 25.4686
+  - verified: 24.5279
+  - instal: 18.8371
+  - intervention: 13.8912
+  - rename: 12.3134
+  - plow: 10.2949
+  - game: 0.0729
+  - tried: 0.0124
+  - dryad: 0.0067
+
+Topic 163:
+  - change: 4041.3189
+  - character: 2949.9573
+  - voice: 1439.4354
+  - removed: 1074.3545
+  - remove: 1026.1010
+  - currently: 842.4512
+  - ability: 726.3884
+  - acting: 559.5740
+  - apparently: 448.3499
+  - removing: 279.2412
+  - pre: 272.9009
+  - option: 264.8557
+  - unnecessary: 221.7560
+  - update: 202.5323
+  - weekend: 184.2203
+
+Topic 164:
+  - game: 28044.7253
+  - love: 13577.9054
+  - best: 12163.8289
+  - ever: 9663.5359
+  - one: 8804.4625
+  - played: 7856.6162
+  - story: 6521.9855
+  - amazing: 5804.8756
+  - could: 5555.3917
+  - time: 4342.4674
+  - great: 3282.4492
+  - world: 3062.3826
+  - play: 1745.9845
+  - favorite: 1719.9123
+  - like: 1710.7540
+
+Topic 165:
+  - money: 5022.0039
+  - yes: 4862.5622
+  - waste: 1922.6319
+  - garbage: 1775.6183
+  - spend: 1284.0595
+  - russian: 1206.9967
+  - hr: 1083.4907
+  - kick: 1027.6093
+  - ruin: 993.4240
+  - complete: 538.4216
+  - total: 466.9517
+  - disconnect: 391.9516
+  - spending: 327.7054
+  - tactical: 325.6642
+  - sign: 284.9523
+
+Topic 166:
+  - next: 1519.0736
+  - move: 1041.2386
+  - wall: 984.6669
+  - nerf: 928.5143
+  - prime: 775.7357
+  - soon: 691.4697
+  - died: 691.1455
+  - monster: 616.5820
+  - nerfed: 529.7960
+  - ruining: 468.6412
+  - anyways: 414.7851
+  - ranking: 379.6740
+  - strong: 315.2044
+  - shadow: 272.2027
+  - useful: 239.8003
+
+Topic 167:
+  - junimo: 78.5728
+  - game: 0.0034
+  - chocolatier: 0.0034
+  - dei: 0.0033
+  - play: 0.0033
+  - need: 0.0033
+  - dev: 0.0033
+  - get: 0.0033
+  - kind: 0.0033
+  - wish: 0.0033
+  - rng: 0.0033
+  - people: 0.0033
+  - could: 0.0033
+  - year: 0.0033
+  - started: 0.0033
+
+Topic 168:
+  - live: 1445.6294
+  - constant: 1347.7521
+  - number: 830.3454
+  - enjoying: 752.7725
+  - losing: 723.5237
+  - honestly: 525.9178
+  - instantly: 521.8741
+  - lack: 414.5013
+  - explosion: 388.7954
+  - terrorist: 366.7334
+  - supposed: 327.8985
+  - inventory: 317.3483
+  - wave: 218.7268
+  - disappointment: 146.0475
+  - gather: 139.8310
+
+Topic 169:
+  - league: 5250.1140
+  - combat: 2028.3449
+  - feel: 1380.6501
+  - like: 1297.1928
+  - movement: 1136.8600
+  - interesting: 1132.8510
+  - quest: 1049.5033
+  - story: 982.1474
+  - show: 905.0184
+  - rpg: 846.5962
+  - compared: 760.8079
+  - understand: 643.2592
+  - choice: 624.1227
+  - self: 567.4918
+  - game: 520.6693
+
+Topic 170:
+  - except: 1183.8742
+  - cost: 833.0367
+  - woman: 585.7807
+  - slur: 566.6401
+  - naked: 509.8988
+  - beating: 344.4243
+  - correct: 195.4810
+  - monkey: 172.7361
+  - untill: 172.5619
+  - bundle: 139.0837
+  - tax: 109.8867
+  - proceed: 86.5281
+  - problematic: 72.4447
+  - affected: 64.5916
+  - stating: 52.0562
+
+Topic 171:
+  - tune: 101.7001
+  - discerning: 14.5069
+  - world: 0.0034
+  - game: 0.0033
+  - person: 0.0033
+  - get: 0.0033
+  - time: 0.0033
+  - staff: 0.0033
+  - supposed: 0.0033
+  - terrarium: 0.0033
+  - ore: 0.0033
+  - like: 0.0033
+  - beat: 0.0033
+  - hell: 0.0033
+  - frog: 0.0033
+
+Topic 172:
+  - cancer: 877.1901
+  - syndrome: 473.9012
+  - loss: 472.4574
+  - dementia: 381.4267
+  - disease: 341.0120
+  - infested: 316.8849
+  - disorder: 302.5632
+  - depression: 266.1131
+  - walking: 220.5815
+  - aid: 220.1314
+  - breath: 204.2302
+  - hearing: 174.5814
+  - anxiety: 172.6789
+  - cold: 170.0337
+  - attention: 163.6283
+
+Topic 173:
+  - like: 0.0034
+  - guy: 0.0033
+  - omg: 0.0033
+  - dude: 0.0033
+  - actually: 0.0033
+  - stupid: 0.0033
+  - eye: 0.0033
+  - game: 0.0033
+  - got: 0.0033
+  - die: 0.0033
+  - really: 0.0033
+  - play: 0.0033
+  - kill: 0.0033
+  - change: 0.0033
+  - lose: 0.0033
+
+Topic 174:
+  - game: 0.0033
+  - remove: 0.0033
+  - problematic: 0.0033
+  - need: 0.0033
+  - merchant: 0.0033
+  - lesbian: 0.0033
+  - make: 0.0033
+  - black: 0.0033
+  - woman: 0.0033
+  - sell: 0.0033
+  - change: 0.0033
+  - symbol: 0.0033
+  - tmod: 0.0033
+  - pirate: 0.0033
+  - boss: 0.0033
+
+Topic 175:
+  - fat: 383.7291
+  - stage: 304.7191
+  - mic: 212.3800
+  - activist: 25.2917
+  - documented: 17.5825
+  - ski: 17.1055
+  - grubbing: 16.5444
+  - kebab: 15.6514
+  - prn: 14.3104
+  - gridlock: 12.1974
+  - xddd: 11.9919
+  - skinny: 11.7236
+  - jynxzi: 1.1128
+  - game: 0.0036
+  - r: 0.0035
+
+Topic 176:
+  - maybe: 2495.9288
+  - brain: 1136.9838
+  - eye: 1052.1272
+  - throw: 530.1656
+  - flying: 485.7273
+  - silver: 275.7215
+  - charger: 275.1947
+  - arm: 266.2688
+  - fake: 227.4594
+  - protect: 220.1192
+  - hitting: 217.8820
+  - trap: 216.7836
+  - accident: 174.9169
+  - eating: 139.8815
+  - urge: 132.0437
+
+Topic 177:
+  - обои: 23.7470
+  - infernum: 14.8502
+  - marnie: 12.9418
+  - game: 0.0034
+  - hour: 0.0033
+  - like: 0.0033
+  - blank: 0.0033
+  - screen: 0.0033
+  - tell: 0.0033
+  - friend: 0.0033
+  - could: 0.0033
+  - terrarium: 0.0033
+  - turn: 0.0033
+  - great: 0.0033
+  - try: 0.0033
+
+Topic 178:
+  - mode: 4833.4649
+  - expert: 177.9220
+  - vile: 54.3383
+  - spends: 32.6050
+  - vanity: 25.3528
+  - juggle: 14.0635
+  - gunpoint: 13.6239
+  - like: 4.7589
+  - game: 0.0048
+  - mage: 0.0034
+  - fucking: 0.0034
+  - keep: 0.0034
+  - spit: 0.0033
+  - bad: 0.0033
+  - please: 0.0033
+
+Topic 179:
+  - barone: 40.3669
+  - many: 0.0034
+  - game: 0.0033
+  - chocolatier: 0.0033
+  - modern: 0.0033
+  - hard: 0.0033
+  - freedom: 0.0033
+  - boss: 0.0033
+  - much: 0.0033
+  - creative: 0.0033
+  - material: 0.0033
+  - weapon: 0.0033
+  - enemy: 0.0033
+  - block: 0.0033
+  - ever: 0.0033
+
+Topic 180:
+  - price: 4735.9804
+  - full: 4170.0953
+  - valve: 4143.2992
+  - half: 1747.4835
+  - paid: 671.3122
+  - rid: 583.7464
+  - buying: 499.3325
+  - havent: 480.9436
+  - cheap: 369.5630
+  - atleast: 346.3174
+  - diver: 331.7120
+  - reconnect: 304.9336
+  - wouldnt: 279.9810
+  - whats: 251.3669
+  - client: 199.6536
+
+Topic 181:
+  - д: 23.9180
+  - game: 0.0034
+  - в: 0.0034
+  - не: 0.0034
+  - bought: 0.0033
+  - на: 0.0033
+  - yes: 0.0033
+  - year: 0.0033
+  - и: 0.0033
+  - за: 0.0033
+  - это: 0.0033
+  - сейчас: 0.0033
+  - все: 0.0033
+  - игра: 0.0033
+  - очень: 0.0033
+
+Topic 182:
+  - game: 15619.1448
+  - weapon: 6877.7442
+  - enemy: 5024.8461
+  - like: 4586.7523
+  - feel: 4313.3589
+  - fun: 2809.5647
+  - one: 2750.2154
+  - difficulty: 2741.6655
+  - time: 2483.1937
+  - lot: 2276.2092
+  - make: 2240.3040
+  - different: 2224.5476
+  - new: 2205.8520
+  - mission: 2198.8090
+  - thing: 2192.9194
+
+Topic 183:
+  - pack: 489.5724
+  - degenerate: 97.7875
+  - enjoyer: 54.9897
+  - roommate: 15.6285
+  - recomanded: 10.8440
+  - game: 0.0132
+  - play: 0.0038
+  - failure: 0.0034
+  - dollar: 0.0034
+  - must: 0.0034
+  - awesome: 0.0034
+  - jynxi: 0.0034
+  - dick: 0.0033
+  - whoever: 0.0033
+  - get: 0.0033
+
+Topic 184:
+  - action: 2003.4150
+  - chill: 1010.3996
+  - relax: 479.5190
+  - feedback: 402.8654
+  - calm: 229.8854
+  - appealing: 94.7911
+  - onion: 32.0526
+  - recording: 24.2562
+  - great: 21.9417
+  - ehh: 21.4486
+  - noice: 19.8031
+  - abide: 18.1765
+  - aslo: 15.6600
+  - sunset: 12.9361
+  - jojamart: 7.9710
+
+Topic 185:
+  - back: 4935.6706
+  - workshop: 1354.6339
+  - bring: 1139.0875
+  - death: 710.4023
+  - laptop: 669.4336
+  - porn: 463.0998
+  - bullet: 398.9561
+  - xd: 336.6875
+  - mass: 296.8269
+  - gb: 288.2062
+  - want: 256.1068
+  - ram: 223.0707
+  - mac: 216.4935
+  - commit: 212.5699
+  - act: 205.9876
+
+Topic 186:
+  - game: 0.0033
+  - fucking: 0.0033
+  - refund: 0.0033
+  - shit: 0.0033
+  - piece: 0.0033
+  - hell: 0.0033
+  - go: 0.0033
+  - created: 0.0033
+  - hate: 0.0033
+  - give: 0.0033
+  - whoever: 0.0033
+  - style: 0.0033
+  - would: 0.0033
+  - history: 0.0033
+  - much: 0.0033
+
+Topic 187:
+  - stripe: 5021.4098
+  - na: 3184.9359
+  - gon: 1525.5292
+  - stay: 1491.2762
+  - wan: 1440.6556
+  - yeah: 1039.8820
+  - away: 1001.5161
+  - trust: 978.0558
+  - farm: 947.5638
+  - squad: 718.7395
+  - forever: 497.4515
+  - blue: 394.9182
+  - eat: 303.8626
+  - rip: 265.4926
+  - crew: 227.3954
+
+Topic 188:
+  - skin: 7205.9705
+  - support: 7043.7002
+  - awesome: 7027.3444
+  - unless: 6753.0449
+  - pro: 6077.8558
+  - better: 5735.8758
+  - lazy: 5283.1894
+  - default: 5279.8775
+  - rb: 5018.8337
+  - get: 915.2664
+  - key: 455.3053
+  - binding: 120.8465
+  - crappy: 109.4253
+  - latency: 84.5400
+  - teacher: 37.9123
+
+Topic 189:
+  - сделать: 15.4377
+  - друзьями: 0.0034
+  - с: 0.0034
+  - а: 0.0034
+  - зашёл: 0.0034
+  - лет: 0.0034
+  - не: 0.0034
+  - игре: 0.0034
+  - отличная: 0.0034
+  - game: 0.0033
+  - все: 0.0033
+  - игру: 0.0033
+  - что: 0.0033
+  - также: 0.0033
+  - они: 0.0033
+
+Topic 190:
+  - darkrp: 114.1071
+  - corruption: 97.6286
+  - dryad: 47.9414
+  - universally: 35.5660
+  - ttt: 22.4754
+  - cleanse: 11.5682
+  - prophunt: 10.7007
+  - meditate: 9.9106
+  - numbingly: 9.8651
+  - zombie: 0.0035
+  - game: 0.0034
+  - world: 0.0034
+  - mind: 0.0034
+  - emerald: 0.0034
+  - also: 0.0034
+
+Topic 191:
+  - helmet: 7444.0042
+  - gun: 2200.1647
+  - black: 1137.2185
+  - horror: 235.2938
+  - clunky: 220.7731
+  - machine: 217.5651
+  - registration: 153.1109
+  - feed: 111.6228
+  - fp: 104.7658
+  - queuing: 83.5008
+  - better: 74.3919
+  - republic: 61.1037
+  - defuse: 49.2718
+  - border: 48.9287
+  - congo: 47.5070
+
+Topic 192:
+  - app: 1298.3638
+  - th: 1094.1384
+  - link: 995.8196
+  - td: 885.2291
+  - crashed: 847.1968
+  - http: 762.4217
+  - crap: 696.1844
+  - com: 655.2699
+  - youtube: 618.2441
+  - excellent: 604.7267
+  - tr: 552.5328
+  - bomb: 397.5554
+  - tag: 340.1568
+  - recent: 339.1164
+  - url: 312.4723
+
+Topic 193:
+  - skellige: 128.6250
+  - velen: 68.0604
+  - kaer: 40.4929
+  - morhen: 32.3977
+  - hindering: 22.9352
+  - corrupts: 12.4526
+  - igni: 11.8132
+  - rivia: 0.1014
+  - game: 0.0034
+  - terrarium: 0.0034
+  - save: 0.0033
+  - may: 0.0033
+  - player: 0.0033
+  - know: 0.0033
+  - gaming: 0.0033
+
+Topic 194:
+  - chipi: 0.0034
+  - deleted: 0.0033
+  - place: 0.0033
+  - dont: 0.0033
+  - world: 0.0033
+  - door: 0.0033
+  - even: 0.0033
+  - turn: 0.0033
+  - hole: 0.0033
+  - review: 0.0033
+  - fucked: 0.0033
+  - fucking: 0.0033
+  - block: 0.0033
+  - anyone: 0.0033
+  - swear: 0.0033
+
+Topic 195:
+  - better: 10459.0436
+  - chibi: 2319.0767
+  - game: 0.0033
+  - terrarium: 0.0033
+  - may: 0.0033
+  - player: 0.0033
+  - minecraft: 0.0033
+  - narrative: 0.0033
+  - world: 0.0033
+  - gaming: 0.0033
+  - like: 0.0033
+  - multiplayer: 0.0033
+  - less: 0.0033
+  - critic: 0.0033
+  - experience: 0.0033
+
+Topic 196:
+  - stratagem: 946.6585
+  - regret: 885.6658
+  - hear: 774.1584
+  - everywhere: 748.4325
+  - suffering: 369.4516
+  - degree: 259.1756
+  - whatsoever: 252.8783
+  - alpha: 222.2308
+  - noise: 192.4162
+  - wind: 163.4610
+  - benefit: 160.3868
+  - clutch: 147.2882
+  - father: 125.5138
+  - testing: 112.7722
+  - editor: 96.9636
+
+Topic 197:
+  - bit: 3841.4239
+  - possible: 998.7662
+  - boot: 484.7669
+  - confusing: 413.8653
+  - hang: 387.5619
+  - smell: 123.2208
+  - turd: 70.2923
+  - tk: 54.8331
+  - like: 52.4432
+  - profitable: 48.0867
+  - wing: 47.1577
+  - suited: 44.8644
+  - fastest: 42.2227
+  - ideally: 30.4190
+  - forza: 29.0761
+
+Topic 198:
+  - patching: 88.3428
+  - game: 0.0034
+  - а: 0.0034
+  - issue: 0.0033
+  - player: 0.0033
+  - terrarium: 0.0033
+  - time: 0.0033
+  - playing: 0.0033
+  - nightmare: 0.0033
+  - stupid: 0.0033
+  - stop: 0.0033
+  - glitch: 0.0033
+  - play: 0.0033
+  - choose: 0.0033
+  - mod: 0.0033
+
+Topic 199:
+  - game: 36008.6866
+  - fun: 30216.3658
+  - really: 13884.5111
+  - recommend: 9718.7889
+  - like: 7644.1248
+  - lot: 7022.9126
+  - play: 6685.3447
+  - good: 5891.3903
+  - would: 5820.8081
+  - great: 5291.2775
+  - pretty: 4146.9820
+  - mod: 3514.9779
+  - playing: 3399.5059
+  - time: 3350.2788
+  - thing: 2999.8240
+
+Topic 200:
+  - da: 338.8701
+  - vi: 179.5782
+  - ding: 95.5175
+  - marriage: 80.6883
+  - frick: 74.6694
+  - enforcing: 72.5501
+  - bois: 27.3990
+  - lester: 23.7642
+  - ot: 23.3773
+  - dong: 21.6791
+  - kermit: 19.8944
+  - porra: 15.7268
+  - eba: 13.1138
+  - mater: 12.3142
+  - bulletproof: 10.8438
+
+Topic 201:
+  - fall: 912.7316
+  - covered: 123.7590
+  - asleep: 90.4749
+  - slay: 57.9857
+  - reccomended: 46.1567
+  - drowning: 33.7273
+  - freaky: 30.6509
+  - corny: 29.9295
+  - kapkan: 25.7452
+  - tuesday: 24.0855
+  - without: 2.0415
+  - zombie: 0.0049
+  - explore: 0.0034
+  - unless: 0.0034
+  - time: 0.0034
+
+Topic 202:
+  - funny: 1726.0812
+  - simple: 1586.6621
+  - coop: 660.3266
+  - dying: 559.8347
+  - return: 529.0043
+  - buddy: 383.5563
+  - hurt: 360.5458
+  - guide: 301.4583
+  - nonsense: 284.7279
+  - turning: 243.5105
+  - goal: 226.3055
+  - lying: 215.2330
+  - object: 213.5941
+  - complex: 204.6109
+  - regular: 193.2639
+
+Topic 203:
+  - game: 31036.4349
+  - playing: 11432.6279
+  - play: 6587.3161
+  - time: 6391.9341
+  - since: 6051.9891
+  - played: 4698.5998
+  - day: 4550.4528
+  - first: 4273.9133
+  - one: 3367.0781
+  - even: 3332.6435
+  - back: 3281.5102
+  - would: 3257.3996
+  - never: 2971.3047
+  - still: 2960.6481
+  - year: 2728.9889
+
+Topic 204:
+  - e: 1253.9557
+  - hack: 1018.2104
+  - g: 666.2929
+  - per: 528.8196
+  - hacking: 441.9187
+  - iv: 191.1036
+  - bye: 153.1603
+  - maximum: 139.3527
+  - q: 116.4735
+  - gaben: 114.1506
+  - eula: 85.4261
+  - agreement: 75.6301
+  - destroys: 67.5890
+  - artificial: 53.9189
+  - intelligence: 51.0230
+
+Topic 205:
+  - weebs: 12.4382
+  - would: 0.0033
+  - bar: 0.0033
+  - hot: 0.0033
+  - noticed: 0.0033
+  - going: 0.0033
+  - dropped: 0.0033
+  - gone: 0.0033
+  - keep: 0.0033
+  - automatically: 0.0033
+  - chest: 0.0033
+  - suddenly: 0.0033
+  - picked: 0.0033
+  - disappearing: 0.0033
+  - finally: 0.0033
+
+Topic 206:
+  - mess: 1389.8488
+  - buggy: 1289.5340
+  - dev: 1114.9528
+  - lag: 1078.9379
+  - meh: 428.5630
+  - input: 379.6169
+  - asf: 186.2848
+  - still: 176.1828
+  - delay: 139.2411
+  - maker: 119.1077
+  - plague: 105.7209
+  - dissapointed: 99.1446
+  - carry: 94.3366
+  - team: 87.7395
+  - ridiculously: 82.2505
+
+Topic 207:
+  - filler: 104.6039
+  - unresponsive: 95.9241
+  - inclusive: 82.3993
+  - concernedape: 0.0035
+  - game: 0.0033
+  - player: 0.0033
+  - jam: 0.0033
+  - business: 0.0033
+  - option: 0.0033
+  - feel: 0.0033
+  - growth: 0.0033
+  - like: 0.0033
+  - whatever: 0.0033
+  - call: 0.0033
+  - chore: 0.0033
+
+Topic 208:
+  - wallpaper: 7150.0877
+  - engine: 2586.9518
+  - mission: 2355.0350
+  - option: 1644.4277
+  - like: 1067.7287
+  - etc: 1004.3124
+  - use: 974.4375
+  - choose: 889.1485
+  - sound: 808.8088
+  - dialogue: 769.6469
+  - music: 741.7676
+  - want: 699.2840
+  - role: 696.9754
+  - great: 655.1067
+  - lot: 586.5246
+
+Topic 209:
+  - men: 418.3773
+  - som: 59.6258
+  - det: 54.7631
+  - att: 41.3220
+  - och: 36.9768
+  - jag: 36.1534
+  - är: 33.5924
+  - lava: 32.4089
+  - så: 32.1295
+  - inte: 24.5635
+  - för: 18.7633
+  - mitt: 16.8400
+  - till: 16.7177
+  - dipping: 13.1953
+  - spelet: 12.5897
+
+Topic 210:
+  - uh: 140.1778
+  - uhh: 29.6566
+  - nuh: 24.1303
+  - dared: 21.2138
+  - hearth: 8.2444
+  - get: 0.0033
+  - hardmode: 0.0033
+  - good: 0.0033
+  - hour: 0.0033
+  - haired: 0.0033
+  - ignore: 0.0033
+  - woman: 0.0033
+  - business: 0.0033
+  - dei: 0.0033
+  - generik: 0.0033
+
+Topic 211:
+  - find: 6444.0093
+  - fighting: 941.7886
+  - sorry: 666.2618
+  - mining: 424.3977
+  - girlfriend: 234.3696
+  - building: 91.9214
+  - consumed: 68.3555
+  - stuff: 50.1784
+  - intresting: 42.7429
+  - pixel: 35.5788
+  - national: 14.2432
+  - dumbo: 12.6730
+  - temeria: 10.7973
+  - uninstalled: 10.2910
+  - priscilla: 9.9109
+
+Topic 212:
+  - unable: 890.3542
+  - refund: 0.0050
+  - play: 0.0040
+  - thing: 0.0038
+  - devs: 0.0035
+  - battleeye: 0.0035
+  - game: 0.0035
+  - battleye: 0.0034
+  - perico: 0.0034
+  - cayo: 0.0034
+  - convoy: 0.0034
+  - orbital: 0.0034
+  - good: 0.0034
+  - authenticating: 0.0034
+  - get: 0.0034
+
+Topic 213:
+  - emo: 27.3303
+  - get: 0.0034
+  - going: 0.0034
+  - money: 0.0034
+  - back: 0.0034
+  - thing: 0.0034
+  - late: 0.0033
+  - felt: 0.0033
+  - understand: 0.0033
+  - lost: 0.0033
+  - stupid: 0.0033
+  - game: 0.0033
+  - dont: 0.0033
+  - never: 0.0033
+  - like: 0.0033
+
+Topic 214:
+  - reconsider: 65.0011
+  - retroactively: 58.0908
+  - trojan: 38.8085
+  - generik: 14.3513
+  - game: 0.0034
+  - gender: 0.0034
+  - minecraft: 0.0034
+  - f: 0.0034
+  - ideology: 0.0034
+  - agenda: 0.0033
+  - woke: 0.0033
+  - entertainment: 0.0033
+  - play: 0.0033
+  - get: 0.0033
+  - terrarium: 0.0033
+
+Topic 215:
+  - watching: 899.9015
+  - seeing: 829.9677
+  - animated: 724.4622
+  - returning: 223.7025
+  - shout: 109.3084
+  - nerd: 106.2773
+  - film: 85.7865
+  - pussy: 77.8685
+  - loader: 64.5532
+  - edgerunners: 47.6875
+  - innovative: 46.2013
+  - tmod: 44.1711
+  - ob: 28.2350
+  - grubby: 27.3433
+  - homosexual: 25.6623
+
+Topic 216:
+  - glitchy: 197.2077
+  - glitched: 107.0541
+  - keybind: 37.0831
+  - game: 0.0036
+  - work: 0.0034
+  - hour: 0.0034
+  - inventory: 0.0034
+  - like: 0.0034
+  - item: 0.0033
+  - got: 0.0033
+  - kinda: 0.0033
+  - want: 0.0033
+  - boring: 0.0033
+  - good: 0.0033
+  - suck: 0.0033
+
+Topic 217:
+  - fck: 57.1024
+  - civil: 20.7866
+  - morhen: 0.0035
+  - kaer: 0.0035
+  - game: 0.0035
+  - hour: 0.0034
+  - played: 0.0034
+  - get: 0.0033
+  - please: 0.0033
+  - spent: 0.0033
+  - fun: 0.0033
+  - confusing: 0.0033
+  - milfs: 0.0033
+  - keep: 0.0033
+  - male: 0.0033
+
+Topic 218:
+  - csgo: 1876.2130
+  - gambling: 813.0918
+  - pain: 718.8168
+  - security: 677.0454
+  - order: 589.8290
+  - known: 305.4165
+  - false: 286.6694
+  - stolen: 278.6027
+  - slightly: 244.7336
+  - drug: 195.4435
+  - record: 187.3449
+  - severe: 158.3344
+  - property: 135.2805
+  - victim: 126.8663
+  - dave: 124.1095
+
+Topic 219:
+  - together: 1861.9129
+  - two: 1709.3105
+  - multiple: 1377.0806
+  - sure: 1214.6667
+  - connection: 1003.7177
+  - internet: 869.0462
+  - ping: 793.0739
+  - wife: 550.8831
+  - suddenly: 343.8121
+  - wasnt: 271.0428
+  - bed: 225.4852
+  - day: 216.5342
+  - business: 177.2177
+  - rot: 172.3660
+  - hello: 165.2755
+
+Topic 220:
+  - fent: 24.3889
+  - dat: 22.2527
+  - ded: 14.7328
+  - eroding: 12.0892
+  - ting: 10.2490
+  - game: 0.6065
+  - update: 0.0034
+  - got: 0.0034
+  - get: 0.0034
+  - right: 0.0034
+  - gender: 0.0033
+  - say: 0.0033
+  - annoying: 0.0033
+  - tired: 0.0033
+  - rating: 0.0033
+
+Topic 221:
+  - launch: 2684.0184
+  - refund: 2026.4858
+  - party: 1097.9669
+  - didnt: 977.8136
+  - close: 955.8029
+  - tried: 697.9957
+  - task: 695.4274
+  - rd: 676.0447
+  - allow: 638.1936
+  - actually: 613.1256
+  - device: 555.1500
+  - want: 547.7499
+  - trying: 461.0735
+  - game: 422.8252
+  - manager: 393.7502
+
+Topic 222:
+  - work: 11218.7756
+  - get: 4088.5736
+  - doesnt: 3572.1205
+  - keep: 3301.9598
+  - latest: 2965.3085
+  - reinstall: 2585.1579
+  - update: 2185.0513
+  - crashing: 893.3594
+  - fine: 886.4042
+  - loading: 847.5361
+  - load: 817.5846
+  - uninstall: 470.9222
+  - worked: 418.5531
+  - gone: 345.4329
+  - game: 316.9281
+
+Topic 223:
+  - casual: 1393.3058
+  - long: 928.3280
+  - willing: 579.2670
+  - player: 513.4933
+  - trip: 164.7100
+  - mmr: 87.6405
+  - compromised: 64.3332
+  - zen: 37.5292
+  - tachanka: 36.4454
+  - haul: 29.7229
+  - headshotted: 27.3159
+  - confirmation: 25.9645
+  - eliminating: 15.9647
+  - solis: 15.8598
+  - vigil: 14.0353
+
+Topic 224:
+  - forgot: 340.9055
+  - password: 135.0389
+  - acc: 123.2890
+  - reinstated: 18.2653
+  - usernames: 17.5343
+  - another: 0.0603
+  - game: 0.0034
+  - unlink: 0.0034
+  - hour: 0.0034
+  - masterpiece: 0.0034
+  - authenticating: 0.0034
+  - item: 0.0033
+  - play: 0.0033
+  - fivem: 0.0033
+  - review: 0.0033
+
+Topic 225:
+  - disappointed: 758.3339
+  - smh: 92.3955
+  - ironic: 46.2468
+  - gender: 0.0050
+  - game: 0.0034
+  - romanced: 0.0034
+  - get: 0.0034
+  - yen: 0.0034
+  - skellige: 0.0033
+  - want: 0.0033
+  - like: 0.0033
+  - let: 0.0033
+  - political: 0.0033
+  - thing: 0.0033
+  - fun: 0.0033
+
+Topic 226:
+  - edition: 269.1957
+  - usd: 83.9484
+  - ripoff: 46.6679
+  - deluxe: 33.6522
+  - vincent: 22.3999
+  - erasing: 14.7667
+  - deadass: 13.2806
+  - clinton: 12.6793
+  - metacritic: 12.0247
+  - scholarship: 9.8602
+  - muffled: 9.6912
+  - game: 0.0036
+  - thing: 0.0034
+  - sorry: 0.0034
+  - company: 0.0034
+
+Topic 227:
+  - threat: 321.2623
+  - achieved: 123.3550
+  - fking: 81.8188
+  - constraint: 13.8897
+  - gallop: 6.6796
+  - give: 5.8968
+  - game: 0.6681
+  - stupid: 0.0034
+  - suck: 0.0034
+  - play: 0.0034
+  - feel: 0.0034
+  - facepunch: 0.0034
+  - monitor: 0.0034
+  - drink: 0.0034
+  - like: 0.0033
+
+Topic 228:
+  - op: 1828.9809
+  - teammate: 1737.9170
+  - co: 1697.7948
+  - matchmaking: 1524.4884
+  - social: 708.9099
+  - thumb: 494.1895
+  - bc: 407.8968
+  - unfair: 255.1655
+  - cat: 246.7973
+  - pace: 242.4461
+  - survivor: 206.3288
+  - pet: 204.2706
+  - griefers: 196.4459
+  - dear: 176.8025
+  - abuse: 169.0247
+
+Topic 229:
+  - open: 5321.9188
+  - gta: 4501.9156
+  - installed: 2908.6537
+  - uplay: 2411.9127
+  - request: 256.9909
+  - window: 213.8186
+  - beware: 194.3721
+  - sub: 162.3157
+  - existent: 160.9352
+  - game: 157.3447
+  - modder: 136.8815
+  - showing: 134.5921
+  - san: 113.7940
+  - rdr: 107.1885
+  - received: 102.2474
+
+Topic 230:
+  - game: 0.0034
+  - ever: 0.0033
+  - horrible: 0.0033
+  - support: 0.0033
+  - ok: 0.0033
+  - apparently: 0.0033
+  - year: 0.0033
+  - created: 0.0033
+  - gender: 0.0033
+  - choose: 0.0033
+  - anymore: 0.0033
+  - logic: 0.0033
+  - people: 0.0033
+  - buy: 0.0033
+  - problem: 0.0033
+
+Topic 231:
+  - dei: 0.0033
+  - virus: 0.0033
+  - affecting: 0.0033
+  - section: 0.0033
+  - terrarium: 0.0033
+  - tired: 0.0033
+  - year: 0.0033
+  - rainbow: 0.0033
+  - rip: 0.0033
+  - cult: 0.0033
+  - woke: 0.0033
+  - logic: 0.0033
+  - gender: 0.0033
+  - mind: 0.0033
+  - removed: 0.0033
+
+Topic 232:
+  - imo: 0.0033
+  - message: 0.0033
+  - mind: 0.0033
+  - complaint: 0.0033
+  - wiggle: 0.0033
+  - rejoice: 0.0033
+  - vision: 0.0033
+  - stellar: 0.0033
+  - invention: 0.0033
+  - exploded: 0.0033
+  - tout: 0.0033
+  - phase: 0.0033
+  - shrine: 0.0033
+  - difference: 0.0033
+  - sims: 0.0033
+
+Topic 233:
+  - rockstar: 3047.2669
+  - completely: 1844.7057
+  - broken: 1839.7885
+  - somehow: 735.7320
+  - simply: 612.7402
+  - either: 481.3156
+  - decide: 370.3074
+  - scream: 341.3928
+  - stress: 312.8220
+  - company: 307.9084
+  - permanently: 236.0816
+  - incompetent: 200.9401
+  - script: 161.6678
+  - miserable: 157.4583
+  - correctly: 151.3440
+
+Topic 234:
+  - automatically: 2555.3392
+  - menu: 1126.0218
+  - start: 1102.4206
+  - button: 1011.3154
+  - stuck: 996.7646
+  - fast: 853.3009
+  - horse: 668.5155
+  - background: 661.3283
+  - imagine: 554.9576
+  - lock: 401.0338
+  - press: 398.5130
+  - door: 381.5949
+  - opening: 371.3315
+  - camera: 370.3502
+  - game: 323.4948
+
+Topic 235:
+  - round: 1343.1493
+  - shame: 1038.0618
+  - auto: 881.7264
+  - grand: 641.6833
+  - three: 613.9879
+  - theft: 524.4796
+  - besides: 415.6013
+  - met: 382.3255
+  - cozy: 355.9183
+  - los: 353.4540
+  - ignore: 331.4498
+  - santos: 325.2161
+  - ups: 237.9774
+  - down: 154.7220
+  - activity: 152.3453
+
+Topic 236:
+  - well: 8035.8660
+  - collecting: 231.9263
+  - stale: 226.7072
+  - aged: 162.7822
+  - bait: 156.4947
+  - material: 138.8502
+  - overhyped: 119.4675
+  - scumbag: 15.6624
+  - game: 4.1610
+  - like: 0.0034
+  - way: 0.0034
+  - need: 0.0034
+  - devs: 0.0034
+  - tell: 0.0034
+  - darkrp: 0.0034
+
+Topic 237:
+  - space: 889.8921
+  - install: 831.1880
+  - wonderful: 742.5619
+  - date: 553.6323
+  - driver: 447.6345
+  - dislike: 423.3587
+  - wipe: 406.2855
+  - clean: 324.5604
+  - teach: 310.7233
+  - resolved: 308.5852
+  - tip: 304.8268
+  - train: 292.3833
+  - nprotect: 164.2607
+  - resolve: 146.9828
+  - disaster: 137.5648
+
+Topic 238:
+  - spread: 472.8506
+  - amogus: 259.8415
+  - spreading: 199.4939
+  - cheek: 132.1755
+  - ate: 121.0149
+  - triss: 100.6766
+  - hardmode: 93.6482
+  - yen: 76.2459
+  - pole: 44.0111
+  - ft: 37.6535
+  - cultist: 20.1193
+  - capcom: 18.4677
+  - sao: 18.1014
+  - num: 17.9804
+  - contra: 16.1877
+
+Topic 239:
+  - question: 638.1992
+  - asked: 458.0957
+  - excuse: 368.3358
+  - politics: 184.5697
+  - purely: 166.7431
+  - mentioning: 110.2587
+  - biased: 75.8020
+  - dun: 72.7374
+  - frozen: 56.1283
+  - announce: 50.1174
+  - mixing: 43.7439
+  - misleading: 42.8910
+  - lifer: 41.7494
+  - political: 40.6950
+  - justification: 25.8468
+
+Topic 240:
+  - shit: 6296.6363
+  - game: 3800.9854
+  - fuck: 3305.6684
+  - worst: 2272.4948
+  - absolute: 1107.9357
+  - piece: 907.3153
+  - fire: 887.2803
+  - dog: 887.1603
+  - bunch: 880.0667
+  - filled: 628.8005
+  - devs: 526.6803
+  - dont: 435.0728
+  - youre: 407.2476
+  - biggest: 330.2467
+  - give: 270.5893
+
+Topic 241:
+  - dlc: 6274.9427
+  - b: 4991.3151
+  - h: 4568.9788
+  - version: 2512.8997
+  - cyberpunk: 1949.9765
+  - story: 1680.3621
+  - main: 1677.9122
+  - game: 1651.5204
+  - glitch: 1242.8816
+  - release: 1219.3312
+  - side: 1087.6699
+  - quest: 1023.4315
+  - liberty: 868.1446
+  - phantom: 781.8728
+  - city: 718.7787
+
+Topic 242:
+  - monetization: 262.8293
+  - youll: 191.4236
+  - destroying: 178.8775
+  - ky: 72.5146
+  - fricking: 41.5560
+  - barn: 31.9479
+  - uploading: 25.9413
+  - zeus: 20.3248
+  - ashley: 18.2844
+  - mayonnaise: 17.6755
+  - brownie: 8.4649
+  - pushing: 0.0042
+  - game: 0.0038
+  - sht: 0.0034
+  - cockstar: 0.0034
+
+Topic 243:
+  - gtfo: 13.3277
+  - year: 0.0033
+  - character: 0.0033
+  - removed: 0.0033
+  - option: 0.0033
+  - sex: 0.0033
+  - selection: 0.0033
+  - unlink: 0.0033
+  - node: 0.0033
+  - flora: 0.0033
+  - ceo: 0.0033
+  - imply: 0.0033
+  - parece: 0.0033
+  - saga: 0.0033
+  - mcdonald: 0.0033
+
+Topic 244:
+  - game: 0.0034
+  - like: 0.0034
+  - get: 0.0033
+  - really: 0.0033
+  - would: 0.0033
+  - see: 0.0033
+  - player: 0.0033
+  - feature: 0.0033
+  - lack: 0.0033
+  - good: 0.0033
+  - item: 0.0033
+  - money: 0.0033
+  - could: 0.0033
+  - mechanic: 0.0033
+  - much: 0.0033
+
+Topic 245:
+  - truck: 3396.9129
+  - car: 2255.6018
+  - driving: 2207.0028
+  - simulator: 1904.1859
+  - drive: 1463.8498
+  - game: 1243.5450
+  - like: 1041.8906
+  - road: 1032.3603
+  - euro: 859.8885
+  - vehicle: 801.8965
+  - ok: 686.1997
+  - wheel: 683.3679
+  - physic: 622.7972
+  - ets: 591.7201
+  - city: 582.6001
+
+Topic 246:
+  - hey: 525.5534
+  - checked: 213.3366
+  - dosent: 114.3518
+  - verse: 39.0976
+  - sledge: 31.8413
+  - gim: 25.5651
+  - mesh: 19.8926
+  - transferred: 17.3949
+  - opperators: 9.3266
+  - back: 2.2429
+  - work: 0.0046
+  - data: 0.0038
+  - game: 0.0036
+  - get: 0.0034
+  - like: 0.0034
+
+Topic 247:
+  - player: 14231.7423
+  - community: 9027.8450
+  - new: 5635.5357
+  - mod: 5069.4402
+  - game: 4187.2851
+  - base: 3192.0900
+  - multiplayer: 2460.4256
+  - single: 1582.8108
+  - update: 1257.7586
+  - content: 1058.5914
+  - modding: 1046.0264
+  - experience: 844.0067
+  - sandbox: 800.4170
+  - devs: 781.6786
+  - modders: 773.1274
+
+Topic 248:
+  - job: 1462.3040
+  - purchase: 1453.9215
+  - requirement: 1308.0479
+  - support: 779.5616
+  - information: 764.8411
+  - product: 672.9879
+  - told: 602.5527
+  - europe: 518.3309
+  - post: 509.0718
+  - requires: 494.4201
+  - needed: 489.3949
+  - purchased: 479.1523
+  - personal: 447.2883
+  - operation: 442.7734
+  - page: 438.1031
+
+Topic 249:
+  - stay: 0.0034
+  - na: 0.0033
+  - squad: 0.0033
+  - gon: 0.0033
+  - yeah: 0.0033
+  - king: 0.0033
+  - never: 0.0033
+  - fishing: 0.0033
+  - trust: 0.0033
+  - make: 0.0033
+  - belong: 0.0033
+  - car: 0.0033
+  - loyal: 0.0033
+  - terrarium: 0.0033
+  - yelling: 0.0033
+
+Topic 250:
+  - comfortable: 148.9798
+  - legally: 106.5847
+  - socially: 22.2032
+  - voip: 13.2157
+  - game: 0.0034
+  - feel: 0.0034
+  - female: 0.0034
+  - junimo: 0.0034
+  - able: 0.0033
+  - people: 0.0033
+  - real: 0.0033
+  - life: 0.0033
+  - exist: 0.0033
+  - woman: 0.0033
+  - change: 0.0033
+
+Topic 251:
+  - hour: 12659.1956
+  - spent: 1953.5256
+  - hundred: 1150.5393
+  - yet: 960.5748
+  - thousand: 934.6904
+  - country: 553.6305
+  - mention: 534.9846
+  - several: 500.5555
+  - countless: 426.9516
+  - game: 361.0984
+  - playtime: 306.7804
+  - idiot: 270.0750
+  - yea: 245.9441
+  - disappointing: 243.4619
+  - touched: 235.6901
+
+Topic 252:
+  - good: 22267.1396
+  - tho: 1229.9681
+  - otherwise: 1225.8835
+  - might: 949.7390
+  - giant: 495.9934
+  - hilarious: 439.4779
+  - game: 389.5031
+  - laggy: 375.1392
+  - like: 365.5149
+  - sucked: 265.4552
+  - gem: 210.3401
+  - owner: 189.6654
+  - gifted: 177.8658
+  - becoming: 153.5453
+  - ego: 104.8133
+
+Topic 253:
+  - game: 0.0033
+  - woke: 0.0033
+  - option: 0.0033
+  - play: 0.0033
+  - issue: 0.0033
+  - type: 0.0033
+  - male: 0.0033
+  - replaced: 0.0033
+  - body: 0.0033
+  - female: 0.0033
+  - crap: 0.0033
+  - player: 0.0033
+  - terrarium: 0.0033
+  - dei: 0.0033
+  - balancing: 0.0033
+
+Topic 254:
+  - wait: 2375.4978
+  - till: 707.8465
+  - clicking: 164.7697
+  - next: 135.3864
+  - accomplished: 66.6826
+  - german: 62.6864
+  - gaslighting: 45.2843
+  - upd: 39.5132
+  - reek: 21.1709
+  - faking: 18.8299
+  - existant: 17.9976
+  - futile: 15.3751
+  - imitator: 15.0846
+  - pounded: 14.1745
+  - proverbial: 10.2169
+
+Topic 255:
+  - enough: 4557.7387
+  - tbh: 426.7029
+  - game: 0.0202
+  - guide: 0.0043
+  - good: 0.0035
+  - even: 0.0035
+  - fnaf: 0.0034
+  - idk: 0.0034
+  - know: 0.0034
+  - get: 0.0034
+  - annoying: 0.0034
+  - time: 0.0034
+  - hour: 0.0034
+  - really: 0.0034
+  - bought: 0.0034
+
+Topic 256:
+  - still: 11015.5839
+  - bug: 7633.9491
+  - looking: 1989.3851
+  - earth: 1237.2634
+  - become: 1019.4940
+  - exist: 448.6791
+  - circle: 235.7580
+  - launched: 204.3362
+  - numerous: 182.3019
+  - plagued: 161.5376
+  - advertised: 109.4205
+  - november: 105.2313
+  - beloved: 95.1145
+  - butter: 69.3818
+  - occasion: 64.4232
+
+Topic 257:
+  - gud: 340.7509
+  - hat: 227.4384
+  - alternative: 198.2311
+  - und: 142.3832
+  - die: 139.8537
+  - ist: 117.0530
+  - da: 109.0984
+  - gut: 107.3355
+  - ich: 107.0361
+  - mega: 97.3268
+  - der: 87.6025
+  - spiel: 81.5203
+  - den: 71.6004
+  - zu: 67.4687
+  - ein: 49.3748
+
+Topic 258:
+  - decade: 895.9002
+  - cringe: 300.4114
+  - indeed: 196.5330
+  - worm: 157.4824
+  - hi: 113.5966
+  - blur: 60.7448
+  - starbound: 41.0342
+  - hurting: 40.3804
+  - giga: 20.9048
+  - keychains: 20.8082
+  - foil: 12.8306
+  - game: 1.1851
+  - jynxi: 0.0034
+  - equivalent: 0.0034
+  - important: 0.0034
+
+Topic 259:
+  - million: 923.0227
+  - ended: 581.8846
+  - alive: 484.4811
+  - fish: 383.1967
+  - member: 298.2545
+  - ak: 269.2039
+  - island: 245.4606
+  - spray: 207.2118
+  - east: 119.4238
+  - south: 117.5490
+  - discovered: 114.1253
+  - reminded: 107.4089
+  - remaining: 99.9061
+  - north: 96.7731
+  - west: 91.3369
+
+Topic 260:
+  - go: 8497.9008
+  - c: 7492.5461
+  - trash: 2510.3875
+  - irl: 325.4515
+  - game: 315.3212
+  - like: 226.9745
+  - avoid: 188.1968
+  - list: 77.0710
+  - hope: 69.1101
+  - cream: 65.5500
+  - cow: 62.2660
+  - volvo: 49.5352
+  - park: 45.5501
+  - play: 35.0010
+  - reversing: 29.3846
+
+Topic 261:
+  - deep: 1142.8600
+  - rock: 1129.0515
+  - galactic: 359.3971
+  - milfs: 0.0034
+  - dont: 0.0033
+  - bad: 0.0033
+  - gave: 0.0033
+  - waste: 0.0033
+  - game: 0.0033
+  - money: 0.0033
+  - better: 0.0033
+  - buy: 0.0033
+  - trash: 0.0033
+  - tinkerer: 0.0033
+  - goblin: 0.0033
+
+Topic 262:
+  - high: 5418.9982
+  - set: 4554.1009
+  - player: 2979.2676
+  - experience: 1958.0118
+  - gaming: 1944.1970
+  - game: 1926.5508
+  - issue: 1356.0221
+  - may: 1187.6385
+  - update: 1147.6807
+  - potential: 889.5594
+  - however: 803.2586
+  - lack: 786.2967
+  - freedom: 784.2055
+  - community: 736.4387
+  - improvement: 679.5610
+
+Topic 263:
+  - way: 7985.3419
+  - male: 339.2900
+  - female: 312.0706
+  - sigma: 257.5086
+  - loud: 162.7476
+  - slightest: 141.9609
+  - backwards: 116.6119
+  - smurf: 67.1695
+  - nick: 57.5985
+  - royales: 51.9226
+  - entertain: 47.5322
+  - sabotaging: 42.2847
+  - walkthrough: 32.7415
+  - tried: 23.5911
+  - game: 21.3221
+
+Topic 264:
+  - worried: 159.8513
+  - restarting: 132.3369
+  - transparent: 86.5923
+  - baltic: 41.8822
+  - replied: 21.5226
+  - soil: 20.4785
+  - unsolved: 11.6057
+  - telemetry: 11.2075
+  - finland: 10.9962
+  - game: 0.0035
+  - time: 0.0034
+  - authenticating: 0.0034
+  - work: 0.0034
+  - end: 0.0034
+  - fun: 0.0034
+
+Topic 265:
+  - match: 4031.2578
+  - hacker: 3681.8580
+  - strike: 3593.2386
+  - kill: 3105.0175
+  - counter: 2928.4175
+  - bot: 1863.4130
+  - map: 1521.0840
+  - level: 1503.1190
+  - shot: 1458.8742
+  - competitive: 1104.0964
+  - aim: 930.1653
+  - player: 816.5581
+  - wall: 710.7562
+  - enemy: 591.6015
+  - shooting: 470.8722
+
+Topic 266:
+  - business: 0.0033
+  - want: 0.0033
+  - dei: 0.0033
+  - since: 0.0033
+  - remove: 0.0033
+  - woke: 0.0033
+  - neutral: 0.0033
+  - unless: 0.0033
+  - course: 0.0033
+  - really: 0.0033
+  - male: 0.0033
+  - could: 0.0033
+  - happens: 0.0033
+  - fiasco: 0.0033
+  - playing: 0.0033
+
+Topic 267:
+  - placing: 67.1542
+  - plea: 24.4839
+  - game: 0.0034
+  - instruction: 0.0034
+  - like: 0.0034
+  - tk: 0.0034
+  - get: 0.0034
+  - help: 0.0033
+  - pixel: 0.0033
+  - many: 0.0033
+  - building: 0.0033
+  - either: 0.0033
+  - play: 0.0033
+  - everything: 0.0033
+  - gameplay: 0.0033
+
+Topic 268:
+  - concernedape: 253.4508
+  - spaceship: 114.6428
+  - chocolatier: 28.2345
+  - dissappointed: 11.0342
+  - sdv: 0.0035
+  - game: 0.0034
+  - barone: 0.0034
+  - gender: 0.0034
+  - good: 0.0033
+  - pretty: 0.0033
+  - help: 0.0033
+  - relogic: 0.0033
+  - even: 0.0033
+  - see: 0.0033
+  - want: 0.0033
+
+Topic 269:
+  - texture: 5424.6308
+  - expect: 858.9030
+  - source: 834.4044
+  - unbearable: 171.9659
+  - ea: 118.4941
+  - shenanigan: 106.2684
+  - income: 85.6254
+  - nazi: 62.1469
+  - cs: 54.4901
+  - letter: 49.2435
+  - neo: 19.8478
+  - blog: 17.1020
+  - russia: 15.1233
+  - brigade: 12.5235
+  - formed: 11.5218
+
+Topic 270:
+  - game: 0.0034
+  - terrarium: 0.0033
+  - platform: 0.0033
+  - buy: 0.0033
+  - dont: 0.0033
+  - one: 0.0033
+  - considered: 0.0033
+  - seems: 0.0033
+  - perfect: 0.0033
+  - fan: 0.0033
+  - playing: 0.0033
+  - clunky: 0.0033
+  - looking: 0.0033
+  - enjoy: 0.0033
+  - bought: 0.0033
+
+Topic 271:
+  - snap: 61.1735
+  - rigged: 55.4092
+  - twin: 47.7626
+  - flashback: 22.7948
+  - crowbar: 15.7002
+  - wof: 9.4876
+  - dmca: 3.8409
+  - game: 0.0035
+  - prince: 0.0034
+  - supposed: 0.0034
+  - like: 0.0033
+  - make: 0.0033
+  - review: 0.0033
+  - post: 0.0033
+  - believe: 0.0033
+
+Topic 272:
+  - moment: 2308.1382
+  - phone: 524.0793
+  - gender: 395.4828
+  - cell: 150.7572
+  - undo: 44.0285
+  - krobus: 43.8562
+  - shane: 31.9879
+  - hotbar: 16.6493
+  - game: 0.0036
+  - year: 0.0034
+  - change: 0.0034
+  - fucking: 0.0033
+  - shit: 0.0033
+  - bitch: 0.0033
+  - give: 0.0033
+
+Topic 273:
+  - affect: 443.3518
+  - influence: 142.8598
+  - lgbtq: 47.1068
+  - respecting: 29.6583
+  - whatnot: 28.5293
+  - indirectly: 19.6727
+  - starfruit: 18.9923
+  - iridium: 15.0583
+  - deceived: 14.1684
+  - mockery: 11.9632
+  - maxtac: 4.0985
+  - watering: 0.0039
+  - game: 0.0035
+  - dmca: 0.0034
+  - concernedape: 0.0034
+
+Topic 274:
+  - rather: 1916.5285
+  - garry: 1389.8779
+  - id: 676.1044
+  - entertainment: 189.7829
+  - afford: 186.9600
+  - dmca: 93.0431
+  - newman: 60.6351
+  - greatness: 53.2849
+  - hitler: 47.7817
+  - workspace: 30.0166
+  - stuff: 28.6371
+  - ragdolled: 27.7346
+  - comic: 25.9262
+  - ben: 24.3705
+  - wink: 24.3577
+
+Topic 275:
+  - much: 6553.5148
+  - look: 3396.6746
+  - put: 2282.8100
+  - anime: 1286.3423
+  - tutorial: 909.2538
+  - kept: 729.3723
+  - like: 516.0978
+  - looked: 511.8126
+  - hot: 503.0838
+  - lame: 282.5050
+  - picked: 226.6601
+  - helpful: 159.1713
+  - need: 114.1353
+  - aesthetic: 106.9008
+  - day: 97.6734
+
+Topic 276:
+  - dead: 2560.8849
+  - man: 2112.5855
+  - oh: 1175.0511
+  - wow: 896.1743
+  - alright: 529.9402
+  - gay: 518.7287
+  - tired: 501.1973
+  - sick: 360.2798
+  - training: 234.0599
+  - racial: 233.7285
+  - calling: 231.6800
+  - realism: 207.8785
+  - fuckin: 176.6875
+  - happily: 125.0208
+  - he: 120.7525
+
+Topic 277:
+  - thermite: 5032.1866
+  - became: 741.1883
+  - appreciate: 306.8571
+  - helicopter: 131.6022
+  - john: 123.9300
+  - liberation: 63.9685
+  - donald: 41.1173
+  - wick: 36.0741
+  - deagle: 33.3769
+  - steve: 31.5134
+  - fortnight: 31.1404
+  - mow: 30.6257
+  - behalf: 26.6648
+  - miku: 24.4525
+  - necessarily: 20.8596
+
+Topic 278:
+  - starship: 367.0367
+  - alien: 271.6744
+  - prestige: 15.6493
+  - squid: 15.4320
+  - deity: 11.6849
+  - nem: 8.8711
+  - da: 0.0034
+  - nao: 0.0034
+  - pra: 0.0033
+  - x: 0.0033
+  - ding: 0.0033
+  - upfront: 0.0033
+  - space: 0.0033
+  - devs: 0.0033
+  - fight: 0.0033
+
+Topic 279:
+  - relevant: 173.1821
+  - fixtf: 16.8895
+  - oryx: 12.1706
+  - jackal: 12.1569
+  - dokkaebi: 12.1304
+  - game: 0.0034
+  - smurfing: 0.0034
+  - another: 0.0034
+  - type: 0.0034
+  - body: 0.0033
+  - option: 0.0033
+  - logic: 0.0033
+  - company: 0.0033
+  - morsel: 0.0033
+  - way: 0.0033
+
+Topic 280:
+  - game: 0.0034
+  - play: 0.0034
+  - go: 0.0034
+  - nightmare: 0.0033
+  - like: 0.0033
+  - something: 0.0033
+  - w: 0.0033
+  - valley: 0.0033
+  - instead: 0.0033
+  - suck: 0.0033
+  - arcade: 0.0033
+  - pain: 0.0033
+  - man: 0.0033
+  - id: 0.0033
+  - minecraft: 0.0033
+
+Topic 281:
+  - game: 0.0033
+  - dark: 0.0033
+  - soul: 0.0033
+  - easier: 0.0033
+  - unforgiving: 0.0033
+  - awful: 0.0033
+  - money: 0.0033
+  - guidance: 0.0033
+  - incredibly: 0.0033
+  - zero: 0.0033
+  - sanity: 0.0033
+  - save: 0.0033
+  - player: 0.0033
+  - like: 0.0033
+  - expected: 0.0033
+
+Topic 282:
+  - moss: 58.8184
+  - forty: 9.7220
+  - hate: 0.0041
+  - game: 0.0034
+  - really: 0.0034
+  - gender: 0.0034
+  - explaining: 0.0033
+  - thing: 0.0033
+  - woman: 0.0033
+  - like: 0.0033
+  - removing: 0.0033
+  - also: 0.0033
+  - point: 0.0033
+  - year: 0.0033
+  - even: 0.0033
+
+Topic 283:
+  - plus: 1129.4565
+  - normal: 958.3434
+  - launcher: 837.7853
+  - premier: 741.1375
+  - l: 551.7534
+  - rocket: 389.1593
+  - sa: 252.6857
+  - flamethrower: 199.8173
+  - instant: 159.1390
+  - convinced: 137.9386
+  - je: 132.4174
+  - le: 120.1854
+  - ne: 102.3651
+  - pour: 99.3828
+  - j: 94.8523
+
+Topic 284:
+  - warzone: 156.0139
+  - battlepasses: 87.5507
+  - mankind: 46.4010
+  - standalone: 44.4784
+  - incoming: 42.9816
+  - و: 30.7981
+  - valued: 25.9428
+  - misguided: 14.1280
+  - dayz: 0.0042
+  - sharkcards: 0.0037
+  - destroyer: 0.0034
+  - beat: 0.0034
+  - copper: 0.0034
+  - cant: 0.0034
+  - entire: 0.0034
+
+Topic 285:
+  - niger: 15.4356
+  - wallpappers: 10.3339
+  - defeat: 0.0034
+  - boss: 0.0033
+  - new: 0.0033
+  - start: 0.0033
+  - game: 0.0033
+  - world: 0.0033
+  - boring: 0.0033
+  - stop: 0.0033
+  - nothing: 0.0033
+  - gender: 0.0033
+  - fun: 0.0033
+  - update: 0.0033
+  - mean: 0.0033
+
+Topic 286:
+  - inconsistency: 0.0033
+  - selfish: 0.0033
+  - ballistic: 0.0033
+  - societal: 0.0033
+  - assed: 0.0033
+  - front: 0.0033
+  - gift: 0.0033
+  - port: 0.0033
+  - untouchable: 0.0033
+  - superhuman: 0.0033
+  - france: 0.0033
+  - tattoo: 0.0033
+  - anguish: 0.0033
+  - thrive: 0.0033
+  - absolutley: 0.0033
+
+Topic 287:
+  - taskbar: 29.2455
+  - photograph: 12.9252
+  - foremost: 0.0033
+  - uplay: 0.0033
+  - recoilless: 0.0033
+  - trilogy: 0.0033
+  - select: 0.0033
+  - supposedly: 0.0033
+  - deadlock: 0.0033
+  - vile: 0.0033
+  - alter: 0.0033
+  - fw: 0.0033
+  - spectrum: 0.0033
+  - betrayed: 0.0033
+  - shipped: 0.0033
+
+Topic 288:
+  - buy: 17959.8730
+  - worth: 10679.9142
+  - dont: 3862.2421
+  - r: 1199.0785
+  - child: 586.6625
+  - took: 343.1810
+  - gang: 328.9951
+  - peak: 255.5219
+  - money: 221.3444
+  - load: 175.4361
+  - percent: 135.6193
+  - game: 117.7724
+  - kiss: 97.0208
+  - nuke: 88.3725
+  - freddy: 67.6745
+
+Topic 289:
+  - f: 4025.4244
+  - family: 1072.0106
+  - ai: 1069.8539
+  - dollar: 992.4734
+  - overrated: 509.7703
+  - massive: 390.9757
+  - rampant: 383.1361
+  - five: 297.6451
+  - battleground: 252.3413
+  - requiring: 217.0003
+  - fr: 216.8157
+  - ing: 207.2387
+  - rubber: 171.9011
+  - art: 162.2521
+  - bruh: 148.3050
+
+Topic 290:
+  - mad: 585.8171
+  - amongus: 369.4280
+  - scary: 362.9301
+  - separate: 349.5788
+  - logged: 202.9400
+  - scared: 194.8713
+  - thru: 131.6849
+  - purple: 76.3637
+  - exploiter: 43.7098
+  - menace: 40.6550
+  - uwu: 40.0795
+  - pitch: 30.2204
+  - reactor: 29.5344
+  - pronoun: 29.0486
+  - lane: 26.5223
+
+Topic 291:
+  - type: 2149.9594
+  - body: 699.4184
+  - thx: 80.1547
+  - convenient: 65.0225
+  - option: 42.3876
+  - i: 37.0878
+  - animate: 35.9717
+  - b: 32.1054
+  - prank: 18.5025
+  - siri: 15.2692
+  - romanced: 14.3646
+  - existance: 14.2283
+  - jokingly: 10.1498
+  - towny: 9.9878
+  - game: 9.1501
+
+Topic 292:
+  - smoker: 58.2303
+  - game: 0.0034
+  - get: 0.0034
+  - garbage: 0.0033
+  - day: 0.0033
+  - killed: 0.0033
+  - people: 0.0033
+  - never: 0.0033
+  - list: 0.0033
+  - go: 0.0033
+  - would: 0.0033
+  - woke: 0.0033
+  - supposed: 0.0033
+  - hit: 0.0033
+  - mouse: 0.0033
+
+Topic 293:
+  - ban: 2368.8140
+  - zero: 560.2327
+  - rule: 553.4351
+  - warning: 479.9010
+  - breach: 439.0013
+  - banning: 292.7446
+  - forum: 268.9936
+  - reason: 267.7961
+  - loose: 229.3950
+  - horrendous: 227.4886
+  - moderator: 223.5889
+  - recommending: 211.6321
+  - reverse: 187.7808
+  - permanent: 172.8707
+  - dealing: 170.6838
+
+Topic 294:
+  - also: 12189.3605
+  - recieved: 2369.7900
+  - vote: 658.3520
+  - develop: 268.1046
+  - scam: 250.4200
+  - wallet: 179.5811
+  - charm: 175.8641
+  - teamplay: 34.1628
+  - whoa: 19.3325
+  - cockstar: 18.1924
+  - deserted: 14.3506
+  - orion: 14.2121
+  - generously: 11.1745
+  - apon: 10.1697
+  - thumbs_up: 9.0093
+
+Topic 295:
+  - logic: 300.2236
+  - spawning: 229.1172
+  - dealt: 112.2962
+  - liek: 24.1292
+  - tyrannical: 21.0066
+  - violate: 16.1821
+  - whomever: 14.4435
+  - swears: 13.3915
+  - gatling: 12.7627
+  - game: 0.0082
+  - spawn: 0.0041
+  - thing: 0.0035
+  - fun: 0.0034
+  - one: 0.0034
+  - like: 0.0034
+
+Topic 296:
+  - dei: 223.5917
+  - bullying: 67.7035
+  - joja: 59.9525
+  - blackrock: 28.8356
+  - slavery: 24.5376
+  - frickin: 20.9309
+  - stoped: 16.5442
+  - communism: 12.6826
+  - хуета: 11.6562
+  - game: 8.0966
+  - stop: 0.0034
+  - day: 0.0034
+  - changing: 0.0034
+  - moon: 0.0034
+  - year: 0.0033
+
+Topic 297:
+  - free: 3025.3269
+  - v: 2530.2474
+  - add: 2370.8550
+  - longer: 1225.3921
+  - state: 1212.1248
+  - current: 954.2706
+  - ruined: 937.6883
+  - feature: 814.7150
+  - name: 752.4943
+  - taking: 700.5594
+  - missing: 669.8597
+  - broke: 625.3133
+  - click: 570.9635
+  - game: 498.9865
+  - studio: 487.0379
+
+Topic 298:
+  - package: 5407.7181
+  - red: 1436.5190
+  - cd: 820.9748
+  - valorant: 667.6650
+  - projekt: 502.9081
+  - light: 453.4754
+  - saw: 393.1985
+  - addiction: 369.8284
+  - galaxy: 178.2580
+  - peaceful: 176.5496
+  - crack: 174.2142
+  - camp: 104.7658
+  - history: 101.4941
+  - explode: 74.2240
+  - robin: 72.6629
+
+Topic 299:
+  - battleeye: 259.4177
+  - folder: 123.0786
+  - backup: 43.8307
+  - monetize: 15.0910
+  - issue: 0.0037
+  - game: 0.0036
+  - terrarium: 0.0034
+  - way: 0.0034
+  - fix: 0.0034
+  - better: 0.0034
+  - hour: 0.0034
+  - much: 0.0034
+  - player: 0.0034
+  - fun: 0.0034
+  - still: 0.0034
+
+Topic 300:
+  - swap: 85.4808
+  - tunnel: 62.6628
+  - ache: 16.6436
+  - carpal: 10.8846
+  - control: 0.0034
+  - fucking: 0.0033
+  - good: 0.0033
+  - game: 0.0033
+  - mapping: 0.0033
+  - left: 0.0033
+  - fire: 0.0033
+  - support: 0.0033
+  - mob: 0.0033
+  - still: 0.0033
+  - want: 0.0033
+
