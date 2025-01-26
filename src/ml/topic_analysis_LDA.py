@@ -3,220 +3,336 @@ import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import LatentDirichletAllocation
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
+from sklearn.metrics.pairwise import cosine_similarity
 import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize, sent_tokenize
+from nltk.stem import WordNetLemmatizer
 import re
 from time import time
 import multiprocessing
-from joblib import Parallel, delayed
+from concurrent.futures import ProcessPoolExecutor
+from functools import partial
+from tqdm import tqdm
 import gc
-import warnings
-warnings.filterwarnings('ignore')
+import matplotlib.pyplot as plt
+from sklearn.manifold import TSNE
+
+
+def get_optimal_workers():
+    """Określa optymalną liczbę wątków do przetwarzania równoległego"""
+    return max(1, multiprocessing.cpu_count() - 1)
 
 
 def download_nltk_resources():
-    nltk.download('stopwords', quiet=True)
-    nltk.download('punkt', quiet=True)
-    nltk.download('wordnet', quiet=True)
-
-
-def clean_text(text):
-    if not isinstance(text, str):
-        return ''
-
-    # Compile regex patterns once
-    url_pattern = re.compile(r'http\S+|www\S+|https\S+')
-    number_pattern = re.compile(r'(?<!\d)[0-9]+(?!\d)')
-    special_char_pattern = re.compile(r'[^\w\s\']')
-
-    # Apply patterns
-    text = url_pattern.sub('', text)
-    text = number_pattern.sub('', text)
-    text = special_char_pattern.sub(' ', text)
-    text = ' '.join(text.split())
-    return text.lower()
+    """Pobiera wymagane zasoby NLTK"""
+    resources = ['punkt', 'stopwords', 'wordnet']
+    for resource in resources:
+        try:
+            nltk.download(resource, quiet=True)
+        except:
+            pass
 
 
 def get_custom_stop_words():
-    gaming_stop_words = {
-        'game', 'games', 'play', 'played', 'playing',
-        'steam', 'review', 'reviews', 'recommend',
-        'recommended', 'hour', 'hours', 'like', 'good',
-        'bad', 'great', 'best', 'worst', 'really',
-        'much', 'many', 'lot', 'well', 'make', 'made'
+    """Zwraca rozszerzoną listę stop words"""
+    domain_stop_words = {
+        'game', 'games', 'play', 'played', 'playing', 'gameplay',
+        'steam', 'review', 'reviews', 'recommend', 'recommended',
+        'hour', 'hours', 'like', 'good', 'bad', 'great', 'best',
+        'worst', 'really', 'much', 'many', 'lot', 'well', 'make',
+        'made', 'time', 'player', 'players'
     }
-    return set(stopwords.words('english')).union(gaming_stop_words)
+    return set(stopwords.words('english')).union(domain_stop_words)
 
 
-def process_chunk(texts, lemmatizer, stop_words):
-    return [preprocess_text(text, lemmatizer, stop_words) for text in texts]
-
-
-def preprocess_text(text, lemmatizer, stop_words):
+def clean_text(text):
+    """Czyści tekst z niepożądanych elementów"""
     if not isinstance(text, str):
         return ''
 
-    tokens = word_tokenize(text)
-    tokens = [lemmatizer.lemmatize(word) for word in tokens
-              if word not in stop_words and len(word) > 2]
-    return ' '.join(tokens)
+    patterns = {
+        'url': re.compile(r'http\S+|www\S+|https\S+'),
+        'special_chars': re.compile(r'[^\w\s\']'),
+        'numbers': re.compile(r'\d+'),
+        'extra_spaces': re.compile(r'\s+')
+    }
 
-def preprocess_data_parallel(data, cleaned_data_path, chunk_size=10000):
-    print("Starting parallel preprocessing...")
+    text = patterns['url'].sub('', text)
+    text = patterns['special_chars'].sub(' ', text)
+    text = patterns['numbers'].sub('', text)
+    text = patterns['extra_spaces'].sub(' ', text)
 
-    # Remove NaN values from review column first
-    print("Removing NaN values...")
-    data = data.dropna(subset=['review'])
+    return text.lower().strip()
 
-    # Clean texts in parallel
-    print("Cleaning texts...")
-    with Parallel(n_jobs=-1, prefer="threads") as parallel:
-        data['cleaned_review'] = parallel(
-            delayed(clean_text)(text)
-            for text in data['review']
-        )
 
-    # Initialize resources for text processing
+def process_text(text, lemmatizer, stop_words):
+    """Przetwarza tekst z wykorzystaniem lemmatyzacji i usuwaniem stop words"""
+    if not isinstance(text, str):
+        return ''
+
+    sentences = []
+    for sent in sent_tokenize(text):
+        tokens = word_tokenize(clean_text(sent))
+        tokens = [lemmatizer.lemmatize(word) for word in tokens
+                  if word not in stop_words and len(word) > 2]
+        if tokens:
+            sentences.append(' '.join(tokens))
+
+    return ' '.join(sentences)
+
+
+def process_chunk(chunk, lemmatizer, stop_words):
+    """Pomocnicza funkcja do przetwarzania pojedynczego chunka"""
+    return [process_text(text, lemmatizer, stop_words) for text in chunk]
+
+
+def parallel_process_texts(texts, chunk_size=1000):
+    """Przetwarza teksty równolegle w chunk'ach"""
     lemmatizer = WordNetLemmatizer()
     stop_words = get_custom_stop_words()
 
-    # Process in chunks to manage memory
-    processed_reviews = []
-    n_chunks = len(data) // chunk_size + (1 if len(data) % chunk_size else 0)
+    processed_texts = []
+    chunks = [texts[i:i + chunk_size] for i in range(0, len(texts), chunk_size)]
 
-    for i in range(n_chunks):
-        start_idx = i * chunk_size
-        end_idx = min((i + 1) * chunk_size, len(data))
-        chunk = data['cleaned_review'][start_idx:end_idx]
+    process_chunk_with_params = partial(process_chunk,
+                                        lemmatizer=lemmatizer,
+                                        stop_words=stop_words)
 
-        # Process chunk in parallel
-        with Parallel(n_jobs=-1, prefer="threads") as parallel:
-            processed_chunk = parallel(
-                delayed(preprocess_text)(text, lemmatizer, stop_words)
-                for text in chunk
-            )
-        processed_reviews.extend(processed_chunk)
+    with ProcessPoolExecutor(max_workers=get_optimal_workers()) as executor:
+        with tqdm(total=len(texts), desc="Processing texts") as pbar:
+            for chunk_result in executor.map(process_chunk_with_params, chunks):
+                processed_texts.extend(chunk_result)
+                pbar.update(len(chunk_result))
+                gc.collect()
 
-        print(f"Processed chunk {i + 1}/{n_chunks} ({end_idx}/{len(data)} reviews)")
+    return processed_texts
+
+
+def calculate_topic_coherence(lda, vectorizer, X, top_n=20):
+    """Oblicza spójność tematów na podstawie PMI"""
+    feature_names = vectorizer.get_feature_names_out()
+    coherence_scores = []
+    X_dense = X.toarray()
+
+    for topic in lda.components_:
+        top_term_indices = topic.argsort()[:-top_n - 1:-1]
+        top_terms = [feature_names[i] for i in top_term_indices]
+
+        pair_scores = []
+        for i in range(len(top_terms)):
+            for j in range(i + 1, len(top_terms)):
+                term1_docs = X_dense[:, vectorizer.vocabulary_[top_terms[i]]] > 0
+                term2_docs = X_dense[:, vectorizer.vocabulary_[top_terms[j]]] > 0
+
+                cooccurrence = np.sum(term1_docs & term2_docs) + 1
+                term1_count = np.sum(term1_docs) + 1
+                term2_count = np.sum(term2_docs) + 1
+                total_docs = len(X_dense) + 1
+
+                pmi = np.log((cooccurrence * total_docs) / (term1_count * term2_count))
+                pair_scores.append(pmi)
+
+        coherence_scores.append(np.mean(pair_scores))
+
+    return np.mean(coherence_scores)
+
+
+def calculate_topic_diversity(lda, vectorizer, top_n=20):
+    """Oblicza różnorodność tematów"""
+    feature_names = vectorizer.get_feature_names_out()
+    topic_words = []
+
+    for topic in lda.components_:
+        top_indices = topic.argsort()[:-top_n - 1:-1]
+        topic_words.append(set(feature_names[i] for i in top_indices))
+
+    diversity_scores = []
+    for i in range(len(topic_words)):
+        for j in range(i + 1, len(topic_words)):
+            jaccard = len(topic_words[i].intersection(topic_words[j])) / len(topic_words[i].union(topic_words[j]))
+            diversity_scores.append(1 - jaccard)
+
+    return np.mean(diversity_scores)
+
+
+def find_optimal_topics(X, vectorizer, min_topics=25, max_topics=1000, step=25):
+    """Znajduje optymalną liczbę topików na podstawie metryk"""
+    print("\nSearching for optimal number of topics...")
+    results = []
+
+    for n_topics in tqdm(range(min_topics, max_topics + 1, step), desc="Evaluating topics"):
+        lda = LatentDirichletAllocation(
+            n_components=n_topics,
+            learning_method='online',
+            batch_size=4096,
+            max_iter=20,
+            n_jobs=get_optimal_workers(),
+            random_state=42
+        )
+
+        # Trenowanie modelu
+        doc_topics = lda.fit_transform(X)
+
+        # Obliczanie metryk
+        coherence = calculate_topic_coherence(lda, vectorizer, X)
+        diversity = calculate_topic_diversity(lda, vectorizer)
+        perplexity = lda.perplexity(X)
+
+        # Normalizacja metryk
+        norm_coherence = coherence / (1 + abs(coherence))
+        norm_diversity = diversity
+        norm_perplexity = 1 / (1 + np.log1p(perplexity))
+
+        # Ważona suma metryk
+        combined_score = (0.4 * norm_coherence +
+                          0.4 * norm_diversity +
+                          0.2 * norm_perplexity)
+
+        results.append({
+            'n_topics': n_topics,
+            'coherence': coherence,
+            'diversity': diversity,
+            'perplexity': perplexity,
+            'combined_score': combined_score
+        })
+
         gc.collect()
 
-    data['processed_review'] = processed_reviews
+    # Wybór najlepszej liczby topików
+    best_result = max(results, key=lambda x: x['combined_score'])
 
-    # Remove empty reviews and NaN values
-    print("Cleaning up processed data...")
-    data = data[data['processed_review'].str.len() > 0]
-    data = data.dropna(subset=['processed_review'])
+    print(f"\nOptimal number of topics found: {best_result['n_topics']}")
+    print(f"Metrics for optimal solution:")
+    print(f"Coherence: {best_result['coherence']:.4f}")
+    print(f"Diversity: {best_result['diversity']:.4f}")
+    print(f"Perplexity: {best_result['perplexity']:.4f}")
+    print(f"Combined Score: {best_result['combined_score']:.4f}")
 
-    print(f"Final dataset size: {len(data)} reviews")
-    print(f"Saving cleaned data to: {cleaned_data_path}")
-    data.to_csv(cleaned_data_path, index=False)
-    return data
+    return best_result['n_topics'], results
 
 
-def perform_lda_analysis(data, n_topics=300, batch_size=4096):
-    print("Preparing data for vectorization...")
+def analyze_and_visualize(data_path, n_topics=None, min_topics=25, max_topics=1000, step=25, results_path=None):
+    """Główna funkcja przeprowadzająca analizę LDA i generująca wizualizację"""
+    t0 = time()
+    download_nltk_resources()
 
-    # Ensure no NaN values before vectorization
-    data = data.dropna(subset=['processed_review'])
+    # Wczytanie i przetworzenie danych
+    print("Loading and preprocessing data...")
+    data = pd.read_csv(data_path, low_memory=False)
+    processed_texts = parallel_process_texts(data['review'].tolist())
 
-    # Remove empty strings and whitespace-only strings
-    data = data[data['processed_review'].str.strip().str.len() > 0]
-
-    print(f"Number of valid documents for analysis: {len(data)}")
-
-    print("Creating document-term matrix...")
+    # Wektoryzacja
+    print("Vectorizing texts...")
     vectorizer = CountVectorizer(
-        max_features=15000,
-        min_df=10,
-        max_df=0.90,
-        token_pattern=r'\b\w+\b',
-        lowercase=False
+        max_features=20000,
+        min_df=20,
+        max_df=0.85,
+        token_pattern=r'\b\w+\b'
     )
+    X = vectorizer.fit_transform(processed_texts)
 
-    print("Vectorizing documents...")
-    X = vectorizer.fit_transform(data['processed_review'])
-    print(f"Vocabulary size: {len(vectorizer.get_feature_names_out())}")
+    # Znalezienie optymalnej liczby topików lub użycie podanej wartości
+    if n_topics is None:
+        print("Finding optimal number of topics...")
+        n_topics, topic_search_results = find_optimal_topics(
+            X, vectorizer, min_topics, max_topics, step
+        )
 
-    print("Training LDA model...")
+        # Zapisywanie wyników wyszukiwania
+        results_df = pd.DataFrame(topic_search_results)
+        results_df.to_csv(results_path.replace('.txt', '_search_results.csv'), index=False)
+
+        # Wizualizacja wyników wyszukiwania
+        plt.figure(figsize=(12, 8))
+        plt.plot(results_df['n_topics'], results_df['combined_score'], marker='o')
+        plt.xlabel('Number of Topics')
+        plt.ylabel('Combined Score')
+        plt.title('Topic Number Optimization')
+        plt.grid(True)
+        plt.savefig(results_path.replace('.txt', '_optimization.png'), dpi=300, bbox_inches='tight')
+        plt.close()
+
+    # Trenowanie finalnego modelu LDA
+    print(f"Training final LDA model with {n_topics} topics...")
     lda = LatentDirichletAllocation(
         n_components=n_topics,
         learning_method='online',
-        batch_size=batch_size,
-        max_iter=10,
-        learning_decay=0.7,
-        random_state=42,
-        n_jobs=-1
+        batch_size=4096,
+        max_iter=20,
+        n_jobs=get_optimal_workers(),
+        random_state=42
     )
 
-    lda.fit(X)
+    doc_topics = lda.fit_transform(X)
 
-    return lda, vectorizer, X
+    # Obliczanie metryk
+    print("Calculating metrics...")
+    metrics = {
+        'coherence': calculate_topic_coherence(lda, vectorizer, X),
+        'diversity': calculate_topic_diversity(lda, vectorizer),
+        'perplexity': lda.perplexity(X)
+    }
 
+    # Zapisywanie wyników
+    results = {
+        'metrics': metrics,
+        'top_words': get_top_words_per_topic(lda, vectorizer, n_words=20)
+    }
 
-def save_results(lda, vectorizer, log_file_path, perplexity=None):
-    feature_names = vectorizer.get_feature_names_out()
-    results = f"\n{'=' * 30}\nNumber of topics: {lda.n_components}\n"
-    if perplexity:
-        results += f"Model perplexity: {perplexity:.2f}\n"
-    results += "Topics:\n"
+    with open(results_path, 'w') as f:
+        f.write("LDA Analysis Results\n\n")
+        f.write(f"Number of topics: {n_topics}\n\n")
+        f.write("Metrics:\n")
+        for metric, value in metrics.items():
+            f.write(f"{metric}: {value:.4f}\n")
+        f.write("\nTop words per topic:\n")
+        for topic_idx, words in results['top_words'].items():
+            f.write(f"\nTopic {topic_idx + 1}:\n")
+            f.write(", ".join(words))
 
-    for idx, topic in enumerate(lda.components_):
-        top_words_idx = topic.argsort()[:-15 - 1:-1]  # Get top 15 words
-        top_words = [feature_names[i] for i in top_words_idx]
-        word_weights = [topic[i] for i in top_words_idx]
+    # Wizualizacja t-SNE
+    print("Generating visualization...")
+    tsne = TSNE(n_components=2, random_state=42, n_jobs=get_optimal_workers())
+    tsne_output = tsne.fit_transform(doc_topics)
 
-        topic_str = f"Topic {idx + 1}:\n"
-        for word, weight in zip(top_words, word_weights):
-            topic_str += f"  - {word}: {weight:.4f}\n"
-        results += topic_str + "\n"
-
-    os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
-    with open(log_file_path, 'w', encoding='utf-8') as log_file:
-        log_file.write(results)
-
-def main():
-    # File paths
-    raw_data_path = '../../data/dataset_combined.csv'
-    cleaned_data_path = '../../data/cleaned_dataset.csv'
-    log_file_path = '../../logs/LDA_results.txt'
-
-    # Create directories
-    os.makedirs(os.path.dirname(cleaned_data_path), exist_ok=True)
-    os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
-
-    # Download NLTK resources
-    download_nltk_resources()
-
-    # Load data
-    print("Loading data...")
-    if os.path.exists(cleaned_data_path):
-        print("Loading preprocessed data...")
-        data = pd.read_csv(cleaned_data_path)
-        # Verify data quality even for preprocessed data
-        data = data.dropna(subset=['processed_review'])
-        data = data[data['processed_review'].str.strip().str.len() > 0]
-    else:
-        print("Loading raw data...")
-        data = pd.read_csv(raw_data_path)
-        data = preprocess_data_parallel(data, cleaned_data_path)
-
-    print(f"Dataset size after cleaning: {len(data)} reviews")
-
-    # Perform LDA
-    t0 = time()
-    lda, vectorizer, X = perform_lda_analysis(data)
-
-    # Calculate perplexity
-    perplexity = lda.perplexity(X)
-
-    # Save results
-    save_results(lda, vectorizer, log_file_path, perplexity)
+    plt.figure(figsize=(12, 8))
+    dominant_topics = doc_topics.argmax(axis=1)
+    scatter = plt.scatter(tsne_output[:, 0], tsne_output[:, 1],
+                          c=dominant_topics, cmap='tab20', alpha=0.6, s=10)
+    plt.colorbar(scatter)
+    plt.title('Topic Distribution (t-SNE)')
+    plt.savefig(results_path.replace('.txt', '_visualization.png'), dpi=300, bbox_inches='tight')
+    plt.close()
 
     print(f"Analysis completed in {time() - t0:.2f} seconds")
-    print(f"Final perplexity: {perplexity:.2f}")
+    print(f"Results saved to: {results_path}")
+    return lda, vectorizer, results
+
+
+def get_top_words_per_topic(lda, vectorizer, n_words=20):
+    """Zwraca najważniejsze słowa dla każdego tematu"""
+    feature_names = vectorizer.get_feature_names_out()
+    top_words = {}
+
+    for topic_idx, topic in enumerate(lda.components_):
+        top_indices = topic.argsort()[:-n_words - 1:-1]
+        top_words[topic_idx] = [feature_names[i] for i in top_indices]
+
+    return top_words
 
 
 if __name__ == "__main__":
-    main()
+    data_path = '../../data/dataset_combined.csv'
+    results_path = '../../logs/LDA_results.txt'
+    min_topics, max_topics, step = 50, 300, 25
+
+    os.makedirs(os.path.dirname(results_path), exist_ok=True)
+    analyze_and_visualize(
+        data_path=data_path,
+        n_topics=None,
+        min_topics=min_topics,
+        max_topics=max_topics,
+        step=step,
+        results_path=results_path
+    )
