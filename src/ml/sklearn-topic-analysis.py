@@ -191,14 +191,18 @@ def visualize_topics(model, X, method_name, save_path):
 
     # Tworzenie wizualizacji z ulepszoną estetyką
     plt.figure(figsize=(16, 10))
-    plt.style.use('seaborn')
+
+    # Ustawienie stylu bez używania seaborn
+    plt.grid(True, linestyle='--', alpha=0.7)
+    plt.rcParams['axes.facecolor'] = '#f0f0f0'
 
     scatter = plt.scatter(umap_output[:, 0],
                           umap_output[:, 1],
                           c=dominant_topics,
                           cmap='tab20',
-                          alpha=0.6,
-                          s=15)
+                          alpha=0.7,
+                          s=20,
+                          edgecolor='none')
 
     plt.colorbar(scatter, label='Topic Number')
     plt.title(f'{method_name} Topic Distribution (UMAP visualization)',
@@ -383,7 +387,7 @@ def save_results(config, method, log_file_path, original_texts):
 
 
 def main():
-    data_path = '../../data/dataset_combined.csv'
+    data_path = '../../data/test_dataset_combined.csv'
     results_path_lsa = '../../logs/sklearn_LSA_results.txt'
     results_path_lda = '../../logs/sklearn_LDA_results.txt'
     results_path_nmf = '../../logs/sklearn_NMF_results.txt'
