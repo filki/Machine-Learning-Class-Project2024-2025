@@ -84,7 +84,7 @@ Topic 4 (Importance: 1.0000):
   - ride: 0.0128
   - resource: 0.0116
   - return: 0.0111
-  - last: 0.0077
+  - last: 0.0077gm
   - take: 0.0076
   - completion: 0.0071
   - smart: 0.0070
