@@ -1,0 +1,39 @@
+name: my_nlp
+channels:
+  - conda-forge
+  - rapidsai
+  - nvidia
+  - pytorch
+  - defaults
+dependencies:
+  # Core CUDA Packages
+  - cudatoolkit=11.8  # Match your NVIDIA driver (check with `nvidia-smi`)
+  - pytorch=2.1.2
+  - pytorch-cuda=11.8
+
+  # RAPIDS AI (CUDF/CUML) - Requires CUDA 11.8/12.0
+  - cuml=24.04  # Includes cuml.manifold, cuml.cluster
+  - cudf=24.04  # Requires Python 3.10/3.11
+  - cupy=12.2.0  # CUDA 12.x compatible version
+
+  # Core NLP/ML
+  - numpy
+  - pandas
+  - scikit-learn
+  - umap-learn
+  - hdbscan
+  - tqdm
+
+  # Visualization
+  - matplotlib
+  - seaborn
+  - plotly
+  - wordcloud
+
+  # Pip-only packages
+  - pip:
+    - datasets  # Hugging Face
+    - sentence-transformers
+    - bertopic
+    - blingfire
+    - torch  # Reinstall via pip if needed (but Conda should handle it)

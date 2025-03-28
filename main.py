@@ -2,6 +2,7 @@ import pandas as pd
 import logging
 from src.ml.analyzer import SteamReviewAnalyzer
 from src.ml.utils import get_output_dirs, save_analysis_results
+import os
 
 # Configure logging
 logging.basicConfig(
@@ -16,8 +17,8 @@ def main():
         checkpoints_dir, viz_dir, results_dir = get_output_dirs('output')
         
         # Load data
-        df = pd.read_csv('data/downloader/rpg_100/dataset_combined.csv')
-        df = df.sample(n=500)  # for testing with sample
+        df = pd.read_csv('data/downloader/rpg/dataset_combined.csv')
+        #df = df.sample(n=500)  # for testing with sample
         
         # Initialize analyzer
         analyzer = SteamReviewAnalyzer(
@@ -39,6 +40,15 @@ def main():
             print(f"- Latest results file: {results_file}")
         except Exception as e:
             logger.error(f"Failed to save results: {str(e)}")
+
+                # Upload results to Cloud Storage bucket
+        try:
+            output_base = "output"
+            bucket_path = "gs://steam_reviews_test/output_final_4/"  
+            os.system(f"gsutil -m cp -r {output_base} {bucket_path}")
+            print(f"Results directory uploaded to {bucket_path}.")
+        except Exception as e:
+            logger.error(f"Failed to upload results to bucket: {str(e)}")    
         
     except Exception as e:
         logger.error(f"Analysis failed with error: {str(e)}")

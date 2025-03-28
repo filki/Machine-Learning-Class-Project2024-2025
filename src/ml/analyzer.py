@@ -14,7 +14,7 @@ import os
 from typing import List, Dict, Any
 from tqdm import tqdm
 from .utils import generate_checkpoint_id, save_checkpoint, load_checkpoint
-from .visualizations import create_visualizations, create_sentiment_visualizations
+from .visualizations import create_visualizations, create_bertopic_visualizations, create_sentiment_visualizations
 from .bbcode_cleaner import BBCodeCleaner
 import blingfire
 from typing import cast # For type hints
@@ -22,6 +22,11 @@ import cupy  # For GPU array operations
 import cudf  # For GPU DataFrames 
 from cuml.manifold import UMAP as cuUMAP  # GPU-accelerated UMAP
 from cuml.cluster import HDBSCAN as cuHDBSCAN  # GPU-accelerated HDBSCAN
+from pathlib import Path
+from datasets import Dataset
+import torch
+from collections import defaultdict
+from itertools import chain
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -63,8 +68,7 @@ class SteamReviewAnalyzer:
                 "sentiment-analysis",
                 model="distilbert-base-uncased-finetuned-sst-2-english",
                 max_length=512,
-                truncation=True,
-                device=0 if self.device == 'cuda' else -1
+                truncation=True
             )
 
     def analyze_sentiment(self, texts: List[str], batch_size: int = 32) -> List[dict]:
@@ -86,17 +90,17 @@ class SteamReviewAnalyzer:
             'sentence': sentences,
             'topic': topics
         })
-        
+
         sentiments = self.analyze_sentiment(sentences)
         df['sentiment'] = [s['label'] for s in sentiments]
         df['sentiment_score'] = [s['score'] for s in sentiments]
         df['sentiment_value'] = df['sentiment'].map({'POSITIVE': 1, 'NEGATIVE': -1})
-        
+
         topic_sentiment = df.groupby('topic').agg({
             'sentiment_value': ['mean', 'count'],
             'sentiment_score': ['mean', 'std']
         }).round(3)
-        
+
         topic_sentiment.columns = ['sentiment_mean', 'sentence_count', 'confidence_mean', 'confidence_std']
         return topic_sentiment.reset_index()
 
@@ -146,55 +150,58 @@ class SteamReviewAnalyzer:
                 
                 # Configure GPU-accelerated models for BERTopic
                 umap_model = cuUMAP(
-                    n_neighbors=15,
-                    n_components=5,
+                    n_neighbors=30,
+                    n_components=10,
                     metric='cosine',
-                    min_dist=0.0,
+                    min_dist=0.1,
                     random_state=42
                 )
                 
                 hdbscan_model = cuHDBSCAN(
-                    min_cluster_size=10,
-                    min_samples=5,
+                    min_cluster_size=500,
+                    min_samples=100,
                     metric='euclidean',
                     prediction_data=True,
                     gen_min_span_tree=True,
-                    cluster_selection_method='eom'
+                    cluster_selection_method='eom',
+                    cluster_selection_epsilon=0.3
                 )
                 
                 logger.info("Using GPU-accelerated UMAP and HDBSCAN")
             except ImportError:
                 logger.warning("RAPIDS not found. Using CPU implementation")
                 umap_model = UMAP(
-                    n_neighbors=15,
-                    n_components=5,
-                    min_dist=0.0,
+                    n_neighbors=30,
+                    n_components=10,
+                    min_dist=0.1,
                     metric='cosine',
                     random_state=42
                 )
                 hdbscan_model = hdbscan.HDBSCAN(
-                    min_cluster_size=10,
-                    min_samples=5,
+                    min_cluster_size=50,
+                    min_samples=10,
                     metric='euclidean',
                     prediction_data=True,
                     gen_min_span_tree=True,
-                    cluster_selection_method='eom'
+                    cluster_selection_method='eom',
+                    cluster_selection_epsilon=0.1
                 )
         else:
             umap_model = UMAP(
-                n_neighbors=15,
-                n_components=5,
-                min_dist=0.0,
+                n_neighbors=30,
+                n_components=10,
+                min_dist=0.1,
                 metric='cosine',
                 random_state=42
             )
             hdbscan_model = hdbscan.HDBSCAN(
-                min_cluster_size=10,
-                min_samples=5,
+                min_cluster_size=50,
+                min_samples=10,
                 metric='euclidean',
                 prediction_data=True,
                 gen_min_span_tree=True,
-                cluster_selection_method='eom'
+                cluster_selection_method='eom',
+                cluster_selection_epsilon=0.1
             )
         
         # Combined stop words (gaming-specific and common English)
@@ -210,12 +217,13 @@ class SteamReviewAnalyzer:
             umap_model=umap_model,
             hdbscan_model=hdbscan_model,
             verbose=True,
-            top_n_words=4,
+            top_n_words=10,
             vectorizer_model=CountVectorizer(
                 stop_words=gaming_stop_words,
-                min_df=5,
+                max_df=0.7,
                 ngram_range=(1, 2)
-            )
+            ),
+            min_topic_size=500
         )
         topics, probs = self.topic_model.fit_transform(sentences, embeddings)
         
@@ -289,17 +297,19 @@ class SteamReviewAnalyzer:
             'results': results,
             'checkpoint_id': checkpoint_id
         }
-        
+        # Add sentiment analysis if enabled
         if self.include_sentiment:
             topic_sentiment = self.analyze_topic_sentiment(
                 sentences,
                 results['topics']
             )
-            self.monitor_memory("after_sentiment")
             final_results['sentiment_analysis'] = topic_sentiment.to_dict(orient='records')
             create_sentiment_visualizations(topic_sentiment, viz_dir)
         
-        create_visualizations(final_results, output_dir=viz_dir)
+        # Create visualizations
+        create_visualizations(final_results, output_dir=viz_dir) 
+
+    
         self.monitor_memory("final")
         
         return final_results

@@ -12,6 +12,4 @@ plotly
 wordcloud
 scikit-learn 
 tqdm # for progress bar
-cupy-cuda12x  # For CUDA 12.x
-cudf-cuda12x
-cuml-cuda12x
+
