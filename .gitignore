@@ -3,6 +3,6 @@ testing
 ml_venv
 __pycache__
 *.pkl
-output/
 .vscode/
 data/
+checkpoints/
