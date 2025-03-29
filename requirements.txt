@@ -12,4 +12,4 @@ plotly
 wordcloud
 scikit-learn 
 tqdm # for progress bar
-
+google-generativeai

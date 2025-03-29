@@ -66,7 +66,6 @@ def save_analysis_results(results: dict, results_dir: str) -> str:
         summary = {
             'timestamp': timestamp,
             'num_sentences': len(results['sentences']),
-            'checkpoint_id': results['checkpoint_id']
         }
         
         if 'results' in results:

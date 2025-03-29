@@ -17,6 +17,7 @@ HDBSCAN_CONFIG = {
     'cluster_selection_epsilon': 0.3
 }
 VECTORIZER_CONFIG = {
+    'min_df': 2,
     'max_df': 0.7,
     'ngram_range': (1, 2),
     'stop_words': [
