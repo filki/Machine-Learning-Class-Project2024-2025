@@ -1,10 +1,14 @@
 from sentence_transformers import SentenceTransformer
 from bertopic import BERTopic
+from bertopic.representation import LiteLLM
 from sklearn.feature_extraction.text import CountVectorizer
 from umap import UMAP
 import hdbscan
 import torch
 from .config import UMAP_CONFIG, HDBSCAN_CONFIG, TRANSFORMER_MODEL, VECTORIZER_CONFIG
+from dotenv import load_dotenv
+import os
+
 
 if torch.cuda.is_available():
     try:
@@ -32,11 +36,17 @@ def get_bertopic():
 
     embedding_model = TRANSFORMER_MODEL
 
+    load_dotenv(override=True)
+    os.environ["GEMINI_API_KEY"] = os.getenv("GOOGLE_API_KEY")
+
+    representation_model = LiteLLM(model='gemini/gemini-2.5-pro-exp-03-25')
+
     return BERTopic(
         embedding_model=embedding_model,
         umap_model=umap_model,
         hdbscan_model=hdbscan_model,
         vectorizer_model=CountVectorizer(**VECTORIZER_CONFIG),
+        representation_model=representation_model,
         min_topic_size=500,
         verbose=True
     )

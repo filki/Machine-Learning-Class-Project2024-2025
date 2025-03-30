@@ -1,4 +1,13 @@
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
+
 TRANSFORMER_MODEL = 'all-MiniLM-L6-v2'
+
+CUSTOM_STOP_WORDS = [
+    'game', 'games', 'play', 'played', 'playing',
+    'steam', 'review', 'reviews', 'recommend',
+    'hour', 'hours']
+
+COMBINED_STOP_WORDS = list(set(ENGLISH_STOP_WORDS).union(CUSTOM_STOP_WORDS))
 
 UMAP_CONFIG = {
     'n_neighbors': 30,
@@ -20,9 +29,5 @@ VECTORIZER_CONFIG = {
     'min_df': 2,
     'max_df': 0.7,
     'ngram_range': (1, 2),
-    'stop_words': [
-        'game', 'games', 'play', 'played', 'playing',
-        'steam', 'review', 'reviews', 'recommend',
-        'hour', 'hours'
-    ]
+    'stop_words': COMBINED_STOP_WORDS
 }
