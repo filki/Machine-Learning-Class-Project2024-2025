@@ -7,6 +7,7 @@ from typing import List, Dict, Any
 from tqdm import tqdm
 from .bbcode_cleaner import BBCodeCleaner
 from .models import get_transformer, get_bertopic
+from .sentiment_analyzer import SentimentAnalyzer
 
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -17,6 +18,7 @@ class SteamReviewAnalyzer:
         self.bbcode_cleaner = BBCodeCleaner(preserve_content=True)
         self.transformer_model = None
         self.bertopic = None
+        self.sentiment_analyzer = SentimentAnalyzer()
 
     def create_embeddings(self, sentences: list) -> np.ndarray:
         """Create embeddings for the input sentences"""
@@ -84,14 +86,40 @@ class SteamReviewAnalyzer:
         
         logger.info(f"Extracted {len(all_sentences)} sentences from {len(reviews)} reviews")
         return all_sentences
+    
+    def analyze_topic_sentiment(self, sentences: list, topics: list) -> pd.DataFrame:
+        """Analyze sentiment for each topic"""
+        
+        sentiment_analyzer = SentimentAnalyzer()
+        
+        df = pd.DataFrame({
+            'sentence': sentences,
+            'topic': topics
+        })
+
+        sentiments = sentiment_analyzer.analyze_batch(sentences)
+        df['sentiment'] = [s['label'] for s in sentiments]
+        df['sentiment_score'] = [s['score'] for s in sentiments]
+        df['sentiment_value'] = df['sentiment'].map({'POSITIVE': 1, 'NEGATIVE': -1})
+
+        topic_sentiment = df.groupby('topic').agg({
+            'sentiment_value': ['mean', 'count'],
+            'sentiment_score': ['mean', 'std']
+        }).round(3)
+
+        topic_sentiment.columns = ['sentiment_mean', 'sentence_count', 'confidence_mean', 'confidence_std']
+        return topic_sentiment.reset_index()
 
     def run_analysis(self, reviews: pd.Series) -> Dict[str, Any]:
         """Run the complete analysis pipeline"""
         sentences = self.preprocess_reviews(reviews)
         results = self.analyze_topics(sentences)
+        topic_sentiment = self.analyze_topic_sentiment(sentences, results['topics'])
         
         final_results = {
             'sentences': sentences,
             'results': results,
+            'sentiment_analysis': topic_sentiment.to_dict(orient='records')
         }
+
         return final_results
