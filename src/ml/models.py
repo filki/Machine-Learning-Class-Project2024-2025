@@ -50,4 +50,3 @@ def get_bertopic():
         min_topic_size=500,
         verbose=True
     )
-

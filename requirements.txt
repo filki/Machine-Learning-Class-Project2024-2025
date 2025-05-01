@@ -12,4 +12,11 @@ plotly
 wordcloud
 scikit-learn 
 tqdm # for progress bar
-google-generativeai
+cupy-cuda12x  # For CUDA 12.x
+cudf-cuda12x
+cuml-cuda12x
+gensim
+nltk
+psutil
+joblib
+umap-learn
