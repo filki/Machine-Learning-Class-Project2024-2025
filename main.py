@@ -18,7 +18,7 @@ def main():
 
         # Load data
         df = pd.read_csv('data/downloader/rpg/dataset_combined.csv')
-        df = df.sample(n=5000)  # for testing with sample
+        df = df.sample(n=2500)  # for testing with sample
         
         # Run analysis
         analyzer = SteamReviewAnalyzer()

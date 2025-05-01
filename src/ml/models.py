@@ -1,6 +1,6 @@
 from sentence_transformers import SentenceTransformer
 from bertopic import BERTopic
-from bertopic.representation import LiteLLM
+from bertopic.representation import LiteLLM, OpenAI, BaseRepresentation
 from sklearn.feature_extraction.text import CountVectorizer
 from umap import UMAP
 import hdbscan
@@ -39,7 +39,7 @@ def get_bertopic():
     load_dotenv(override=True)
     os.environ["GEMINI_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 
-    representation_model = LiteLLM(model='gemini/gemma-3-27b-it', delay_in_seconds=2.5)
+    representation_model = LiteLLM(model='gemini/gemini-2.0-flash-lite', delay_in_seconds=2.5)
 
     return BERTopic(
         embedding_model=embedding_model,

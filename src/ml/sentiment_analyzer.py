@@ -8,9 +8,9 @@ class SentimentAnalyzer:
             "sentiment-analysis",
             model="distilbert-base-uncased-finetuned-sst-2-english",
             max_length=512,
-            truncation=True
+            truncation=True,
         )
     
     def analyze_batch(self, texts: List[str]) -> List[dict]:
         """Analyze sentiment with progress tracking"""
-        return self.sentiment_pipeline(texts, progress_bar=True)
+        return self.sentiment_pipeline(texts)
