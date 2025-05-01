@@ -206,7 +206,7 @@ def create_visualizations(results: dict, output_dir: str = 'visualizations') -> 
         saved_visualizations['metadata'] = str(metadata_path)
         
         return saved_visualizations
-        
+
     except Exception as e:
         logger.error(f"Error creating visualizations: {str(e)}")
         raise

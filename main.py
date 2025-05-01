@@ -1,7 +1,8 @@
 import pandas as pd
 import logging
 from src.ml.analyzer import SteamReviewAnalyzer
-from src.ml.utils import get_output_dirs, save_analysis_results
+from src.ml.utils import save_analysis_results
+import os
 
 # Configure logging
 logging.basicConfig(
@@ -12,33 +13,34 @@ logger = logging.getLogger(__name__)
 
 def main():
     try:
-        # Setup directory structure
-        checkpoints_dir, viz_dir, results_dir = get_output_dirs('output')
-        
+        # Setup project structure
+        results_dir = os.path.join('output', 'results')
+
         # Load data
-        df = pd.read_csv('data/downloader/rpg_100/dataset_combined.csv')
-        df = df.sample(n=500)  # for testing with sample
-        
-        # Initialize analyzer
-        analyzer = SteamReviewAnalyzer(
-            sentence_transformer_model='all-MiniLM-L6-v2', # Change to try different models
-            checkpoint_dir=checkpoints_dir,
-            include_sentiment=True
-        )
+        df = pd.read_csv('data/downloader/rpg/dataset_combined.csv')
+        df = df.sample(n=2500)  # for testing with sample
         
         # Run analysis
-        results = analyzer.run_analysis(df['review'], viz_dir=viz_dir)
+        analyzer = SteamReviewAnalyzer()
+        results = analyzer.run_analysis(df['review'])
         
         # Save results
         try:
             results_file = save_analysis_results(results, results_dir)
             print(f"\nAnalysis completed successfully. Output locations:")
-            print(f"- Checkpoints: {checkpoints_dir}")
-            print(f"- Visualizations: {viz_dir}")
-            print(f"- Results: {results_dir}")
-            print(f"- Latest results file: {results_file}")
+            print(f"Results directory: {results_dir}")
+            print(f"Latest results file: {results_file}")
         except Exception as e:
             logger.error(f"Failed to save results: {str(e)}")
+
+        # Try uploading results to GCP bucket
+        try:
+            output_base = "output"
+            bucket_path = "gs://steam_reviews_test/output_final_4/"  
+            os.system(f"gsutil -m cp -r {output_base} {bucket_path}")
+            print(f"Results directory uploaded to {bucket_path}.")
+        except Exception as e:
+            logger.error(f"Failed to upload results to bucket: {str(e)}")    
         
     except Exception as e:
         logger.error(f"Analysis failed with error: {str(e)}")
