@@ -39,7 +39,7 @@ def get_bertopic():
     load_dotenv(override=True)
     os.environ["GEMINI_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 
-    representation_model = LiteLLM(model='gemini/gemini-2.5-pro-exp-03-25')
+    representation_model = LiteLLM(model='gemini/gemma-3-27b-it', delay_in_seconds=2.5)
 
     return BERTopic(
         embedding_model=embedding_model,
