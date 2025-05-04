@@ -1,440 +1,1579 @@
 
-==============================
-Number of topics: 15
-Total explained variance: 0.1612
+Number of topics: 75
+Total explained variance: 0.1297
 
-Topic 1 (Variance explained: 0.0254):
-  Unigrams:
-    - helmet: 1.0000
-    - stripes: 0.9669
-    - gemstone: 0.9669
-    - rb: 0.9667
-    - trinket: 0.9666
-  Bigrams:
-    - thermite helmet: 0.9669
-    - default thermite: 0.9669
-    - texture trinket: 0.9669
-    - awesome gemstone: 0.9669
-    - golden texture: 0.9669
-    - gold stripes: 0.9669
-    - rb credit: 0.9669
-    - lazy golden: 0.9669
-    - buy rb: 0.9669
-    - stripes lazy: 0.9669
-    - trinket better: 0.9669
-    - gemstone skin: 0.9669
-    - unless support: 0.9669
-    - siege pro: 0.9669
-    - support rainbow: 0.9668
-    - helmet number: 0.9668
-    - worth unless: 0.9667
-    - skin worth: 0.9667
-    - credit get: 0.9666
-    - get awesome: 0.9665
+Topic 1: fun + combat + combat fun + still fun (Variance: 0.0041)
+  - fun: 1.0000
+  - combat: 0.0547
+  - combat fun: 0.0378
+  - still fun: 0.0176
+  - super fun: 0.0141
+  - fun combat: 0.0140
+  - gameplay fun: 0.0119
+  - pretty fun: 0.0117
+  - challenging: 0.0113
+  - super: 0.0107
+  - fun story: 0.0098
+  - fun engaging: 0.0091
+  - fun time: 0.0085
+  - find fun: 0.0085
+  - overall fun: 0.0085
+  - fun gameplay: 0.0077
+  - story fun: 0.0075
+  - ton fun: 0.0074
+  - fun challenging: 0.0073
 
-Topic 2 (Variance explained: 0.0179):
-  Unigrams:
-    - bandit: 1.0000
-    - buy: 0.3727
-    - package: 0.3639
-    - ash: 0.3626
-    - available: 0.2122
-    - bought: 0.2005
-    - show: 0.1961
-    - one: 0.1337
-    - set: 0.0996
-    - price: 0.0965
-    - high: 0.0963
-  Bigrams:
-    - buy bandit: 0.4655
-    - bandit bandit: 0.4655
-    - ash package: 0.3675
-    - bandit one: 0.2170
-    - package available: 0.2170
-    - show ash: 0.2170
-    - package bandit: 0.2170
-    - bandit ash: 0.2170
-    - bought bandit: 0.2170
-    - one show: 0.2169
-    - high price: 0.1123
-    - set buy: 0.1122
-    - nice set: 0.1122
-    - buy high: 0.1122
+Topic 2: dragon + age + dragon age + fan (Variance: 0.0037)
+  - dragon: 1.0000
+  - age: 0.9873
+  - dragon age: 0.9696
+  - fan: 0.1195
+  - fun: 0.1116
+  - veilguard: 0.1017
+  - age fan: 0.0822
+  - origin: 0.0752
+  - age veilguard: 0.0744
+  - love: 0.0677
+  - series: 0.0656
+  - age origin: 0.0570
+  - age series: 0.0548
+  - inquisition: 0.0514
+  - feel: 0.0492
+  - feel dragon: 0.0469
+  - previous: 0.0382
+  - fan dragon: 0.0358
+  - age inquisition: 0.0350
 
-Topic 3 (Variance explained: 0.0135):
-  Unigrams:
-    - good: 0.9749
-    - set: 0.8718
-    - price: 0.8482
-    - nice: 0.8419
-    - high: 0.8396
-    - buy: 0.7375
-    - stripes: 0.0127
-  Bigrams:
-    - high price: 1.0000
-    - set buy: 0.9992
-    - nice set: 0.9991
-    - buy high: 0.9990
-    - buy bandit: 0.1686
-    - bandit bandit: 0.1686
-    - buy rb: 0.0127
-    - gemstone skin: 0.0127
-    - lazy golden: 0.0127
-    - texture trinket: 0.0127
-    - trinket better: 0.0127
-    - thermite helmet: 0.0127
-    - rb credit: 0.0127
-    - gold stripes: 0.0127
-    - default thermite: 0.0127
-    - golden texture: 0.0127
-    - stripes lazy: 0.0127
-    - awesome gemstone: 0.0127
+Topic 3: ever + one + one ever + fun (Variance: 0.0034)
+  - ever: 1.0000
+  - one: 0.9317
+  - one ever: 0.3269
+  - fun: 0.2255
+  - dragon: 0.1834
+  - age: 0.1818
+  - dragon age: 0.1787
+  - greatest: 0.0707
+  - favorite: 0.0637
+  - rpg: 0.0538
+  - one greatest: 0.0506
+  - rpg ever: 0.0490
+  - one favorite: 0.0456
+  - time: 0.0440
+  - one time: 0.0407
+  - greatest ever: 0.0348
+  - probably: 0.0339
+  - ever seen: 0.0321
+  - rpgs: 0.0302
 
-Topic 4 (Variance explained: 0.0134):
-  Unigrams:
-    - work: 0.9808
-    - doesnt: 0.9503
-    - recieved: 0.3397
-    - uplay: 0.3387
-    - reinstall: 0.3342
-    - latest: 0.3243
-    - version: 0.2969
-    - dlc: 0.2681
-    - good: 0.2336
-    - also: 0.1992
-    - get: 0.1281
-    - bandit: 0.1175
-    - buy: 0.0504
-  Bigrams:
-    - doesnt work: 1.0000
-    - recieved dlc: 0.3401
-    - dlc reinstall: 0.3401
-    - reinstall latest: 0.3401
-    - uplay get: 0.3401
-    - also recieved: 0.3401
-    - version uplay: 0.3401
-    - latest version: 0.3397
-    - get work: 0.3383
-    - bandit bandit: 0.0940
-    - buy bandit: 0.0940
-    - texture trinket: 0.0091
+Topic 4: love + ever + one + fun (Variance: 0.0033)
+  - love: 1.0000
+  - ever: 0.1856
+  - one: 0.1191
+  - fun: 0.0585
+  - one ever: 0.0572
+  - absolutely love: 0.0228
+  - hate: 0.0227
+  - would love: 0.0209
+  - absolutely: 0.0208
+  - love story: 0.0189
+  - people love: 0.0153
+  - wanted love: 0.0139
+  - love hate: 0.0114
+  - love love: 0.0112
+  - love character: 0.0104
+  - fell love: 0.0103
+  - love dragon: 0.0098
+  - want love: 0.0098
+  - rpgs: 0.0095
 
-Topic 5 (Variance explained: 0.0126):
-  Unigrams:
-    - chibi: 1.0000
-    - love: 0.7406
-    - could: 0.7390
-    - helmet: 0.7371
-    - better: 0.6359
-    - bandit: 0.3629
-    - buy: 0.1106
-    - doesnt: 0.0427
-    - work: 0.0354
-    - good: 0.0261
-    - much: 0.0048
-  Bigrams:
-    - chibi helmet: 1.0000
-    - helmet could: 1.0000
-    - love chibi: 1.0000
-    - could better: 0.9923
-    - bandit bandit: 0.3167
-    - buy bandit: 0.3167
-    - doesnt work: 0.0458
-    - love game: 0.0310
-    - game love: 0.0105
-    - even better: 0.0050
-    - much better: 0.0047
-    - also recieved: 0.0046
-    - dlc reinstall: 0.0046
-    - uplay get: 0.0046
+Topic 5: story + ever + amazing + character (Variance: 0.0032)
+  - story: 1.0000
+  - ever: 0.3736
+  - amazing: 0.2744
+  - character: 0.2130
+  - one: 0.1434
+  - combat: 0.1408
+  - one ever: 0.1025
+  - gameplay: 0.1004
+  - world: 0.0934
+  - main: 0.0763
+  - main story: 0.0662
+  - story character: 0.0643
+  - interesting: 0.0611
+  - story line: 0.0553
+  - graphic: 0.0544
+  - line: 0.0514
+  - quest: 0.0429
+  - boring: 0.0397
+  - rpg: 0.0385
 
-Topic 6 (Variance explained: 0.0124):
-  Unigrams:
-    - good: 1.0000
-    - game: 0.3099
-    - number: 0.1689
-    - play: 0.1125
-    - fun: 0.1099
-    - bandit: 0.1046
-    - like: 0.0884
-    - time: 0.0769
-    - one: 0.0738
-    - get: 0.0656
-    - really: 0.0632
-    - great: 0.0629
-    - friend: 0.0603
-    - even: 0.0577
-    - would: 0.0575
-    - buy: 0.0543
-    - playing: 0.0534
-    - make: 0.0534
-    - love: 0.0533
-    - hour: 0.0526
-    - still: 0.0522
-    - played: 0.0499
-    - recommend: 0.0497
-  Bigrams:
-    - good game: 0.1178
-    - number number: 0.0824
+Topic 6: time + story + amazing + one (Variance: 0.0028)
+  - time: 1.0000
+  - story: 0.5170
+  - amazing: 0.2064
+  - one: 0.0910
+  - fun: 0.0899
+  - first time: 0.0818
+  - love: 0.0811
+  - waste: 0.0782
+  - waste time: 0.0741
+  - long time: 0.0701
+  - long: 0.0655
+  - favorite: 0.0635
+  - first: 0.0555
+  - one time: 0.0537
+  - every time: 0.0479
+  - favorite time: 0.0422
+  - main story: 0.0347
+  - multiple time: 0.0313
+  - story line: 0.0299
 
-Topic 7 (Variance explained: 0.0122):
-  Unigrams:
-    - chibi: 1.0000
-    - available: 0.9693
-    - says: 0.9332
-    - itll: 0.9310
-    - automatically: 0.9175
-    - bought: 0.8926
-    - installed: 0.8911
-    - isnt: 0.8905
-    - helmet: 0.7766
-    - open: 0.7072
-    - could: 0.6583
-    - say: 0.6290
-  Bigrams:
-    - love chibi: 1.0000
-    - helmet could: 1.0000
-    - chibi helmet: 1.0000
-    - could better: 0.9903
-    - automatically available: 0.9332
-    - installed says: 0.9332
-    - itll automatically: 0.9332
-    - say installed: 0.9332
-    - says itll: 0.9332
-    - available open: 0.9331
-    - bought say: 0.9330
-    - game isnt: 0.9279
-    - open game: 0.9195
+Topic 7: amazing + buy + still + amazing story (Variance: 0.0027)
+  - amazing: 1.0000
+  - buy: 0.0868
+  - still: 0.0414
+  - amazing story: 0.0346
+  - absolutely: 0.0331
+  - graphic: 0.0276
+  - absolutely amazing: 0.0255
+  - would: 0.0242
+  - look: 0.0239
+  - experience: 0.0238
+  - dlc: 0.0211
+  - year: 0.0208
+  - story amazing: 0.0205
+  - even: 0.0184
+  - look amazing: 0.0180
+  - get: 0.0172
+  - mod: 0.0163
+  - amazing experience: 0.0155
+  - work: 0.0152
 
-Topic 8 (Variance explained: 0.0116):
-  Unigrams:
-    - good: 1.0000
-    - bandit: 0.3277
-    - package: 0.1832
-    - ash: 0.1822
-    - show: 0.0851
-    - available: 0.0488
-    - stripes: 0.0415
-  Bigrams:
-    - ash package: 0.1862
-    - bandit bandit: 0.1140
-    - buy bandit: 0.1140
-    - package available: 0.1100
-    - bought bandit: 0.1100
-    - show ash: 0.1100
-    - bandit one: 0.1100
-    - bandit ash: 0.1100
-    - package bandit: 0.1100
-    - one show: 0.1097
-    - default thermite: 0.0415
-    - golden texture: 0.0415
-    - stripes lazy: 0.0415
-    - buy rb: 0.0415
-    - gold stripes: 0.0415
-    - rb credit: 0.0415
-    - texture trinket: 0.0415
-    - lazy golden: 0.0415
+Topic 8: combat + system + time + combat system (Variance: 0.0027)
+  - combat: 1.0000
+  - system: 0.2397
+  - time: 0.2284
+  - combat system: 0.1930
+  - feel: 0.1821
+  - boring: 0.0818
+  - amazing: 0.0716
+  - mechanic: 0.0535
+  - combat fun: 0.0504
+  - combat feel: 0.0408
+  - based: 0.0407
+  - turn: 0.0366
+  - combat mechanic: 0.0353
+  - ever: 0.0351
+  - turn based: 0.0340
+  - enemy: 0.0332
+  - clunky: 0.0318
+  - based combat: 0.0310
+  - world: 0.0304
 
-Topic 9 (Variance explained: 0.0114):
-  Unigrams:
-    - doesnt: 0.9593
-    - work: 0.4071
-    - game: 0.0961
-    - number: 0.0732
-    - play: 0.0410
-    - bandit: 0.0376
-    - fun: 0.0374
-    - buy: 0.0282
-    - like: 0.0279
-    - time: 0.0263
-    - even: 0.0216
-    - great: 0.0215
-    - friend: 0.0210
-    - hour: 0.0193
-    - would: 0.0188
-    - playing: 0.0181
-    - still: 0.0179
-    - played: 0.0177
-    - make: 0.0172
-    - best: 0.0165
-    - really: 0.0162
-  Bigrams:
-    - doesnt work: 1.0000
-    - buy bandit: 0.0477
-    - bandit bandit: 0.0477
-    - number number: 0.0324
+Topic 9: get + combat + time + story (Variance: 0.0025)
+  - get: 1.0000
+  - combat: 0.2697
+  - time: 0.2685
+  - story: 0.2115
+  - ever: 0.1961
+  - amazing: 0.1630
+  - love: 0.0885
+  - dragon: 0.0583
+  - age: 0.0581
+  - dragon age: 0.0573
+  - boring: 0.0563
+  - get better: 0.0554
+  - combat system: 0.0479
+  - one ever: 0.0354
+  - system: 0.0336
+  - time get: 0.0322
+  - get past: 0.0303
+  - get wrong: 0.0276
+  - even get: 0.0270
 
-Topic 10 (Variance explained: 0.0110):
-  Unigrams:
-    - bandit: 0.7260
-    - buy: 0.5269
-    - says: 0.3680
-    - itll: 0.3673
-    - automatically: 0.3624
-    - isnt: 0.3553
-    - installed: 0.3541
-    - open: 0.2981
-    - say: 0.2748
-    - game: 0.0765
-    - chibi: 0.0350
-  Bigrams:
-    - buy bandit: 1.0000
-    - bandit bandit: 1.0000
-    - automatically available: 0.3680
-    - say installed: 0.3680
-    - itll automatically: 0.3680
-    - installed says: 0.3680
-    - says itll: 0.3680
-    - available open: 0.3680
-    - bought say: 0.3679
-    - game isnt: 0.3670
-    - open game: 0.3646
-    - helmet could: 0.0350
-    - chibi helmet: 0.0350
-    - love chibi: 0.0350
+Topic 10: buy + combat + get + story (Variance: 0.0025)
+  - buy: 1.0000
+  - combat: 0.3121
+  - get: 0.2552
+  - story: 0.2144
+  - ever: 0.2081
+  - time: 0.1925
+  - combat system: 0.0601
+  - system: 0.0565
+  - sale: 0.0462
+  - worth: 0.0375
+  - money: 0.0347
+  - dont: 0.0335
+  - dont buy: 0.0333
+  - boring: 0.0332
+  - dragon age: 0.0290
+  - age: 0.0288
+  - dragon: 0.0285
+  - buy sale: 0.0256
+  - waste: 0.0235
 
-Topic 11 (Variance explained: 0.0050):
-  Unigrams:
-    - number: 1.0000
-    - hour: 0.1103
-    - average: 0.0948
-    - bad: 0.0921
-    - grind: 0.0899
-    - spare: 0.0767
-    - paint: 0.0756
-    - bug: 0.0720
-    - decent: 0.0689
-    - gameplay: 0.0637
-    - life: 0.0633
-    - long: 0.0627
-    - wallpaper: 0.0600
-    - price: 0.0568
-    - easy: 0.0555
-    - big: 0.0546
-    - drive: 0.0542
-  Bigrams:
-    - number number: 0.6464
-    - number hour: 0.1273
-    - game number: 0.0833
-    - good good: 0.0787
-    - number would: 0.0677
-    - number year: 0.0674
-    - number game: 0.0597
-    - hard drive: 0.0593
+Topic 11: one + combat + buy + get (Variance: 0.0024)
+  - one: 1.0000
+  - combat: 0.2314
+  - buy: 0.1804
+  - get: 0.1213
+  - amazing: 0.0600
+  - one time: 0.0542
+  - one favorite: 0.0524
+  - story: 0.0492
+  - favorite: 0.0478
+  - combat system: 0.0383
+  - system: 0.0367
+  - one thing: 0.0329
+  - one shot: 0.0321
+  - shot: 0.0302
+  - one one: 0.0234
+  - first one: 0.0230
+  - love: 0.0215
+  - enemy: 0.0200
+  - one greatest: 0.0192
 
-Topic 12 (Variance explained: 0.0042):
-  Unigrams:
-    - bad: 1.0000
-    - grind: 0.2390
-    - average: 0.2229
-    - hard: 0.1933
-    - bug: 0.1895
-    - spare: 0.1877
-    - long: 0.1872
-    - paint: 0.1851
-    - decent: 0.1755
-    - easy: 0.1746
-    - gameplay: 0.1664
-    - money: 0.1543
-    - story: 0.1532
-    - game: 0.1479
-    - big: 0.1430
-    - need: 0.1346
-    - drive: 0.1267
-    - hold: 0.1265
-    - fun: 0.1254
-    - life: 0.1236
-    - price: 0.1235
-  Bigrams:
-    - bad game: 0.1988
-    - good good: 0.1937
-    - hard drive: 0.1456
-    - bad bad: 0.1263
+Topic 12: would + combat + story + say (Variance: 0.0023)
+  - would: 1.0000
+  - combat: 0.1983
+  - story: 0.1626
+  - say: 0.1391
+  - still: 0.1390
+  - better: 0.0900
+  - even: 0.0852
+  - think: 0.0663
+  - year: 0.0559
+  - could: 0.0532
+  - give: 0.0511
+  - bug: 0.0480
+  - would say: 0.0479
+  - system: 0.0439
+  - crash: 0.0419
+  - combat system: 0.0408
+  - highly: 0.0367
+  - thought: 0.0362
+  - issue: 0.0347
 
-Topic 13 (Variance explained: 0.0037):
-  Unigrams:
-    - fun: 1.0000
-    - friend: 0.3461
-    - number: 0.2355
-    - play: 0.2274
-    - really: 0.0981
-    - mod: 0.0908
-    - lot: 0.0599
-    - grind: 0.0427
-    - hard: 0.0426
-    - super: 0.0389
-    - easy: 0.0349
-  Bigrams:
-    - fun game: 0.2744
-    - number number: 0.2011
-    - game fun: 0.1840
-    - play friend: 0.1789
-    - fun play: 0.1653
-    - really fun: 0.1270
-    - fun friend: 0.1057
-    - game play: 0.0935
-    - lot fun: 0.0531
-    - super fun: 0.0446
-    - much fun: 0.0438
-    - still fun: 0.0369
-    - good fun: 0.0335
-    - pretty fun: 0.0331
+Topic 13: would + feel + character + world (Variance: 0.0022)
+  - would: 1.0000
+  - feel: 0.5797
+  - character: 0.3757
+  - world: 0.2921
+  - get: 0.2620
+  - open: 0.1287
+  - open world: 0.1228
+  - time: 0.1200
+  - buy: 0.0815
+  - amazing: 0.0534
+  - say: 0.0514
+  - choice: 0.0464
+  - one: 0.0433
+  - would say: 0.0432
+  - fun: 0.0431
+  - dialogue: 0.0407
+  - thought: 0.0346
+  - real: 0.0319
+  - building: 0.0318
 
-Topic 14 (Variance explained: 0.0035):
-  Unigrams:
-    - bad: 1.0000
-    - game: 0.4420
-    - number: 0.3586
-    - suck: 0.1095
-    - shit: 0.1060
-    - fun: 0.1039
-    - play: 0.0742
-    - dont: 0.0569
-    - friend: 0.0529
-    - as: 0.0444
-    - cheater: 0.0440
-    - hate: 0.0434
-  Bigrams:
-    - bad game: 0.2808
-    - number number: 0.1969
-    - good game: 0.1955
-    - game bad: 0.1163
-    - game suck: 0.0725
-    - fun game: 0.0723
-    - game number: 0.0605
-    - game fun: 0.0526
-    - shit game: 0.0522
-    - game good: 0.0455
-    - game play: 0.0443
-    - play friend: 0.0422
-    - number hour: 0.0412
+Topic 14: feel + still + story + would (Variance: 0.0021)
+  - feel: 1.0000
+  - still: 0.3214
+  - story: 0.2994
+  - would: 0.2011
+  - one: 0.1071
+  - year: 0.0762
+  - get: 0.0755
+  - better: 0.0626
+  - combat feel: 0.0413
+  - early: 0.0393
+  - early access: 0.0358
+  - worth: 0.0357
+  - access: 0.0354
+  - soul: 0.0308
+  - love: 0.0290
+  - overall: 0.0284
+  - still feel: 0.0264
+  - bug: 0.0258
+  - world feel: 0.0249
 
-Topic 15 (Variance explained: 0.0033):
-  Unigrams:
-    - game: 1.0000
-    - best: 0.5017
-    - ever: 0.4822
-    - played: 0.2738
-    - number: 0.1492
-    - worst: 0.1127
-    - one: 0.0875
-    - suck: 0.0774
-    - average: 0.0748
-    - grind: 0.0723
-    - spare: 0.0695
-  Bigrams:
-    - game ever: 0.4788
-    - best game: 0.4334
-    - good game: 0.3197
-    - ever played: 0.2879
-    - one best: 0.2305
-    - number number: 0.2111
-    - worst game: 0.1156
-    - fun game: 0.0977
-    - great game: 0.0930
-    - game suck: 0.0853
-    - ever made: 0.0802
-    - game play: 0.0790
-    - good good: 0.0708
-    - game time: 0.0681
+Topic 15: world + open + open world + ring (Variance: 0.0020)
+  - world: 1.0000
+  - open: 0.5888
+  - open world: 0.5328
+  - ring: 0.3281
+  - elden: 0.3267
+  - soul: 0.3217
+  - elden ring: 0.3209
+  - rpg: 0.2087
+  - want: 0.2069
+  - dark: 0.1818
+  - experience: 0.1651
+  - dark soul: 0.1625
+  - gameplay: 0.1103
+  - first: 0.0978
+  - beautiful: 0.0846
+  - world building: 0.0791
+  - masterpiece: 0.0773
+  - enjoy: 0.0693
+  - building: 0.0668
+
+Topic 16: boring + gameplay + even + quest (Variance: 0.0020)
+  - boring: 1.0000
+  - gameplay: 0.0705
+  - even: 0.0562
+  - quest: 0.0532
+  - slow: 0.0390
+  - would: 0.0306
+  - find: 0.0276
+  - one: 0.0261
+  - get boring: 0.0256
+  - got: 0.0222
+  - pretty: 0.0222
+  - hard: 0.0211
+  - fight: 0.0211
+  - far: 0.0205
+  - amazing: 0.0205
+  - side: 0.0195
+  - repetitive: 0.0187
+  - incredibly boring: 0.0182
+  - side quest: 0.0182
+
+Topic 17: still + character + world + boring (Variance: 0.0020)
+  - still: 1.0000
+  - character: 0.3366
+  - world: 0.2623
+  - boring: 0.1928
+  - would: 0.1598
+  - get: 0.1479
+  - year: 0.1355
+  - open: 0.1312
+  - open world: 0.1217
+  - bug: 0.1186
+  - buy: 0.0641
+  - time: 0.0515
+  - one: 0.0454
+  - combat: 0.0411
+  - still fun: 0.0411
+  - rpg: 0.0387
+  - building: 0.0312
+  - buggy: 0.0309
+  - overall: 0.0287
+
+Topic 18: fun + time + story + one (Variance: 0.0020)
+  - fun: 1.0000
+  - time: 0.7842
+  - story: 0.7638
+  - one: 0.7415
+  - get: 0.5935
+  - combat: 0.5448
+  - character: 0.4934
+  - feel: 0.4587
+  - ever: 0.4339
+  - even: 0.4290
+  - love: 0.3853
+  - dragon: 0.3627
+  - age: 0.3575
+  - dragon age: 0.3423
+  - would: 0.3415
+  - still: 0.3197
+  - world: 0.3168
+  - first: 0.3057
+  - way: 0.2977
+
+Topic 19: even + world + open + open world (Variance: 0.0019)
+  - even: 1.0000
+  - world: 0.5012
+  - open: 0.2726
+  - open world: 0.2484
+  - would: 0.2367
+  - character: 0.1695
+  - get: 0.1325
+  - time: 0.1196
+  - though: 0.0932
+  - even though: 0.0795
+  - one: 0.0731
+  - buy: 0.0712
+  - combat: 0.0625
+  - rpg: 0.0554
+  - even get: 0.0503
+  - building: 0.0478
+  - world building: 0.0462
+  - feel: 0.0450
+  - better: 0.0438
+
+Topic 20: want + still + even + would (Variance: 0.0019)
+  - want: 1.0000
+  - still: 0.1786
+  - even: 0.1753
+  - would: 0.1009
+  - feel: 0.0890
+  - world: 0.0714
+  - work: 0.0657
+  - time: 0.0585
+  - dragon: 0.0570
+  - one: 0.0551
+  - combat: 0.0534
+  - dragon age: 0.0523
+  - story: 0.0518
+  - age: 0.0509
+  - know: 0.0503
+  - amazing: 0.0473
+  - open: 0.0460
+  - people: 0.0459
+  - every: 0.0375
+
+Topic 21: want + effect + mass + world (Variance: 0.0019)
+  - want: 1.0000
+  - effect: 0.6076
+  - mass: 0.5721
+  - world: 0.5720
+  - mass effect: 0.5671
+  - open: 0.3222
+  - open world: 0.2792
+  - even: 0.2193
+  - rpg: 0.1719
+  - quest: 0.1548
+  - mod: 0.1121
+  - crash: 0.0964
+  - thing: 0.0779
+  - would: 0.0744
+  - know: 0.0727
+  - side: 0.0672
+  - trilogy: 0.0655
+  - work: 0.0629
+  - side quest: 0.0567
+
+Topic 22: want + ring + elden + elden ring (Variance: 0.0018)
+  - want: 1.0000
+  - ring: 0.3980
+  - elden: 0.3957
+  - elden ring: 0.3890
+  - effect: 0.3756
+  - mass: 0.3604
+  - mass effect: 0.3583
+  - soul: 0.3150
+  - character: 0.2955
+  - even: 0.2892
+  - still: 0.2723
+  - dark: 0.1764
+  - dark soul: 0.1641
+  - feel: 0.1415
+  - boring: 0.1028
+  - better: 0.1008
+  - would: 0.0939
+  - experience: 0.0850
+  - rpg: 0.0775
+
+Topic 23: thing + say + know + first (Variance: 0.0018)
+  - thing: 1.0000
+  - say: 0.5142
+  - know: 0.2612
+  - first: 0.1037
+  - people: 0.1037
+  - think: 0.0850
+  - far: 0.0755
+  - better: 0.0719
+  - early: 0.0628
+  - could: 0.0605
+  - access: 0.0598
+  - early access: 0.0593
+  - character: 0.0592
+  - one thing: 0.0572
+  - though: 0.0535
+  - said: 0.0487
+  - nothing: 0.0484
+  - overall: 0.0474
+  - feel: 0.0467
+
+Topic 24: way + better + thing + still (Variance: 0.0017)
+  - way: 1.0000
+  - better: 0.7052
+  - thing: 0.4637
+  - still: 0.1987
+  - time: 0.1042
+  - get better: 0.0787
+  - even: 0.0778
+  - think: 0.0713
+  - different: 0.0643
+  - world: 0.0638
+  - could: 0.0633
+  - way better: 0.0599
+  - boring: 0.0531
+  - even better: 0.0412
+  - different way: 0.0380
+  - every way: 0.0356
+  - gate: 0.0351
+  - ever: 0.0329
+  - buy: 0.0321
+
+Topic 25: better + far + experience + first (Variance: 0.0017)
+  - better: 1.0000
+  - far: 0.6783
+  - experience: 0.6093
+  - first: 0.6046
+  - rpg: 0.5799
+  - worth: 0.4507
+  - gameplay: 0.3819
+  - year: 0.3594
+  - say: 0.3011
+  - overall: 0.2807
+  - new: 0.2567
+  - fallout: 0.2094
+  - could: 0.2093
+  - think: 0.1674
+  - gate: 0.1563
+  - early: 0.1554
+  - got: 0.1536
+  - access: 0.1495
+  - early access: 0.1444
+
+Topic 26: first + know + hard + say (Variance: 0.0017)
+  - first: 1.0000
+  - know: 0.9318
+  - hard: 0.7500
+  - say: 0.5225
+  - way: 0.2607
+  - year: 0.2277
+  - fight: 0.1933
+  - bos: 0.1799
+  - first time: 0.1772
+  - people: 0.1750
+  - never: 0.1688
+  - got: 0.1679
+  - suck: 0.1393
+  - rpg: 0.1248
+  - still: 0.1112
+  - soul: 0.1075
+  - back: 0.1052
+  - going: 0.1039
+  - give: 0.0934
+
+Topic 27: also + yes + better + quest (Variance: 0.0017)
+  - also: 1.0000
+  - yes: 0.6348
+  - better: 0.2495
+  - quest: 0.2091
+  - know: 0.1721
+  - suck: 0.1347
+  - still: 0.1241
+  - first: 0.1193
+  - side: 0.1000
+  - side quest: 0.0802
+  - people: 0.0706
+  - think: 0.0670
+  - companion: 0.0651
+  - look: 0.0623
+  - time: 0.0588
+  - dialogue: 0.0573
+  - choice: 0.0560
+  - could: 0.0554
+  - never: 0.0487
+
+Topic 28: first + quest + thing + also (Variance: 0.0017)
+  - first: 1.0000
+  - quest: 0.4397
+  - thing: 0.2748
+  - also: 0.2629
+  - side: 0.1937
+  - first time: 0.1774
+  - year: 0.1616
+  - side quest: 0.1607
+  - never: 0.1396
+  - got: 0.1308
+  - soul: 0.1219
+  - want: 0.1055
+  - new: 0.1047
+  - main: 0.0999
+  - bos: 0.0968
+  - fight: 0.0933
+  - better: 0.0930
+  - would: 0.0926
+  - playthrough: 0.0851
+
+Topic 29: yes + better + know + hard (Variance: 0.0016)
+  - yes: 1.0000
+  - better: 0.6194
+  - know: 0.5572
+  - hard: 0.4283
+  - crash: 0.4093
+  - first: 0.3384
+  - work: 0.2863
+  - thing: 0.2249
+  - mod: 0.1879
+  - new: 0.1817
+  - suck: 0.1359
+  - fallout: 0.1271
+  - character: 0.1053
+  - need: 0.1014
+  - graphic: 0.1013
+  - world: 0.0926
+  - issue: 0.0880
+  - year: 0.0870
+  - story: 0.0852
+
+Topic 30: gameplay + yes + first + thing (Variance: 0.0016)
+  - gameplay: 1.0000
+  - yes: 0.5579
+  - first: 0.5057
+  - thing: 0.4869
+  - hard: 0.4671
+  - rpg: 0.3711
+  - experience: 0.2451
+  - far: 0.2241
+  - even: 0.2096
+  - fight: 0.1477
+  - bos: 0.1459
+  - would: 0.1340
+  - want: 0.1321
+  - mechanic: 0.1286
+  - overall: 0.1266
+  - graphic: 0.1260
+  - soul: 0.1118
+  - enjoy: 0.1035
+  - worth: 0.1013
+
+Topic 31: yes + worth + quest + every (Variance: 0.0016)
+  - yes: 1.0000
+  - worth: 0.4814
+  - quest: 0.3983
+  - every: 0.2842
+  - first: 0.2783
+  - side: 0.1886
+  - crash: 0.1769
+  - year: 0.1686
+  - side quest: 0.1548
+  - main: 0.1186
+  - end: 0.1069
+  - got: 0.0987
+  - combat: 0.0951
+  - early: 0.0799
+  - ring: 0.0767
+  - elden: 0.0757
+  - access: 0.0756
+  - elden ring: 0.0742
+  - back: 0.0742
+
+Topic 32: know + far + quest + gameplay (Variance: 0.0016)
+  - know: 1.0000
+  - far: 0.6717
+  - quest: 0.6290
+  - gameplay: 0.4607
+  - side: 0.2666
+  - side quest: 0.2241
+  - rpg: 0.2135
+  - yes: 0.2042
+  - experience: 0.1495
+  - companion: 0.1088
+  - main: 0.1053
+  - overall: 0.0939
+  - give: 0.0896
+  - ring: 0.0874
+  - elden: 0.0864
+  - elden ring: 0.0850
+  - point: 0.0801
+  - mechanic: 0.0786
+  - early: 0.0786
+
+Topic 33: say + gameplay + yes + crash (Variance: 0.0016)
+  - say: 1.0000
+  - gameplay: 0.7288
+  - yes: 0.4374
+  - crash: 0.4259
+  - quest: 0.4049
+  - way: 0.2712
+  - rpg: 0.2621
+  - still: 0.1785
+  - side: 0.1681
+  - every: 0.1472
+  - side quest: 0.1424
+  - graphic: 0.1351
+  - know: 0.1297
+  - first: 0.1283
+  - nothing: 0.1155
+  - companion: 0.1016
+  - get: 0.1002
+  - even: 0.0945
+  - new: 0.0932
+
+Topic 34: far + say + hard + quest (Variance: 0.0016)
+  - far: 1.0000
+  - say: 0.3255
+  - hard: 0.2286
+  - quest: 0.1528
+  - crash: 0.1482
+  - early: 0.1294
+  - access: 0.1161
+  - early access: 0.1097
+  - soul: 0.0989
+  - fight: 0.0875
+  - want: 0.0740
+  - bos: 0.0704
+  - side: 0.0695
+  - companion: 0.0693
+  - world: 0.0678
+  - pretty: 0.0591
+  - side quest: 0.0569
+  - open: 0.0520
+  - dark: 0.0506
+
+Topic 35: quest + better + gameplay + hard (Variance: 0.0016)
+  - quest: 1.0000
+  - better: 0.8652
+  - gameplay: 0.6824
+  - hard: 0.6192
+  - side: 0.4406
+  - suck: 0.4311
+  - worth: 0.3822
+  - side quest: 0.3707
+  - main: 0.2227
+  - could: 0.1802
+  - say: 0.1772
+  - fight: 0.1539
+  - graphic: 0.1536
+  - companion: 0.1514
+  - every: 0.1413
+  - bos: 0.1376
+  - end: 0.1254
+  - design: 0.1136
+  - got: 0.1096
+
+Topic 36: rpg + hard + quest + experience (Variance: 0.0016)
+  - rpg: 1.0000
+  - hard: 0.6901
+  - quest: 0.3676
+  - experience: 0.3303
+  - new: 0.2272
+  - better: 0.1733
+  - masterpiece: 0.1706
+  - side: 0.1626
+  - fallout: 0.1406
+  - work: 0.1384
+  - side quest: 0.1376
+  - think: 0.1345
+  - action: 0.1311
+  - player: 0.1240
+  - choice: 0.1237
+  - gate: 0.1154
+  - vega: 0.1005
+  - baldur: 0.0983
+  - baldur gate: 0.0972
+
+Topic 37: suck + rpg + know + crash (Variance: 0.0015)
+  - suck: 1.0000
+  - rpg: 0.3070
+  - know: 0.2098
+  - crash: 0.2096
+  - worth: 0.1581
+  - experience: 0.1546
+  - thing: 0.1334
+  - way: 0.0974
+  - far: 0.0883
+  - first: 0.0739
+  - masterpiece: 0.0517
+  - though: 0.0456
+  - also: 0.0453
+  - every: 0.0423
+  - fucking: 0.0422
+  - hard: 0.0419
+  - gate: 0.0406
+  - still: 0.0404
+  - definitely: 0.0383
+
+Topic 38: suck + work + year + far (Variance: 0.0015)
+  - suck: 1.0000
+  - work: 0.7658
+  - year: 0.6109
+  - far: 0.3746
+  - fight: 0.2513
+  - think: 0.2194
+  - bos: 0.1988
+  - nothing: 0.1896
+  - enjoy: 0.1892
+  - got: 0.1865
+  - masterpiece: 0.1714
+  - enemy: 0.1640
+  - soul: 0.1604
+  - never: 0.1576
+  - need: 0.1356
+  - every: 0.1268
+  - yes: 0.1247
+  - back: 0.1157
+  - skill: 0.1151
+
+Topic 39: early + access + early access + year (Variance: 0.0015)
+  - early: 1.0000
+  - access: 0.9335
+  - early access: 0.8896
+  - year: 0.7468
+  - suck: 0.5028
+  - new: 0.2375
+  - rpg: 0.1908
+  - issue: 0.1865
+  - player: 0.1767
+  - back: 0.1758
+  - old: 0.1326
+  - release: 0.1278
+  - ago: 0.1118
+  - system: 0.1116
+  - come: 0.1080
+  - mechanic: 0.1078
+  - year ago: 0.1064
+  - different: 0.0994
+  - bug: 0.0924
+
+Topic 40: year + hard + bug + far (Variance: 0.0015)
+  - year: 1.0000
+  - hard: 0.5399
+  - bug: 0.3518
+  - far: 0.2896
+  - way: 0.2830
+  - quest: 0.2647
+  - gameplay: 0.2405
+  - got: 0.1801
+  - thing: 0.1656
+  - old: 0.1615
+  - ago: 0.1511
+  - ring: 0.1502
+  - elden: 0.1491
+  - year ago: 0.1478
+  - elden ring: 0.1468
+  - want: 0.1359
+  - combat: 0.1308
+  - side: 0.1226
+  - also: 0.1110
+
+Topic 41: work + rpg + first + quest (Variance: 0.0015)
+  - work: 1.0000
+  - rpg: 0.2836
+  - first: 0.2706
+  - quest: 0.2310
+  - early: 0.2242
+  - access: 0.2088
+  - early access: 0.2008
+  - mod: 0.1800
+  - way: 0.1646
+  - side: 0.1064
+  - suck: 0.1049
+  - companion: 0.1044
+  - everything: 0.0973
+  - experience: 0.0908
+  - side quest: 0.0900
+  - nothing: 0.0829
+  - tried: 0.0812
+  - shit: 0.0781
+  - writing: 0.0775
+
+Topic 42: experience + new + enjoy + overall (Variance: 0.0015)
+  - experience: 1.0000
+  - new: 0.3908
+  - enjoy: 0.3037
+  - overall: 0.2268
+  - mod: 0.2109
+  - fallout: 0.1763
+  - vega: 0.1583
+  - new vega: 0.1528
+  - dlc: 0.1415
+  - suck: 0.1391
+  - think: 0.1373
+  - player: 0.1319
+  - bug: 0.1040
+  - people: 0.0818
+  - need: 0.0792
+  - work: 0.0749
+  - fallout new: 0.0743
+  - skill: 0.0670
+  - quest: 0.0660
+
+Topic 43: new + fallout + vega + new vega (Variance: 0.0015)
+  - new: 1.0000
+  - fallout: 0.4893
+  - vega: 0.4194
+  - new vega: 0.4040
+  - first: 0.3954
+  - work: 0.3920
+  - ring: 0.2776
+  - elden: 0.2758
+  - far: 0.2716
+  - elden ring: 0.2699
+  - gameplay: 0.2580
+  - fallout new: 0.2010
+  - worth: 0.1856
+  - player: 0.1837
+  - early: 0.1817
+  - access: 0.1704
+  - dlc: 0.1617
+  - early access: 0.1609
+  - quest: 0.1533
+
+Topic 44: think + soul + enjoy + crash (Variance: 0.0015)
+  - think: 1.0000
+  - soul: 0.5325
+  - enjoy: 0.4765
+  - crash: 0.3588
+  - people: 0.3391
+  - dark: 0.3041
+  - dark soul: 0.2672
+  - quest: 0.1428
+  - never: 0.1153
+  - need: 0.1024
+  - hate: 0.0951
+  - definitely: 0.0934
+  - highly: 0.0885
+  - see: 0.0883
+  - series: 0.0874
+  - way: 0.0822
+  - probably: 0.0784
+  - fallout: 0.0748
+  - rpg: 0.0725
+
+Topic 45: think + ring + elden + elden ring (Variance: 0.0015)
+  - think: 1.0000
+  - ring: 0.3574
+  - elden: 0.3556
+  - elden ring: 0.3474
+  - give: 0.3140
+  - overall: 0.2813
+  - first: 0.2583
+  - point: 0.1987
+  - people: 0.1983
+  - enjoy: 0.1471
+  - issue: 0.1293
+  - try: 0.1272
+  - fight: 0.1245
+  - dialogue: 0.1172
+  - writing: 0.1123
+  - bos: 0.1119
+  - every: 0.1110
+  - pretty: 0.1099
+  - enemy: 0.1042
+
+Topic 46: never + bug + got + issue (Variance: 0.0014)
+  - never: 1.0000
+  - bug: 0.6503
+  - got: 0.5507
+  - issue: 0.4554
+  - enjoy: 0.3281
+  - rpg: 0.2771
+  - run: 0.1841
+  - mod: 0.1695
+  - gate: 0.1664
+  - graphic: 0.1603
+  - money: 0.1421
+  - baldur: 0.1417
+  - baldur gate: 0.1402
+  - shit: 0.1350
+  - fix: 0.1187
+  - anything: 0.1039
+  - could: 0.1024
+  - ring: 0.1000
+  - dlc: 0.0989
+
+Topic 47: enjoy + year + experience + work (Variance: 0.0014)
+  - enjoy: 1.0000
+  - year: 0.3212
+  - experience: 0.2044
+  - work: 0.1338
+  - fight: 0.1315
+  - bos: 0.1294
+  - maybe: 0.1103
+  - also: 0.1095
+  - say: 0.1053
+  - better: 0.1001
+  - need: 0.0909
+  - rpg: 0.0897
+  - every: 0.0814
+  - quest: 0.0806
+  - gameplay: 0.0781
+  - character: 0.0708
+  - try: 0.0686
+  - bos fight: 0.0682
+  - wanted: 0.0672
+
+Topic 48: masterpiece + enjoy + highly + gate (Variance: 0.0014)
+  - masterpiece: 1.0000
+  - enjoy: 0.8916
+  - highly: 0.7009
+  - gate: 0.4517
+  - baldur: 0.3886
+  - baldur gate: 0.3847
+  - give: 0.3506
+  - crash: 0.3301
+  - try: 0.2530
+  - never: 0.2402
+  - choice: 0.2274
+  - point: 0.2092
+  - companion: 0.2003
+  - writing: 0.1860
+  - voice: 0.1759
+  - overall: 0.1757
+  - see: 0.1755
+  - every: 0.1679
+  - everything: 0.1652
+
+Topic 49: masterpiece + bug + enjoy + highly (Variance: 0.0014)
+  - masterpiece: 1.0000
+  - bug: 0.7263
+  - enjoy: 0.6572
+  - highly: 0.4043
+  - fight: 0.3947
+  - issue: 0.3362
+  - bos: 0.3246
+  - people: 0.2884
+  - fix: 0.2146
+  - mod: 0.2126
+  - bos fight: 0.1936
+  - problem: 0.1662
+  - quest: 0.1652
+  - graphic: 0.1614
+  - character: 0.1591
+  - hate: 0.1501
+  - look: 0.1402
+  - dlc: 0.1226
+  - see: 0.1101
+
+Topic 50: give + need + choice + people (Variance: 0.0014)
+  - give: 1.0000
+  - need: 0.7697
+  - choice: 0.6958
+  - people: 0.5984
+  - issue: 0.5255
+  - dialogue: 0.4946
+  - mod: 0.3199
+  - highly: 0.3060
+  - option: 0.3053
+  - try: 0.2910
+  - could: 0.2763
+  - writing: 0.2437
+  - fix: 0.2390
+  - enough: 0.2337
+  - skill: 0.2294
+  - run: 0.2212
+  - see: 0.2159
+  - soul: 0.2153
+  - matter: 0.2079
+
+Topic 51: highly + got + look + crash (Variance: 0.0014)
+  - highly: 1.0000
+  - got: 0.5370
+  - look: 0.4331
+  - crash: 0.4057
+  - people: 0.3859
+  - pretty: 0.3473
+  - overall: 0.3241
+  - fight: 0.2859
+  - bos: 0.2646
+  - mod: 0.2396
+  - give: 0.2387
+  - enough: 0.2346
+  - dlc: 0.2066
+  - graphic: 0.1941
+  - hate: 0.1612
+  - see: 0.1609
+  - year: 0.1540
+  - bos fight: 0.1513
+  - long: 0.1400
+
+Topic 52: highly + bug + every + work (Variance: 0.0013)
+  - highly: 1.0000
+  - bug: 0.3302
+  - every: 0.2958
+  - work: 0.2309
+  - never: 0.1804
+  - think: 0.1479
+  - people: 0.1158
+  - choice: 0.1011
+  - dialogue: 0.0939
+  - gameplay: 0.0887
+  - mechanic: 0.0743
+  - single: 0.0729
+  - awesome: 0.0649
+  - tried: 0.0646
+  - combat: 0.0630
+  - dlc: 0.0563
+  - suck: 0.0561
+  - overall: 0.0551
+  - would highly: 0.0467
+
+Topic 53: people + got + every + mod (Variance: 0.0013)
+  - people: 1.0000
+  - got: 0.7478
+  - every: 0.6459
+  - mod: 0.5493
+  - need: 0.3327
+  - gate: 0.3017
+  - baldur: 0.2599
+  - baldur gate: 0.2570
+  - see: 0.2430
+  - gameplay: 0.2321
+  - experience: 0.1621
+  - hate: 0.1098
+  - far: 0.1060
+  - single: 0.1013
+  - shit: 0.0890
+  - every time: 0.0884
+  - every single: 0.0872
+  - bg3: 0.0855
+  - system: 0.0810
+
+Topic 54: people + gate + baldur + baldur gate (Variance: 0.0013)
+  - people: 1.0000
+  - gate: 0.9509
+  - baldur: 0.8256
+  - baldur gate: 0.8162
+  - give: 0.5161
+  - bug: 0.5070
+  - work: 0.4346
+  - fight: 0.3359
+  - bos: 0.2770
+  - new: 0.2351
+  - crash: 0.2061
+  - see: 0.1730
+  - baldurs: 0.1689
+  - baldurs gate: 0.1686
+  - bos fight: 0.1668
+  - fallout: 0.1629
+  - maybe: 0.1463
+  - beautiful: 0.1448
+  - overall: 0.1394
+
+Topic 55: every + pretty + need + bug (Variance: 0.0013)
+  - every: 1.0000
+  - pretty: 0.9364
+  - need: 0.8470
+  - bug: 0.8153
+  - everything: 0.7637
+  - graphic: 0.7548
+  - look: 0.7209
+  - gate: 0.7033
+  - baldur: 0.6060
+  - baldur gate: 0.5990
+  - run: 0.5518
+  - highly: 0.4784
+  - writing: 0.3968
+  - nice: 0.3259
+  - could: 0.2863
+  - done: 0.2560
+  - enjoy: 0.2463
+  - new: 0.2345
+  - something: 0.2330
+
+Topic 56: could + give + got + wish (Variance: 0.0013)
+  - could: 1.0000
+  - give: 0.7200
+  - got: 0.6824
+  - wish: 0.3035
+  - everything: 0.2921
+  - money: 0.2289
+  - bug: 0.2250
+  - every: 0.1912
+  - gameplay: 0.1904
+  - wish could: 0.1810
+  - though: 0.1737
+  - tried: 0.1710
+  - try: 0.1674
+  - right: 0.1622
+  - character: 0.1584
+  - also: 0.1399
+  - skill: 0.1315
+  - long: 0.1278
+  - masterpiece: 0.1227
+
+Topic 57: need + choice + gate + baldur (Variance: 0.0013)
+  - need: 1.0000
+  - choice: 0.7122
+  - gate: 0.6134
+  - baldur: 0.5334
+  - player: 0.5317
+  - baldur gate: 0.5269
+  - bug: 0.4859
+  - give: 0.4442
+  - nothing: 0.4089
+  - think: 0.3455
+  - got: 0.2834
+  - end: 0.2670
+  - highly: 0.2588
+  - matter: 0.2480
+  - money: 0.2372
+  - crash: 0.1943
+  - mod: 0.1806
+  - masterpiece: 0.1598
+  - skyrim: 0.1593
+
+Topic 58: got + overall + issue + choice (Variance: 0.0013)
+  - got: 1.0000
+  - overall: 0.6982
+  - issue: 0.5577
+  - choice: 0.5077
+  - dialogue: 0.4395
+  - writing: 0.3167
+  - companion: 0.2405
+  - design: 0.1865
+  - bug: 0.1852
+  - option: 0.1788
+  - could: 0.1780
+  - soul: 0.1674
+  - player: 0.1592
+  - enjoy: 0.1591
+  - bos: 0.1499
+  - though: 0.1498
+  - perfect: 0.1395
+  - matter: 0.1365
+  - series: 0.1301
+
+Topic 59: mod + could + gate + baldur (Variance: 0.0013)
+  - mod: 1.0000
+  - could: 0.8820
+  - gate: 0.3205
+  - baldur: 0.2792
+  - baldur gate: 0.2762
+  - fight: 0.2289
+  - wish: 0.2097
+  - choice: 0.1659
+  - bos: 0.1639
+  - skyrim: 0.1416
+  - wish could: 0.1381
+  - enough: 0.1241
+  - life: 0.1196
+  - right: 0.1195
+  - fantastic: 0.1195
+  - end: 0.1191
+  - without: 0.1164
+  - think: 0.1143
+  - bos fight: 0.1083
+
+Topic 60: pretty + look + give + every (Variance: 0.0013)
+  - pretty: 1.0000
+  - look: 0.5482
+  - give: 0.4463
+  - every: 0.2905
+  - system: 0.2631
+  - issue: 0.1832
+  - actually: 0.1787
+  - never: 0.1746
+  - shit: 0.1626
+  - though: 0.1530
+  - player: 0.1524
+  - mechanic: 0.1459
+  - work: 0.1409
+  - say: 0.1385
+  - skill: 0.1260
+  - masterpiece: 0.1189
+  - however: 0.1094
+  - skyrim: 0.0965
+  - different: 0.0963
+
+Topic 61: need + writing + terrible + overall (Variance: 0.0013)
+  - need: 1.0000
+  - writing: 0.6602
+  - terrible: 0.3207
+  - overall: 0.2857
+  - could: 0.2548
+  - pretty: 0.2486
+  - back: 0.2239
+  - never: 0.1885
+  - fallout: 0.1884
+  - gate: 0.1866
+  - going: 0.1822
+  - problem: 0.1704
+  - issue: 0.1663
+  - baldur: 0.1646
+  - baldur gate: 0.1629
+  - start: 0.1536
+  - voice: 0.1491
+  - acting: 0.1386
+  - wish: 0.1353
+
+Topic 62: nothing + issue + overall + player (Variance: 0.0013)
+  - nothing: 1.0000
+  - issue: 0.9307
+  - overall: 0.5215
+  - player: 0.4987
+  - look: 0.4517
+  - run: 0.4019
+  - could: 0.3041
+  - find: 0.2077
+  - gate: 0.2050
+  - start: 0.1886
+  - baldur: 0.1813
+  - baldur gate: 0.1794
+  - never: 0.1780
+  - worth: 0.1544
+  - problem: 0.1478
+  - point: 0.1468
+  - reason: 0.1465
+  - graphic: 0.1417
+  - fix: 0.1388
+
+Topic 63: everything + issue + overall + give (Variance: 0.0012)
+  - everything: 1.0000
+  - issue: 0.8670
+  - overall: 0.7461
+  - give: 0.4354
+  - every: 0.2932
+  - though: 0.2814
+  - gate: 0.2565
+  - fix: 0.2509
+  - mod: 0.2321
+  - baldur: 0.2235
+  - baldur gate: 0.2210
+  - fuck: 0.2116
+  - right: 0.1941
+  - everyone: 0.1592
+  - tried: 0.1589
+  - else: 0.1547
+  - skyrim: 0.1536
+  - another: 0.1454
+  - fantastic: 0.1440
+
+Topic 64: pretty + choice + nothing + need (Variance: 0.0012)
+  - pretty: 1.0000
+  - choice: 0.4627
+  - nothing: 0.4131
+  - need: 0.2897
+  - could: 0.2728
+  - everything: 0.1981
+  - people: 0.1977
+  - matter: 0.1846
+  - fight: 0.1404
+  - combat: 0.1289
+  - back: 0.1253
+  - gameplay: 0.1181
+  - wish: 0.1140
+  - end: 0.1065
+  - bos: 0.0888
+  - reason: 0.0847
+  - hate: 0.0845
+  - choice matter: 0.0795
+  - fuck: 0.0765
+
+Topic 65: nothing + absolutely + give + dlc (Variance: 0.0012)
+  - nothing: 1.0000
+  - absolutely: 0.8573
+  - give: 0.8497
+  - dlc: 0.6082
+  - writing: 0.4806
+  - hate: 0.4428
+  - mod: 0.4243
+  - every: 0.3293
+  - skyrim: 0.2345
+  - voice: 0.2257
+  - fantastic: 0.2230
+  - update: 0.2070
+  - acting: 0.2054
+  - voice acting: 0.1957
+  - take: 0.1891
+  - issue: 0.1856
+  - design: 0.1836
+  - problem: 0.1792
+  - perfect: 0.1745
+
+Topic 66: overall + need + look + never (Variance: 0.0012)
+  - overall: 1.0000
+  - need: 0.4142
+  - look: 0.4130
+  - never: 0.2983
+  - different: 0.2846
+  - nice: 0.2742
+  - every: 0.2624
+  - see: 0.2515
+  - bug: 0.2492
+  - try: 0.2286
+  - graphic: 0.2121
+  - people: 0.1892
+  - new: 0.1707
+  - give: 0.1681
+  - masterpiece: 0.1570
+  - beautiful: 0.1560
+  - right: 0.1530
+  - perfect: 0.1419
+  - mean: 0.1238
+
+Topic 67: system + player + overall + combat system (Variance: 0.0012)
+  - system: 1.0000
+  - player: 0.6363
+  - overall: 0.6136
+  - combat system: 0.3857
+  - nothing: 0.3625
+  - tried: 0.3153
+  - hate: 0.3035
+  - pretty: 0.3028
+  - mod: 0.2597
+  - run: 0.2393
+  - people: 0.2348
+  - terrible: 0.2120
+  - fuck: 0.2079
+  - everything: 0.1997
+  - take: 0.1781
+  - writing: 0.1773
+  - single: 0.1766
+  - enemy: 0.1738
+  - bug: 0.1528
+
+Topic 68: graphic + point + skill + dialogue (Variance: 0.0012)
+  - graphic: 1.0000
+  - point: 0.5098
+  - skill: 0.4667
+  - dialogue: 0.3804
+  - system: 0.3604
+  - issue: 0.3235
+  - voice: 0.3146
+  - give: 0.2944
+  - experience: 0.2940
+  - acting: 0.2816
+  - voice acting: 0.2749
+  - start: 0.2319
+  - nothing: 0.2092
+  - highly: 0.2024
+  - level: 0.1937
+  - tried: 0.1869
+  - choice: 0.1855
+  - terrible: 0.1839
+  - fallout: 0.1679
+
+Topic 69: absolutely + player + look + could (Variance: 0.0012)
+  - absolutely: 1.0000
+  - player: 0.6917
+  - look: 0.6574
+  - could: 0.5602
+  - need: 0.5233
+  - everything: 0.4399
+  - hate: 0.4166
+  - nice: 0.4106
+  - loved: 0.3777
+  - terrible: 0.3720
+  - never: 0.3626
+  - dialogue: 0.3543
+  - crash: 0.3410
+  - beautiful: 0.3182
+  - option: 0.3165
+  - mechanic: 0.3160
+  - companion: 0.3135
+  - fight: 0.2919
+  - year: 0.2491
+
+Topic 70: dlc + though + system + end (Variance: 0.0011)
+  - dlc: 1.0000
+  - though: 0.3459
+  - system: 0.3165
+  - end: 0.2983
+  - point: 0.2875
+  - start: 0.2599
+  - choice: 0.2165
+  - nice: 0.1924
+  - graphic: 0.1477
+  - see: 0.1473
+  - combat system: 0.1409
+  - run: 0.1394
+  - part: 0.1350
+  - wait: 0.1277
+  - ending: 0.1101
+  - every: 0.1053
+  - something: 0.1005
+  - update: 0.0976
+  - let: 0.0921
+
+Topic 71: start + fuck + look + shit (Variance: 0.0011)
+  - start: 1.0000
+  - fuck: 0.6395
+  - look: 0.3435
+  - shit: 0.3211
+  - terrible: 0.3193
+  - system: 0.2956
+  - could: 0.2417
+  - let: 0.2391
+  - fantastic: 0.2333
+  - end: 0.2280
+  - fight: 0.2067
+  - writing: 0.1911
+  - problem: 0.1751
+  - absolutely: 0.1673
+  - everyone: 0.1660
+  - launcher: 0.1633
+  - give: 0.1488
+  - tried: 0.1393
+  - skyrim: 0.1347
+
+Topic 72: right + end + dlc + fuck (Variance: 0.0011)
+  - right: 1.0000
+  - end: 0.6597
+  - dlc: 0.5757
+  - fuck: 0.4869
+  - mechanic: 0.4830
+  - player: 0.4518
+  - shit: 0.4427
+  - boss: 0.3903
+  - start: 0.3787
+  - definitely: 0.3765
+  - voice: 0.3552
+  - acting: 0.3220
+  - voice acting: 0.3108
+  - design: 0.2976
+  - done: 0.2949
+  - level: 0.2527
+  - could: 0.2308
+  - absolutely: 0.2218
+  - beautiful: 0.2169
+
+Topic 73: start + companion + end + absolutely (Variance: 0.0011)
+  - start: 1.0000
+  - companion: 0.4576
+  - end: 0.4255
+  - absolutely: 0.3969
+  - try: 0.3965
+  - enemy: 0.3328
+  - take: 0.3205
+  - run: 0.2798
+  - pretty: 0.2586
+  - definitely: 0.2569
+  - fantastic: 0.2559
+  - long: 0.2367
+  - mod: 0.2263
+  - mechanic: 0.2233
+  - voice: 0.2133
+  - enough: 0.2027
+  - tried: 0.1979
+  - acting: 0.1954
+  - voice acting: 0.1880
+
+Topic 74: companion + skyrim + definitely + maybe (Variance: 0.0011)
+  - companion: 1.0000
+  - skyrim: 0.5713
+  - definitely: 0.4791
+  - maybe: 0.4501
+  - problem: 0.4148
+  - writing: 0.3367
+  - point: 0.3121
+  - player: 0.3102
+  - beautiful: 0.3037
+  - take: 0.2814
+  - people: 0.2654
+  - tried: 0.2042
+  - however: 0.1983
+  - favorite: 0.1955
+  - right: 0.1909
+  - give: 0.1869
+  - felt: 0.1862
+  - little: 0.1841
+  - start: 0.1705
+
+Topic 75: enough + sure + choice + though (Variance: 0.0011)
+  - enough: 1.0000
+  - sure: 0.9804
+  - choice: 0.4334
+  - though: 0.4294
+  - right: 0.4068
+  - voice: 0.4038
+  - something: 0.4010
+  - series: 0.3936
+  - acting: 0.3634
+  - tried: 0.3535
+  - voice acting: 0.3508
+  - run: 0.3452
+  - part: 0.3064
+  - system: 0.2935
+  - beautiful: 0.2848
+  - probably: 0.2844
+  - fan: 0.2821
+  - nice: 0.2641
+  - take: 0.2624
 
