@@ -1,0 +1,47 @@
+=== Rozpoczynanie analizy LSA (Gensim) ===
+
+--- Rozpoczynanie analizy LSA dla 75 tematów ---
+Trenowanie modelu...
+Model wytrenowany. Czas trenowania: 46.06s
+Obliczanie spójności C_v...
+Spójność C_v: 0.3024
+Czas obliczania spójności: 61.83s
+Ekstrakcja tematów i zapisywanie wyników...
+Wyniki zapisane do pliku: ../../results/topic_modeling_results_gensim/lsa_75_topics_gensim.csv
+Czas ekstrakcji i zapisu: 0.04s
+--- Analiza LSA dla 75 tematów zakończona. Całkowity czas: 107.94s ---
+
+--- Rozpoczynanie analizy LSA dla 100 tematów ---
+Trenowanie modelu...
+Model wytrenowany. Czas trenowania: 50.46s
+Obliczanie spójności C_v...
+Spójność C_v: 0.2978
+Czas obliczania spójności: 77.23s
+Ekstrakcja tematów i zapisywanie wyników...
+Wyniki zapisane do pliku: ../../results/topic_modeling_results_gensim/lsa_100_topics_gensim.csv
+Czas ekstrakcji i zapisu: 0.03s
+--- Analiza LSA dla 100 tematów zakończona. Całkowity czas: 127.73s ---
+
+=== Rozpoczynanie analizy LDA (Gensim) ===
+
+--- Rozpoczynanie analizy LDA dla 75 tematów ---
+Trenowanie modelu...
+Model wytrenowany. Czas trenowania: 3300.17s
+Obliczanie spójności C_v...
+Spójność C_v: 0.3434
+Czas obliczania spójności: 497.47s
+Ekstrakcja tematów i zapisywanie wyników...
+Wyniki zapisane do pliku: ../../results/topic_modeling_results_gensim/lda_75_topics_gensim.csv
+Czas ekstrakcji i zapisu: 0.02s
+--- Analiza LDA dla 75 tematów zakończona. Całkowity czas: 3797.67s ---
+
+--- Rozpoczynanie analizy LDA dla 100 tematów ---
+Trenowanie modelu...
+Model wytrenowany. Czas trenowania: 2969.97s
+Obliczanie spójności C_v...
+Spójność C_v: 0.3065
+Czas obliczania spójności: 596.61s
+Ekstrakcja tematów i zapisywanie wyników...
+Wyniki zapisane do pliku: ../../results/topic_modeling_results_gensim/lda_100_topics_gensim.csv
+Czas ekstrakcji i zapisu: 0.03s
+--- Analiza LDA dla 100 tematów zakończona. Całkowity czas: 3566.61s ---
