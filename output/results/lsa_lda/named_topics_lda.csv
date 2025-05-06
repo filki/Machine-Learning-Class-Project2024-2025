@@ -1,0 +1,101 @@
+topic_id,words,topic_name
+0,"['first', 'different', 'loved', 'change', 'second', 'playthrough', 'havent', 'finished', 'yet', 'every']",First & Different Playthroughs
+1,"['bug', 'loading', 'excellent', 'fixed', 'glitch', 'storyline', 'crashed', 'breaking', 'top', 'issue']","Buggy Game Issues: Loading, Crashing"
+2,"['fighting', 'third', 'win', 'fine', 'blast', 'pay', 'button', 'except', 'opening', 'spam']",Third Party Fighting Game Blast
+3,"['experience', 'gaming', 'truly', 'achievement', 'simply', 'detail', 'newcomer', 'deserves', 'unique', 'industry']",Gaming Achievement Experience Detail
+4,"['age', 'fan', 'divinity', 'past', 'minute', 'every', 'giant', 'ally', 'obsessed', 'show']",Giant Ally Fan Divinity Show
+5,"['set', 'fantasy', 'high', 'bar', 'standard', 'health', 'thousand', 'live', 'bullshit', 'million']",High Fantasy Bar Health Standards
+6,"['old', 'big', 'warrior', 'magic', 'sex', 'movie', 'say', 'cant', 'home', 'nowhere']",Old Warrior's Magic Movie
+7,"['story', 'gameplay', 'character', 'graphic', 'combat', 'interesting', 'beautiful', 'mechanic', 'challenging', 'style']",Story-Driven Combat Game with Style
+8,"['mod', 'fix', 'unplayable', 'devs', 'without', 'broken', 'hope', 'patch', 'near', 'break']",Broken Game Fixes Needed
+9,"['feel', 'bioware', 'feeling', 'lack', 'doesnt', 'dont', 'rather', 'repetitive', 'make', 'personally']",Bioware's Emotional Repetitive Feel
+10,"['content', 'amount', 'insane', 'joy', 'currency', 'gold', 'possibility', 'cost', 'combo', 'familiar']",Gold Combo: Content & Cost
+11,"['act', 'inventory', 'fast', 'easier', 'becomes', 'end', 'quickly', 'location', 'mistake', 'clear']",Fast Inventory Act Location
+12,"['world', 'open', 'may', 'explore', 'building', 'exploring', 'linear', 'find', 'immersive', 'tip']",Explore the World: Open Building
+13,"['enemy', 'kill', 'fight', 'every', 'hit', 'damage', 'cant', 'trash', 'combat', 'youre']",Combat and Enemy Annihilation
+14,"['looking', 'masterpiece', 'absolute', 'forward', 'art', 'shame', 'piece', 'together', 'straight', 'history']",Looking at Art History
+15,"['turn', 'based', 'campaign', 'fromsoftware', 'gotten', 'immediately', 'changing', 'slog', 'frustration', 'avoid']",Turn-Based FromSoftware Campaign Frustration
+16,"['group', 'died', 'death', 'hardcore', 'telling', 'medieval', 'pace', 'okay', 'respect', 'blood']",Medieval Hardcore Death Pace
+17,"['defeat', 'war', 'water', 'sense', 'jump', 'min', 'buff', 'app', 'ground', 'spirit']",War of the Water Spirit
+18,"['help', 'ton', 'special', 'none', 'unfair', 'solution', 'afraid', 'helped', 'reset', 'popular']","Help, Reset, and Unfair Solutions"
+19,"['crash', 'run', 'issue', 'problem', 'fix', 'fps', 'setting', 'every', 'performance', 'computer']",Computer Performance Troubleshooting
+20,"['read', 'book', 'instead', 'general', 'reading', 'older', 'product', 'score', 'knowledge', 'quick']",Quick Reading for Older Readers
+21,"['frustrating', 'extremely', 'mechanic', 'tutorial', 'understand', 'requires', 'friendly', 'order', 'difficult', 'learned']",Difficult Mechanic Tutorials to Understand
+22,"['next', 'peak', 'starting', 'download', 'addictive', 'star', 'listen', 'interest', 'turned', 'watching']",Next Star Listening Peak
+23,"['enjoy', 'time', 'youll', 'tried', 'multiple', 'youre', 'youve', 'others', 'probably', 'close']","Enjoy Your Time, You've Tried"
+24,"['member', 'crpg', 'city', 'night', 'town', 'sell', 'destroy', 'league', 'steal', 'cyberpunk']",Cyberpunk City League Night
+25,"['new', 'fallout', 'vega', 'fuck', 'hot', 'better', 'stone', 'soldier', 'lmao', 'pc']",Fallout: New Vegas PC Soldier
+26,"['dragon', 'series', 'hesitation', 'disappointed', 'fair', 'beaten', 'figured', 'compare', 'per', 'share']",Dragon Series: Fair Yet Beaten
+27,"['armor', 'spell', 'please', 'annoying', 'worse', 'cast', 'copy', 'hair', 'whenever', 'failed']",Annoying Armor Spell Failures
+28,"['ever', 'amazing', 'ive', 'greatest', 'seen', 'never', 'absolutely', 'incredible', 'favourite', 'easily']",Amazing Things I've Seen
+29,"['character', 'story', 'companion', 'choice', 'dialogue', 'combat', 'decision', 'way', 'writing', 'different']",Character-Driven Story Choices
+30,"['mode', 'edition', 'god', 'wrong', 'along', 'boy', 'rolling', 'destroyed', 'hey', 'library']",God's Edition Rolling Along Wrong
+31,"['screen', 'stuck', 'sometimes', 'infinite', 'freeze', 'dying', 'properly', 'randomly', 'restart', 'horse']",Screen Freeze and Restart Issues
+32,"['ring', 'elden', 'favorite', 'twice', 'shadow', 'xbox', 'besides', 'time', 'hated', 'sucked']",Elden Ring: Favorite & Hated Times
+33,"['option', 'dialogue', 'path', 'npc', 'scene', 'battle', 'tough', 'cut', 'choose', 'interaction']",Dialogue-Driven Choice-Based Scenes
+34,"['class', 'guide', 'honestly', 'excited', 'attempt', 'realize', 'expecting', 'knowing', 'exist', 'perfection']",Class Guide: Honestly Expecting Perfection
+35,"['right', 'parry', 'figure', 'missing', 'isnt', 'eventually', 'alot', 'fell', 'exactly', 'suggest']",Right Parry Figure Event
+36,"['could', 'make', 'wish', 'used', 'clunky', 'almost', 'rest', 'stick', 'better', 'mage']",Could Make Wish Better Mage
+37,"['love', 'beat', 'working', 'crazy', 'put', 'cant', 'plenty', 'appreciate', 'exists', 'finally']","Love, Beat, and Finally Working"
+38,"['previous', 'title', 'origin', 'compared', 'lore', 'bloodborne', 'chapter', 'shitty', 'background', 'comparing']",Bloodborne Lore Comparisons: Origins & Chapters
+39,"['learning', 'man', 'dialog', 'curve', 'luck', 'head', 'talk', 'hang', 'wild', 'insanely']",Man Learning Curve Dialog
+40,"['feel', 'way', 'thing', 'first', 'enemy', 'point', 'dont', 'there', 'character', 'area']",Feeling First: Enemy Character Points
+41,"['stop', 'control', 'mouse', 'learn', 'gamer', 'gamers', 'step', 'bland', 'direction', 'keyboard']",Learn to Control Mouse Direction
+42,"['friend', 'said', 'always', 'video', 'must', 'someone', 'alone', 'never', 'normally', 'heart']",Friendship and Never Alone Video
+43,"['level', 'item', 'loot', 'difficulty', 'skill', 'damage', 'system', 'crafting', 'character', 'drop']",Level-Based Loot & Character System
+44,"['move', 'follow', 'totally', 'added', 'woke', 'obvious', 'comparison', 'touch', 'looked', 'satisfaction']",Woke Comparison & Follow Through
+45,"['dont', 'anything', 'care', 'something', 'thing', 'look', 'cant', 'need', 'hundred', 'actually']",I Don't Care About Things
+46,"['far', 'arpg', 'perfect', 'gem', 'franchise', 'wan', 'endless', 'dead', 'opinion', 'comment']",Perfect ARPG Franchise Opinion
+47,"['voice', 'writing', 'acting', 'creator', 'sound', 'character', 'deck', 'tabletop', 'music', 'role']",Voice & Character Creation: Tabletop & Sound
+48,"['yes', 'interested', 'playable', 'playthroughs', 'away', 'wise', 'charm', 'switch', 'blown', 'combined']",Interested Playable Switch Charm
+49,"['tell', 'told', 'missed', 'eye', 'award', 'somehow', 'goty', 'kind', 'knew', 'entire']",Award-Winning Story Told Somehow
+50,"['gate', 'baldurs', 'do', 'fromsoft', 'buying', 'roll', 'dice', 'crpgs', 'playtime', 'hype']",Baldur's Gate and FromSoft Hype
+51,"['build', 'slow', 'weapon', 'base', 'con', 'pro', 'character', 'variety', 'melee', 'child']",Slow Build Weapon Variety
+52,"['skill', 'tree', 'balance', 'harder', 'issue', 'deal', 'change', 'nearly', 'path', 'campaign']",Skill Tree Balance Issues in Campaigns
+53,"['full', 'endgame', 'sale', 'pick', 'solid', 'go', 'total', 'grab', 'vibe', 'finding']",Full Endgame Sale Pick
+54,"['day', 'community', 'skyrim', 'modding', 'hold', 'usually', 'today', 'newer', 'discovered', 'wife']",Skyrim Modding Community: Today's Discoveries
+55,"['try', 'hate', 'everyone', 'terrible', 'give', 'else', 'everything', 'believe', 'sad', 'constant']",Constant Negative Experiences
+56,"['original', 'fire', 'incredibly', 'came', 'first', 'studio', 'enjoyable', 'loving', 'plan', 'shot']",Original Fire Studio Plan
+57,"['support', 'imo', 'job', 'upon', 'theyve', 'fixing', 'nightmare', 'reminds', 'outside', 'pleasure']",IMO Job Support Nightmare
+58,"['bit', 'pretty', 'overall', 'definitely', 'though', 'quite', 'little', 'better', 'liked', 'thing']",Things Pretty Liked Overall
+59,"['save', 'keep', 'crashing', 'load', 'cant', 'progress', 'continue', 'lose', 'file', 'kept']",Game Save Issues
+60,"['quest', 'side', 'main', 'story', 'complete', 'mission', 'plot', 'line', 'casual', 'garbage']",Casual Quest Story Completion
+61,"['fucking', 'currently', 'damn', 'otherwise', 'late', 'wasted', 'leave', 'trouble', 'optimized', 'cruel']",Late Night Trouble & Wasted Time
+62,"['update', 'launch', 'version', 'negative', 'state', 'patch', 'current', 'since', 'release', 'released']",Software Release and Updates
+63,"['might', 'quality', 'put', 'expect', 'effort', 'aaa', 'improve', 'seem', 'balanced', 'value']",AAA Quality & Balanced Effort
+64,"['work', 'doesnt', 'running', 'window', 'tried', 'ruined', 'nothing', 'rate', 'lag', 'core']",Windows Running Lag Issue
+65,"['evil', 'rule', 'there', 'never', 'youre', 'every', 'writer', 'thats', 'god', 'first']",Evil Rules: A Writer's God
+66,"['effect', 'mass', 'trilogy', 'super', 'lol', 'team', 'error', 'space', 'scifi', 'penny']",Mass Effect Sci-Fi Team
+67,"['world', 'every', 'feel', 'adventure', 'storytelling', 'character', 'new', 'deep', 'journey', 'youre']",World of Deep Journeys
+68,"['sure', 'ive', 'find', 'ill', 'wont', 'spent', 'maybe', 'trying', 'dont', 'enjoying']",Trying To Find Enjoyment (Maybe)
+69,"['need', 'attack', 'gear', 'hit', 'launcher', 'account', 'impossible', 'solo', 'single', 'every']",Solo Attack Gear: Impossible Hits
+70,"['didnt', 'end', 'felt', 'couldnt', 'finish', 'first', 'ending', 'wanted', 'never', 'lost']",Unfinished Story: Never Reached Ending
+71,"['year', 'wait', 'release', 'cant', 'ago', 'last', 'later', 'since', 'month', 'decade']",Timeline of Releases
+72,"['mob', 'buggy', 'idea', 'plus', 'disappointing', 'veteran', 'concept', 'ups', 'par', 'flexibility']",Mob Buggy Idea: Veteran Perspective
+73,"['shit', 'literally', 'veilguard', 'as', 'hell', 'edit', 'get', 'gon', 'thumb', 'sorry']","Veilguard: Shit, Literally, Edit, Hell."
+74,"['bos', 'fight', 'boss', 'hard', 'difficulty', 'rewarding', 'stupid', 'way', 'final', 'learn']",Boss Fight Difficulty & Rewards
+75,"['dont', 'there', 'money', 'thing', 'lot', 'way', 'waste', 'thats', 'unless', 'youre']",Money Waste: Avoiding the Pitfalls
+76,"['die', 'positive', 'epic', 'became', 'pool', 'common', 'junk', 'portal', 'folk', 'angry']",Epic Pool of Junk Folk
+77,"['random', 'patience', 'bother', 'door', 'throw', 'needed', 'meant', 'armour', 'warning', 'sit']",Random Patience: Armour's Warning
+78,"['monster', 'legendary', 'list', 'management', 'ingame', 'improved', 'push', 'prepare', 'among', 'kiss']",Legendary Monster List Management
+79,"['developer', 'thank', 'company', 'mess', 'remember', 'longer', 'horrible', 'giving', 'gone', 'red']",Developer's Red Mess Remembered
+80,"['constantly', 'barely', 'poor', 'mid', 'joke', 'moving', 'badly', 'painful', 'buck', 'stuttering']",Poor Performance & Stuttering
+81,"['found', 'sin', 'multiplayer', 'bored', 'box', 'rough', 'prefer', 'intro', 'addicting', 'gripe']",Multiplayer Sin Box: Intro & Gripe
+82,"['life', 'real', 'power', 'face', 'wonder', 'connection', 'ruin', 'realistic', 'complicated', 'form']",Real Life's Complex Power
+83,"['grind', 'easy', 'brain', 'average', 'long', 'hard', 'bug', 'decent', 'money', 'gameplay']",Easy Grind Gameplay: Brain Game
+84,"['awesome', 'word', 'whatever', 'simple', 'hopefully', 'tired', 'small', 'describe', 'port', 'designed']",Simple Word Descriptions Hopefully Designed
+85,"['map', 'dodge', 'basically', 'key', 'menu', 'design', 'tier', 'wouldnt', 'rng', 'huge']",Map Design: Tier & RNG
+86,"['modern', 'refund', 'witcher', 'entry', 'one', 'puzzle', 'store', 'handle', 'remake', 'fat']",Modern Witcher Puzzle Remake
+87,"['combat', 'system', 'larian', 'party', 'encounter', 'studio', 'potion', 'idk', 'wrote', 'master']",Larian Combat System & Party
+88,"['suck', 'coop', 'kinda', 'classic', 'slower', 'paid', 'forced', 'meh', 'pain', 'hardest']",Painful Coop Challenges: Paid & Slow
+89,"['experience', 'gameplay', 'depth', 'offer', 'mechanic', 'challenge', 'engaging', 'genre', 'narrative', 'overall']",Engaging Gameplay Experience & Depth
+90,"['point', 'tedious', 'click', 'memory', 'obviously', 'pack', 'phase', 'task', 'teleport', 'goat']",Goat Teleport Task Phase Memory
+91,"['anyone', 'couple', 'week', 'highly', 'gave', 'spending', 'wow', 'enjoyment', 'within', 'like']",Couple's Week of Enjoyment
+92,"['fantastic', 'controller', 'sword', 'quit', 'doubt', 'tho', 'using', 'animation', 'name', 'three']",Fantastic Sword Controller Animation Doubt
+93,"['bethesda', 'wonderful', 'hasnt', 'que', 'sadly', 'skin', 'sitting', 'addicted', 'shouldve', 'treat']","Bethesda's Sad, Addictive Skin Treatment"
+94,"['boring', 'nothing', 'forever', 'low', 'gun', 'empty', 'gameplay', 'dull', 'camera', 'useless']","Empty, Dull Gameplay Experience"
+95,"['soul', 'dark', 'difficult', 'online', 'tool', 'log', 'scenario', 'installed', 'installing', 'difficulty']",Dark Soul Online Tool Difficulty
+96,"['cool', 'hand', 'awful', 'theyre', 'creation', 'dog', 'table', 'beating', 'process', 'talking']",Dog Creation Process: Awful Hand Talking
+97,"['another', 'reason', 'cause', 'guess', 'thanks', 'ten', 'dumb', 'lie', 'join', 'remove']",Reasons and Dumb Lies
+98,"['rpg', 'choice', 'action', 'rpgs', 'matter', 'person', 'actual', 'element', 'genuinely', 'type']",Choice-Driven Action RPGs
+99,"['physical', 'several', 'pure', 'install', 'round', 'available', 'git', 'optional', 'fault', 'holding']",Physical Git Installation Faults

@@ -1,0 +1,101 @@
+topic_id,words,topic_name
+0,"['story', 'ever', 'combat', 'character', 'dont', 'feel', 'ive', 'love', 'world', 'amazing']",Amazing Combat Story I've Loved
+1,"['ever', 'ive', 'greatest', 'rpg', 'crash', 'feel', 'dragon', 'rpgs', 'age', 'character']",Greatest RPGs: Dragon Age Era
+2,"['crash', 'story', 'mod', 'boring', 'amazing', 'combat', 'fix', 'dragon', 'fallout', 'crashing']",Dragon Fallout Combat Crash Fixes
+3,"['amazing', 'boring', 'love', 'story', 'crash', 'dont', 'graphic', 'shit', 'ever', 'fallout']",Amazing Fallout Story Crash
+4,"['boring', 'amazing', 'crash', 'story', 'overrated', 'dragon', 'age', 'gameplay', 'combat', 'dont']","Dragon Age: Boring, Amazing Story"
+5,"['crash', 'dragon', 'love', 'amazing', 'age', 'story', 'dont', 'hard', 'shit', 'soul']",Dragon's Soul: Amazing Love Story
+6,"['love', 'crash', 'dragon', 'fallout', 'age', 'amazing', 'skyrim', 'mod', 'combat', 'shit']","Skyrim: Love, Combat, and Fallout"
+7,"['fallout', 'crash', 'love', 'mod', 'hard', 'launcher', 'skyrim', 'soul', 'dragon', 'shit']",Fallout & Skyrim: Soul-Crushing Mods
+8,"['fallout', 'shit', 'dragon', 'dont', 'age', 'launcher', 'vega', 'fuck', 'fucking', 'new']",Fallout: New Age Dragon Shit
+9,"['shit', 'dont', 'story', 'combat', 'fallout', 'dragon', 'age', 'amazing', 'fucking', 'fuck']",Fallout Dragon Age Combat Story
+10,"['dont', 'launcher', 'story', 'hard', 'fallout', 'cant', 'money', 'gameplay', 'poe', 'grind']",Fallout Story: Hard Grind Launcher
+11,"['skyrim', 'fallout', 'story', 'dragon', 'age', 'bug', 'amazing', 'soul', 'mod', 'gameplay']",RPG Story & Gameplay Mods
+12,"['skyrim', 'launcher', 'shit', 'story', 'bug', 'combat', 'dragon', 'launch', 'crash', 'gameplay']",Skyrim Launcher & Bug Problems
+13,"['hard', 'dont', 'combat', 'dragon', 'bug', 'age', 'skyrim', 'suck', 'system', 'grind']",Skyrim Combat: Hard Bug Grind
+14,"['launcher', 'combat', 'suck', 'hard', 'skyrim', 'shit', 'bug', 'crashing', 'fallout', 'mass']",Skyrim/Fallout: Buggy Combat Launchers
+15,"['combat', 'masterpiece', 'suck', 'launcher', 'hard', 'mod', 'cant', 'shit', 'crashing', 'elden']",Elden Ring: Hard Combat Mods
+16,"['masterpiece', 'suck', 'mod', 'elden', 'ring', 'launcher', 'skyrim', 'soul', 'poe', 'rpg']",Elden Ring & Soulslike RPG Mods
+17,"['suck', 'mod', 'combat', 'hard', 'fucking', 'bug', 'cant', 'skyrim', 'yes', 'launcher']",Skyrim Modding Issues: Hard Combat Bugs
+18,"['yes', 'mass', 'effect', 'cant', 'hard', 'suck', 'soul', 'launcher', 'elden', 'ring']",Mass Effect's Hard Soul Launcher
+19,"['masterpiece', 'hard', 'mod', 'cant', 'soul', 'yes', 'rpg', 'elden', 'better', 'ring']",Elden Ring: Hard RPG Masterpiece
+20,"['yes', 'mass', 'effect', 'suck', 'launcher', 'cant', 'story', 'trilogy', 'masterpiece', 'poe']",Mass Effect: Story or Suck?
+21,"['bug', 'combat', 'story', 'masterpiece', 'cant', 'crashing', 'hard', 'system', 'keep', 'year']",Bug-Ridden Combat Masterpiece System
+22,"['mass', 'effect', 'combat', 'suck', 'mod', 'cant', 'crashing', 'launcher', 'poe', 'trilogy']",Mass Effect Combat Issues & Mods
+23,"['masterpiece', 'poe', 'rpg', 'story', 'gate', 'baldurs', 'world', 'gameplay', 'open', 'bug']",Baldur's Gate RPG Masterpiece
+24,"['fuck', 'ive', 'crashing', 'suck', 'cant', 'shit', 'keep', 'launcher', 'fucking', 'app']",App Crashing: Frustration & Issues
+25,"['rpg', 'ive', 'crashing', 'fuck', 'poe', 'cant', 'year', 'keep', 'story', 'baldurs']",RPG Crashing: Year of Frustration
+26,"['crashing', 'cant', 'fuck', 'keep', 'rpg', 'wait', 'mod', 'ive', 'year', 'shit']",RPG Crashing and Mod Issues
+27,"['baldurs', 'gate', 'ive', 'poe', 'fuck', 'better', 'quest', 'world', 'masterpiece', 'cant']",Baldur's Gate vs. PoE: Better Quest?
+28,"['rpg', 'gate', 'baldurs', 'ive', 'poe', 'fuck', 'cant', 'year', 'ever', 'better']",Baldur's Gate RPG Evolution
+29,"['app', 'work', 'launch', 'ive', 'launcher', 'mod', 'fuck', 'doesnt', 'cant', 'trash']",App Launch Frustration & Mods
+30,"['bug', 'ive', 'elden', 'ring', 'year', 'buggy', 'app', 'hard', 'quest', 'mod']",Elden Ring Bugs and Mods
+31,"['fucking', 'suck', 'fuck', 'as', 'rpg', 'world', 'hate', 'trash', 'ive', 'overrated']",RPG World Frustration & Hate
+32,"['better', 'year', 'ive', 'bug', 'gate', 'baldurs', 'bos', 'soul', 'story', 'work']",Baldur's Gate: Soul of the Year
+33,"['fucking', 'world', 'year', 'open', 'poe', 'story', 'bos', 'rpg', 'soul', 'ive']",Open World Soul Story RPG
+34,"['soul', 'elden', 'ring', 'overrated', 'world', 'better', 'open', 'app', 'rpg', 'dark']",Elden Ring: Soulful Open World RPG
+35,"['overrated', 'better', 'year', 'ive', 'app', 'bug', 'elden', 'ring', 'open', 'mid']",Elden Ring: Better Year App Bug
+36,"['overrated', 'better', 'year', 'fuck', 'fucking', 'gameplay', 'trash', 'as', 'rpg', 'quest']",Overrated RPGs: Year of Trash
+37,"['app', 'work', 'trash', 'soul', 'doesnt', 'elden', 'ring', 'dark', 'fix', 'overrated']",Elden Ring: Soulslike App Work
+38,"['awesome', 'gameplay', 'story', 'graphic', 'poe', 'soul', 'overrated', 'bos', 'year', 'as']",PoE-like Soulslike of the Year
+39,"['as', 'awesome', 'fucking', 'buggy', 'world', 'terrible', 'open', 'better', 'gameplay', 'trash']","Awesome, But Buggy World Gameplay"
+40,"['as', 'gameplay', 'awesome', 'trash', 'buggy', 'overrated', 'terrible', 'unplayable', 'launch', 'better']",Game Launch: Awesome or Trash?
+41,"['trash', 'awesome', 'work', 'app', 'fucking', 'launch', 'pretty', 'buggy', 'unplayable', 'doesnt']",Trash App Launch: Buggy and Unplayable
+42,"['year', 'pretty', 'open', 'world', 'soul', 'gameplay', 'story', 'favorite', 'experience', 'better']",Year of Open Souls: Better Gameplay
+43,"['mid', 'pretty', 'better', 'year', 'awesome', 'gameplay', 'greatest', 'favorite', 'cool', 'experience']",Awesome Mid-Year Gaming Experience
+44,"['mid', 'awesome', 'buggy', 'favorite', 'launch', 'unplayable', 'greatest', 'terrible', 'soul', 'bug']","Mid Soul Launch: Buggy, Awesome Experience"
+45,"['awesome', 'buggy', 'mid', 'year', 'gameplay', 'unplayable', 'money', 'terrible', 'quest', 'pretty']",Mid-Year Game with Money Problems
+46,"['pretty', 'favorite', 'launch', 'app', 'mid', 'cool', 'year', 'buggy', 'gameplay', 'series']",Pretty App Launch Year Series
+47,"['favorite', 'launch', 'work', 'series', 'experience', 'greatest', 'wont', 'pretty', 'app', 'trash']",Favorite App Launch Experience
+48,"['greatest', 'cool', 'pretty', 'launch', 'gameplay', 'work', 'quest', 'every', 'year', 'boss']",Greatest Year's Coolest Boss Launch
+49,"['launch', 'feel', 'buggy', 'greatest', 'first', 'open', 'graphic', 'new', 'world', 'favorite']",First Open World Launch
+50,"['greatest', 'nuclear', 'patrolling', 'winter', 'mojave', 'buggy', 'make', 'wish', 'launch', 'terrible']",Nuclear Winter Mojave Buggy Launch
+51,"['greatest', 'patrolling', 'nuclear', 'disco', 'mojave', 'winter', 'first', 'wish', 'graphic', 'zaum']",Mojave Winter's First Nuclear Disco
+52,"['terrible', 'buggy', 'quest', 'every', 'cool', 'save', 'money', 'witcher', 'side', 'run']",The Witcher: Buggy Quests & Saves
+53,"['greatest', 'buggy', 'unplayable', 'experience', 'graphic', 'money', 'every', 'character', 'issue', 'work']",Unplayable Buggy Game: Graphic Issues
+54,"['cool', 'far', 'gameplay', 'every', 'buggy', 'graphic', 'experience', 'poe', 'run', 'pretty']","Cool, Buggy POE Experience"
+55,"['quest', 'graphic', 'witcher', 'side', 'terrible', 'classic', 'cool', 'open', 'bug', 'feel']",Witcher's Open World Quest Bugs
+56,"['classic', 'witcher', 'terrible', 'unplayable', 'cool', 'save', 'feel', 'graphic', 'update', 'hate']","Witcher: Classic, Terrible, and Updated"
+57,"['classic', 'graphic', 'hate', 'beautiful', 'buggy', 'witcher', 'every', 'unplayable', 'need', 'first']","Classic Witcher: Graphic, Beautiful, & Buggy"
+58,"['terrible', 'new', 'vega', 'experience', 'quest', 'classic', 'fallout', 'witcher', 'work', 'cool']",New Vegas Quest Experience
+59,"['witcher', 'classic', 'save', 'unplayable', 'every', 'money', 'pretty', 'new', 'hate', 'perfect']","Witcher Classic: Unplayable, Yet Loved"
+60,"['hate', 'far', 'run', 'feel', 'first', 'poe', 'need', 'graphic', 'gameplay', 'disco']",Far Run Gameplay: First Feel
+61,"['disco', 'every', 'need', 'money', 'elysium', 'garbage', 'save', 'run', 'time', 'witcher']",Elysium's Disco Garbage Run: Save Time
+62,"['far', 'hate', 'unplayable', 'time', 'feel', 'need', 'run', 'pretty', 'graphic', 'cool']",Far From Cool: Unplayable Run?
+63,"['witcher', 'feel', 'far', 'unplayable', 'experience', 'classic', 'hate', 'money', 'quest', 'save']","Witcher Game: Unplayable Experience, Hate"
+64,"['cool', 'disco', 'pretty', 'far', 'character', 'quest', 'witcher', 'run', 'fix', 'larian']",Witcher Disco Quest: Run & Fix
+65,"['new', 'vega', 'save', 'greatest', 'witcher', 'fallout', 'experience', 'edition', 'far', 'first']",New Vegas & Witcher: Greatest Fallout
+66,"['garbage', 'experience', 'unplayable', 'far', 'save', 'need', 'fantastic', 'cool', 'edition', 'bethesda']",Unplayable Garbage: Far From Fantastic?
+67,"['hesitation', 'defeat', 'garbage', 'run', 'series', 'disco', 'sekiro', 'money', 'hate', 'cool']",Sekiro's Defeated Run of Hate
+68,"['garbage', 'hesitation', 'run', 'series', 'defeat', 'hate', 'fantastic', 'graphic', 'absolute', 'money']",Garbage Run: Graphic Defeat Series
+69,"['fantastic', 'run', 'garbage', 'far', 'graphic', 'pretty', 'money', 'character', 'save', 'enjoy']",Fantastic Run: Graphic Character Saver
+70,"['cool', 'feel', 'garbage', 'need', 'pretty', 'run', 'witcher', 'fantastic', 'vega', 'kim']",Cool Witcher Run: Vega Kim
+71,"['series', 'run', 'cool', 'garbage', 'fix', 'fantastic', 'meh', 'pretty', 'witcher', 'kim']",Witcher Series: Cool Run Fix
+72,"['kim', 'sex', 'kitsuragi', 'disco', 'beautiful', 'feel', 'meh', 'twice', 'die', 'far']",Kim Kitsuragi's Disco Feeling
+73,"['meh', 'hate', 'series', 'fix', 'perfect', 'start', 'larian', 'time', 'issue', 'disco']",Fixing Disco Larian's Series Issues
+74,"['time', 'meh', 'beautiful', 'zaum', 'life', 'larian', 'series', 'hate', 'kim', 'creator']",Zaum's Life & Times Series
+75,"['need', 'meh', 'trilogy', 'fix', 'run', 'issue', 'garbage', 'graphic', 'twice', 'start']","Trilogy: Run, Fix, or Garbage?"
+76,"['cyberpunk', 'bethesda', 'update', 'meh', 'time', 'unplayable', 'vega', 'edition', 'liberty', 'phantom']",Cyberpunk 2077: Bethesda Update Meh
+77,"['larian', 'beautiful', 'zaum', 'studio', 'update', 'run', 'meh', 'fantastic', 'sekiro', 'account']",Larian's Beautiful Studio Updates Run
+78,"['beautiful', 'larian', 'graphic', 'meh', 'series', 'studio', 'sekiro', 'system', 'money', 'twice']",Larian Studio's Graphic System Series
+79,"['beautiful', 'trilogy', 'cyberpunk', 'meh', 'time', 'feel', 'experience', 'series', 'system', 'save']",Cyberpunk Trilogy Time Experience
+80,"['meh', 'time', 'life', 'trilogy', 'zaum', 'poe', 'sekiro', 'fix', 'disco', 'garbage']",Disco Elysium & Time's Rubbish Trilogy
+81,"['series', 'fix', 'far', 'zaum', 'time', 'life', 'controller', 'bethesda', 'garbage', 'money']",Zaum's Time Series Fix
+82,"['meh', 'beautiful', 'sekiro', 'friend', 'twice', 'need', 'first', 'garbage', 'fantastic', 'far']",Sekiro: First Impressions & Feelings
+83,"['zaum', 'trilogy', 'twice', 'time', 'sekiro', 'disco', 'money', 'friend', 'cyberpunk', 'creator']",Sekiro's Disco Time Trilogy
+84,"['trilogy', 'zaum', 'start', 'fantastic', 'shepard', 'meh', 'commander', 'far', 'experience', 'disco']",Disco Shepard's Far Trilogy
+85,"['trilogy', 'need', 'twice', 'life', 'start', 'sekiro', 'deck', 'slow', 'greatest', 'wont']",Sekiro Trilogy: A New Life
+86,"['life', 'diablo', 'start', 'poe', 'twice', 'fromsoft', 'trilogy', 'mechanic', 'need', 'zaum']","Life, Diablo, PoE: Start Again"
+87,"['friend', 'larian', 'coop', 'hate', 'mechanic', 'trilogy', 'update', 'studio', 'diablo', 'internet']",Larian Coop Mechanics: Hate & Updates
+88,"['update', 'cyberpunk', 'deck', 'character', 'fantastic', 'vega', 'mechanic', 'friend', 'city', 'series']",Cyberpunk Deck Mechanic Update Series
+89,"['sex', 'kim', 'kitsuragi', 'account', 'friend', 'support', 'start', 'fix', 'need', 'goat']",Kim Kitsuragi Support Account Fix
+90,"['sex', 'system', 'start', 'life', 'wont', 'kim', 'fantastic', 'cdpr', 'companion', 'first']",Kim's First Companion System Sex
+91,"['diablo', 'account', 'sex', 'update', 'support', 'slow', 'zaum', 'kim', 'requires', 'larian']",Diablo Account Support Update Issues
+92,"['mechanic', 'system', 'sbi', 'cyberpunk', 'deck', 'character', 'fantastic', 'experience', 'cdpr', 'friend']",Cyberpunk Deck Mechanic System Experience
+93,"['diablo', 'sbi', 'goat', 'fromsoft', 'cdpr', 'zaum', 'writing', 'character', 'fantastic', 'account']",Diablo's Fantastic Character Accounts
+94,"['life', 'sbi', 'slow', 'cdpr', 'creator', 'account', 'diablo', 'original', 'zaum', 'stolen']",SBI Life Account Creator Stolen
+95,"['sbi', 'diablo', 'life', 'zaum', 'creator', 'cdpr', 'stolen', 'original', 'mechanic', 'never']",SBI Diablo Life Creator Mechanic
+96,"['goat', 'diablo', 'sbi', 'zaum', 'offline', 'friend', 'top', 'slow', 'internet', 'single']",Diablo Goat Offline Friends
+97,"['diablo', 'sbi', 'zaum', 'creator', 'stolen', 'original', 'cdpr', 'character', 'mechanic', 'slow']",Diablo Creator's Stolen Mechanics Slowed
+98,"['offline', 'internet', 'deck', 'goat', 'single', 'slow', 'diablo', 'online', 'bethesda', 'friend']",Offline Diablo Deck Building
+99,"['goat', 'deck', 'fromsoft', 'slow', 'shepard', 'commander', 'sbi', 'old', 'issue', 'wont']",Old Goat Deck Commander SBI Issue
